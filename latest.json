@@ -1,1 +1,4023 @@
-{"title":"主要PCメーカー フリマ価格調査 2026-05-18","reportDate":"2026-05-18","scope":{"marketplaces":["メルカリ","Yahoo!フリマ","ラクマ","ヤフオク"],"modelLookbackYears":5},"summary":"2026年5月時点の日本中古PC市場では、Apple MacBookシリーズが最も流動性が高く、価格保持率も上位。MacBook Air M2/M3/M4は新品からの値下がりが緩やかで、メルカリでは概ね7万〜15万円台で安定して取引されている。Lenovo ThinkPad X1 Carbon Gen 11/Gen 12は中古12万円前後、ビジネス向けの安定需要が見られる。Microsoft Surface Laptop 5/6/Pro 9系はヤフオクで6万〜10万円台、Surface Pro 9以降の流通量が増え","generatedFile":"pc_market_research_20260518_072532.json","generatedAt":"2026-05-18T07:25:32","manufacturers":[{"name":"Apple","models":[{"modelName":"MacBook Air 13インチ M2 (2022)","category":"mobile notebook","priceStats":{"sampleCount":3,"minJPY":69800,"medianJPY":75000,"maxJPY":85000},"confidence":"medium","brandSeries":"MacBook Air","releaseStatus":"discontinued","officialUrl":"https://support.apple.com/en-us/111867","keySpecs":{"cpu":"Apple M2","memory":"8GB/16GB/24GB","storage":"256GB-2TB"},"marketPrices":[{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/28679/s/1","status":"listed","priceJPY":69800},{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/28679?condition=used","status":"listed","priceJPY":75000},{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/28679/market_price","status":"sold","priceJPY":85000}]},{"modelName":"MacBook Air 13インチ M3 (2024)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"MacBook Air","releaseStatus":"current-secondary","keySpecs":{"cpu":"Apple M3"},"marketPrices":[]},{"modelName":"MacBook Air 13インチ M4 (2025)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"MacBook Air","releaseStatus":"current","keySpecs":{"cpu":"Apple M4"},"marketPrices":[]},{"modelName":"MacBook Air 15インチ M4 (2025)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"MacBook Air","releaseStatus":"current","keySpecs":{"cpu":"Apple M4"},"marketPrices":[]},{"modelName":"MacBook Pro 14インチ M3/M3 Pro/M3 Max (2023)","category":"creator notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"MacBook Pro","releaseStatus":"discontinued","keySpecs":{"cpu":"Apple M3 / M3 Pro / M3 Max"},"marketPrices":[]},{"modelName":"MacBook Pro 14インチ M4 Pro/M4 Max (2024)","category":"creator notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"MacBook Pro","releaseStatus":"current-secondary","keySpecs":{"cpu":"Apple M4 Pro / M4 Max"},"marketPrices":[]},{"modelName":"MacBook Pro 14インチ M5 (2025)","category":"creator notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"MacBook Pro","releaseStatus":"current","keySpecs":{"cpu":"Apple M5"},"marketPrices":[]}]},{"name":"Lenovo","models":[{"modelName":"ThinkPad X1 Carbon Gen 11 (2023)","category":"business notebook","priceStats":{"sampleCount":2,"minJPY":122078,"medianJPY":123039,"maxJPY":124000},"confidence":"medium","brandSeries":"ThinkPad X1 Carbon","releaseStatus":"discontinued","officialUrl":"https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-11/len101t0080","keySpecs":{"cpu":"第13世代 Intel Core i5/i7","memory":"16GB/32GB","storage":"256GB-2TB SSD"},"marketPrices":[{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/121736","status":"listed","priceJPY":122078},{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/121736","status":"listed","priceJPY":124000}]},{"modelName":"ThinkPad X1 Carbon Gen 13 Aura Edition (2025)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"ThinkPad X1 Carbon","releaseStatus":"current","keySpecs":{"cpu":"Intel Core Ultra (Series 2)"},"marketPrices":[]},{"modelName":"ThinkPad X13 Gen 4 (2023)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"ThinkPad X13","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core"},"marketPrices":[]},{"modelName":"ThinkPad T14 Gen 6 (2025)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"ThinkPad T14","releaseStatus":"current","keySpecs":{"cpu":"Intel Core Ultra (Series 2) / AMD Ryzen AI"},"marketPrices":[]},{"modelName":"ThinkPad E14 Gen 5 (2023)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"ThinkPad E","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core / AMD Ryzen 7000"},"marketPrices":[]},{"modelName":"IdeaPad Slim 5i Gen 8 (2023)","category":"consumer notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"IdeaPad","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core"},"marketPrices":[]},{"modelName":"IdeaPad 5x 2-in-1 Gen 9 (2024)","category":"2-in-1","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"IdeaPad","releaseStatus":"current-secondary","keySpecs":{"cpu":"Snapdragon X Plus"},"marketPrices":[]}]},{"name":"HP","models":[{"modelName":"HP Pavilion Aero 13-be (2022-2023)","category":"mobile notebook","priceStats":{"sampleCount":3,"minJPY":50206,"medianJPY":67500,"maxJPY":74800},"confidence":"medium","brandSeries":"Pavilion Aero","releaseStatus":"discontinued","officialUrl":"https://jp.ext.hp.com/notebooks/personal/pavilion_aero_13_be/","keySpecs":{"cpu":"AMD Ryzen 5/7 5000/7000系","memory":"8GB/16GB","storage":"256GB/512GB"},"marketPrices":[{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/14279/s/1","status":"listed","priceJPY":67500},{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/14279?condition=used","status":"listed","priceJPY":74800},{"marketplace":"ヤフオク","sourceUrl":"https://aucfan.com/search1/q-HP.20Pavilion.20Aero.2013/s-ya/","status":"sold","priceJPY":50206}]},{"modelName":"HP Pavilion Aero 13-bg (2024)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Pavilion Aero","releaseStatus":"current-secondary","keySpecs":{"cpu":"AMD Ryzen 8000系 (NPU内蔵)"},"marketPrices":[]},{"modelName":"HP Spectre x360 14 (2023-2024)","category":"2-in-1","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Spectre x360","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core / Core Ultra"},"marketPrices":[]},{"modelName":"HP ENVY x360 13/14 (2023-2024)","category":"2-in-1","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"ENVY x360","releaseStatus":"discontinued","keySpecs":{"cpu":"Intel Core / AMD Ryzen 8000HS"},"marketPrices":[]},{"modelName":"HP Pavilion Plus 14-eh (2023-2024)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Pavilion Plus","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core U/Core Ultra H"},"marketPrices":[]}]},{"name":"Dell","models":[{"modelName":"Dell XPS 13 9305/9315/9320 (2021-2023)","category":"mobile notebook","priceStats":{"sampleCount":3,"minJPY":28242,"medianJPY":43000,"maxJPY":56600},"confidence":"medium","brandSeries":"XPS","releaseStatus":"discontinued","officialUrl":"https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/xps-13-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3-2024/spd/xps-13-9345-laptop","keySpecs":{"cpu":"第11-13世代 Intel Core","memory":"8GB/16GB/32GB","storage":"256GB-2TB"},"marketPrices":[{"marketplace":"ヤフオク","sourceUrl":"https://aucfan.com/search1/q-dell.20xps13/s-mix/","status":"sold","priceJPY":28242},{"marketplace":"ヤフオク","sourceUrl":"https://aucfan.com/search1/q-dell.20xps13/s-mix/","status":"sold","priceJPY":56600},{"marketplace":"ヤフオク","sourceUrl":"https://aucfan.com/search1/q-dell.20xps13/s-mix/","status":"sold","priceJPY":43000}]},{"modelName":"Dell XPS 13 9345 (2024)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"XPS","releaseStatus":"discontinued","keySpecs":{"cpu":"Snapdragon X Elite"},"marketPrices":[]},{"modelName":"Dell XPS 14 9440 (2024)","category":"creator notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"XPS","releaseStatus":"discontinued","keySpecs":{"cpu":"Intel Core Ultra"},"marketPrices":[]},{"modelName":"Dell Inspiron 14 Plus 7441 (2024)","category":"consumer notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Inspiron","releaseStatus":"discontinued","keySpecs":{"cpu":"Snapdragon X Plus / Intel"},"marketPrices":[]},{"modelName":"Dell Latitude 7000シリーズ (2021-2024)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Latitude","releaseStatus":"discontinued","keySpecs":{"cpu":"第11-14世代 Intel Core / Core Ultra"},"marketPrices":[]}]},{"name":"ASUS","models":[{"modelName":"ASUS Zenbook S 13 OLED UX5304 (2023)","category":"mobile notebook","priceStats":{"sampleCount":1,"minJPY":15728,"medianJPY":15728,"maxJPY":15728},"confidence":"low","brandSeries":"Zenbook","releaseStatus":"discontinued","officialUrl":"https://www.asus.com/jp/laptops/for-home/zenbook/zenbook-s-13-oled-ux5304/","keySpecs":{"cpu":"第13世代 Intel Core i5/i7","memory":"16GB/32GB","storage":"512GB/1TB"},"marketPrices":[{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/2678/s/1","status":"listed","priceJPY":15728}]},{"modelName":"ASUS Zenbook 14 OLED (2024-2025)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Zenbook","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core Ultra"},"marketPrices":[]},{"modelName":"ASUS Vivobook Pro 16X OLED K6604 (2023)","category":"creator notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Vivobook","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core i9"},"marketPrices":[]},{"modelName":"ASUS ROG Zephyrus G14 (2023-2024)","category":"gaming notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"ROG","releaseStatus":"current-secondary","keySpecs":{"cpu":"AMD Ryzen 9"},"marketPrices":[]},{"modelName":"ASUS ProArt Studiobook 16 OLED (2023)","category":"creator notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"ProArt","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core i9"},"marketPrices":[]}]},{"name":"Acer","models":[{"modelName":"Acer Swift 3 (2020-2022)","category":"mobile notebook","priceStats":{"sampleCount":1,"minJPY":25790,"medianJPY":25790,"maxJPY":25790},"confidence":"low","brandSeries":"Swift","releaseStatus":"discontinued","officialUrl":"https://www.acer.com/jp-ja/laptops/swift","keySpecs":{"cpu":"Intel Core / AMD Ryzen","memory":"8GB/16GB","storage":"256GB/512GB"},"marketPrices":[{"marketplace":"ヤフオク","sourceUrl":"https://auctions.yahoo.co.jp/closedsearch/closedsearch/acer+swift+3/0/","status":"sold","priceJPY":25790}]},{"modelName":"Acer Swift Go 14 (2023-2024)","category":"mobile notebook","priceStats":{"sampleCount":1,"minJPY":84990,"medianJPY":84990,"maxJPY":84990},"confidence":"low","brandSeries":"Swift Go","releaseStatus":"discontinued","officialUrl":"https://www.acer.com/jp-ja/laptops/swift","keySpecs":{"cpu":"Intel Core Ultra / 第13世代 Core","memory":"16GB","storage":"512GB"},"marketPrices":[{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/119981?condition=used","status":"listed","priceJPY":84990}]},{"modelName":"Acer Swift Air 16 (2026)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Swift Air","releaseStatus":"current","keySpecs":{"cpu":"AMD Ryzen AI 7 350"},"marketPrices":[]},{"modelName":"Acer Aspire Lite 14 (2026)","category":"consumer notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Aspire","releaseStatus":"current","keySpecs":{"cpu":"Intel Core Ultra 5 115U"},"marketPrices":[]},{"modelName":"Acer Predator Helios / Triton (2023-2025)","category":"gaming notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Predator","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core i7/i9 / Core Ultra"},"marketPrices":[]}]},{"name":"Microsoft Surface","models":[{"modelName":"Surface Laptop 5 13.5/15 (2022)","category":"mobile notebook","priceStats":{"sampleCount":3,"minJPY":64980,"medianJPY":65363,"maxJPY":72800},"confidence":"medium","brandSeries":"Surface Laptop","releaseStatus":"discontinued","officialUrl":"https://support.microsoft.com/ja-jp/surface/surface-laptop-5-features","keySpecs":{"cpu":"第12世代 Intel Core i5/i7","memory":"8GB/16GB/32GB","storage":"256GB/512GB/1TB"},"marketPrices":[{"marketplace":"ヤフオク","sourceUrl":"https://auctions.yahoo.co.jp/closedsearch/closedsearch/surface%20laptop/0","status":"sold","priceJPY":65363},{"marketplace":"ヤフオク","sourceUrl":"https://auctions.yahoo.co.jp/search/search/surface%20laptop%205/0/","status":"listed","priceJPY":72800},{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/55615","status":"listed","priceJPY":64980}]},{"modelName":"Surface Laptop (第7世代, 2024)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Surface Laptop","releaseStatus":"current-secondary","keySpecs":{"cpu":"Snapdragon X Plus / X Elite"},"marketPrices":[]},{"modelName":"Surface Laptop (13インチ, 2025)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Surface Laptop","releaseStatus":"current","keySpecs":{"cpu":"Snapdragon X Plus"},"marketPrices":[]},{"modelName":"Surface Pro 9 (2022)","category":"2-in-1","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Surface Pro","releaseStatus":"discontinued","keySpecs":{"cpu":"第12世代 Intel Core i5/i7 / SQ3"},"marketPrices":[]},{"modelName":"Surface Pro (第11世代, 2024)","category":"2-in-1","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Surface Pro","releaseStatus":"current-secondary","keySpecs":{"cpu":"Snapdragon X Plus / X Elite"},"marketPrices":[]},{"modelName":"Surface Laptop Go 3 (2023)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Surface Laptop Go","releaseStatus":"discontinued","keySpecs":{"cpu":"第12世代 Intel Core i5"},"marketPrices":[]},{"modelName":"Surface Laptop Studio 2 (2023)","category":"creator notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Surface Laptop Studio","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core i7 / RTX 4050/4060"},"marketPrices":[]}]},{"name":"NEC LAVIE","models":[{"modelName":"LAVIE NEXTREME Carbon XC750/FA (2023春)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"LAVIE NEXTREME Carbon","releaseStatus":"discontinued","keySpecs":{"cpu":"第12世代 Intel Core i7"},"marketPrices":[]},{"modelName":"LAVIE NEXTREME Carbon (2024冬モデル, Copilot+ PC)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"LAVIE NEXTREME Carbon","releaseStatus":"current-secondary","keySpecs":{"cpu":"Snapdragon X / Intel Core Ultra"},"marketPrices":[]},{"modelName":"LAVIE NEXTREME 13.3型 (2025秋冬)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"LAVIE NEXTREME","releaseStatus":"current","keySpecs":{"cpu":"Intel Core Ultra (NPU搭載)"},"marketPrices":[]},{"modelName":"LAVIE N15 Slim (2025夏)","category":"consumer notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"LAVIE N15","releaseStatus":"current","keySpecs":{},"marketPrices":[]},{"modelName":"LAVIE N16 (2024-2025)","category":"consumer notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"LAVIE N16","releaseStatus":"current","keySpecs":{},"marketPrices":[]},{"modelName":"LAVIE N13 Slim (2024秋冬)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"LAVIE N13 Slim","releaseStatus":"current-secondary","keySpecs":{},"marketPrices":[]}]},{"name":"富士通 FMV","models":[{"modelName":"LIFEBOOK UH-X (2021-2023)","category":"mobile notebook","priceStats":{"sampleCount":2,"minJPY":24557,"medianJPY":52278,"maxJPY":80000},"confidence":"low","brandSeries":"LIFEBOOK UH","releaseStatus":"discontinued","officialUrl":"https://www.fmworld.net/product/former/lifebook/l_uh.html","keySpecs":{"cpu":"第11-13世代 Intel Core i7","memory":"8GB/16GB","storage":"512GB/1TB"},"marketPrices":[{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/10445","status":"listed","priceJPY":80000},{"marketplace":"ヤフオク","sourceUrl":"https://auctions.yahoo.co.jp/closedsearch/closedsearch/fmv%20lifebook%20uh/0/","status":"sold","priceJPY":24557}]},{"modelName":"LIFEBOOK UH-X/J3, UH90/J3 (2024秋冬)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"LIFEBOOK UH","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core Ultra"},"marketPrices":[]},{"modelName":"FMV Zero LIFEBOOK WU-X/J3, WU5/J3 (634g, 2024)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"LIFEBOOK WU","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core Ultra 7"},"marketPrices":[]},{"modelName":"FMV LIFEBOOK WU2/J3, WU4/J3 (2024-2025)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"LIFEBOOK WU","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core Ultra 5/7"},"marketPrices":[]},{"modelName":"FMV 2026年1月発表モデル","category":"consumer notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"FMV","releaseStatus":"current","keySpecs":{},"marketPrices":[]}]},{"name":"Dynabook","models":[{"modelName":"dynabook RZ/MW (2023春)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"RZ","releaseStatus":"discontinued","keySpecs":{"cpu":"第12-13世代 Intel Core"},"marketPrices":[]},{"modelName":"dynabook RZ/HW (2023秋冬)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"RZ","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core i7"},"marketPrices":[]},{"modelName":"dynabook RZ/HX (2024春)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"RZ","releaseStatus":"discontinued","keySpecs":{"cpu":"Intel Core Ultra"},"marketPrices":[]},{"modelName":"dynabook RZ/EX Special Edition (2024秋冬)","category":"creator notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"RZ Special Edition","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core Ultra"},"marketPrices":[]},{"modelName":"dynabook XZシリーズ (2023-2024)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"XZ","releaseStatus":"current-secondary","keySpecs":{},"marketPrices":[]},{"modelName":"dynabook GR/ZZ, GR/ZY (2025秋, 13.3型)","category":"mobile notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"GR","releaseStatus":"current","keySpecs":{},"marketPrices":[]}]},{"name":"Panasonic Let's note","models":[{"modelName":"Let's note SR3 (2023)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Let's note SR","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core"},"marketPrices":[]},{"modelName":"Let's note SR4 (2024-2025)","category":"business notebook","priceStats":{"sampleCount":4,"minJPY":120000,"medianJPY":160989,"maxJPY":181800},"confidence":"medium","brandSeries":"Let's note SR","releaseStatus":"current-secondary","officialUrl":"https://panasonic.jp/cns/pc/products/sr4g/","keySpecs":{"cpu":"Intel Core Ultra","memory":"16GB/32GB/64GB","storage":"256GB-2TB"},"marketPrices":[{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/115141","status":"listed","priceJPY":120000},{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/115141?condition=used","status":"listed","priceJPY":149578},{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/115141/s/1","status":"listed","priceJPY":172400},{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/115141/s/1","status":"listed","priceJPY":181800}]},{"modelName":"Let's note FV5 (2024-2025)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Let's note FV","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core Ultra"},"marketPrices":[]},{"modelName":"Let's note QR4 (2024)","category":"2-in-1","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Let's note QR","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core Ultra"},"marketPrices":[]},{"modelName":"Let's note FV3/FV4 (2022-2023)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Let's note FV","releaseStatus":"discontinued","keySpecs":{"cpu":"第12-13世代 Intel Core"},"marketPrices":[]}]},{"name":"MSI","models":[{"modelName":"MSI Stealth 14 Studio A13V (2023)","category":"gaming notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Stealth","releaseStatus":"discontinued","keySpecs":{"cpu":"第13世代 Intel Core i7"},"marketPrices":[]},{"modelName":"MSI Stealth 16 Studio A13VF (2023)","category":"gaming notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Stealth","releaseStatus":"discontinued","keySpecs":{"cpu":"Core i7-13700H"},"marketPrices":[]},{"modelName":"MSI Stealth 14 AI Studio A1V (2024)","category":"gaming notebook","priceStats":{"sampleCount":1,"minJPY":184980,"medianJPY":184980,"maxJPY":184980},"confidence":"low","brandSeries":"Stealth","releaseStatus":"current-secondary","officialUrl":"https://jp.msi.com/Laptop/Stealth-14-AI-Studio-A1VX","keySpecs":{"cpu":"Intel Core Ultra","memory":"32GB","storage":"1TB"},"marketPrices":[{"marketplace":"メルカリ","sourceUrl":"https://price-rank.com/p/190319?condition=used","status":"listed","priceJPY":184980}]},{"modelName":"MSI Prestige 13 AI Evo A1M (2024)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Prestige","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core Ultra"},"marketPrices":[]},{"modelName":"MSI Prestige 13 Evo (2026, マグネシウム・アルミ 999g)","category":"business notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Prestige","releaseStatus":"current","keySpecs":{"cpu":"Intel Core Ultra"},"marketPrices":[]},{"modelName":"MSI Raider / Titan (2024-2025)","category":"gaming notebook","priceStats":{"sampleCount":0,"minJPY":null,"medianJPY":null,"maxJPY":null},"confidence":"low","brandSeries":"Raider/Titan","releaseStatus":"current-secondary","keySpecs":{"cpu":"Intel Core Ultra 9"},"marketPrices":[]}]}]}
+{
+  "title": "主要PCメーカー フリマ価格調査 2026-05-19",
+  "reportDate": "2026-05-19",
+  "scope": {
+    "country": "日本",
+    "manufacturers": [
+      "Apple",
+      "Lenovo",
+      "HP",
+      "Dell",
+      "ASUS",
+      "Acer",
+      "Microsoft Surface",
+      "NEC LAVIE",
+      "富士通 FMV",
+      "Dynabook / 東芝",
+      "Panasonic Let's note",
+      "VAIO",
+      "MSI"
+    ],
+    "marketplaces": [
+      "メルカリ",
+      "ラクマ",
+      "Yahoo!フリマ",
+      "ヤフオク"
+    ],
+    "modelLookbackYears": 5
+  },
+  "summary": "2026年5月時点の中古PC市場は、メルカリ上の流通が最も確認しやすく、ラクマ・Yahoo!フリマは個別モデル名での公開サンプルが限定的だった。法人系モバイルノートは第11〜13世代Core搭載機の出品が多く、Panasonic Let’s note、ThinkPad、HP ProBook、dynabook G83/GZ、VAIO SX14は型番・世代差で価格が大きく分かれる。2024〜2026年のAI PC、Copilot+ PC、Core Ultra、Snapdragon X、M4/M5 Macは中古サンプルが少なく、出品中価格中心で相場信頼度は低〜中。ゲーミングノートはGPU世代差が強く、RTX 4060/4070機は10万〜20万円台の幅が目立つ。",
+  "manufacturers": [
+    {
+      "name": "Dell",
+      "officialSources": [
+        {
+          "title": "Dell Pro Max 14 ノートパソコン",
+          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/dell-pro-max-14-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/dell-pro-max-mc14250-laptop",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Dell Pro 14 ノートパソコン",
+          "url": "https://www.dell.com/ja-jp/shop/laptops/dell-pro-14%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/dell-pro-pc14250-laptop/bts009_pc14250_jp",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Alienware m16 R2 ゲーミングノートパソコン",
+          "url": "https://www.dell.com/ja-jp/shop/game-laptops/new-m16/spd/alienware-m16-r2-laptop",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "Dell Pro Max",
+          "modelName": "Dell Pro Max 14 2025 Intel/AMD",
+          "modelNumber": "MC14250 / MC14255",
+          "category": "mobile workstation",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/dell-pro-max-14-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/dell-pro-max-mc14250-laptop",
+          "keySpecs": {
+            "cpu": "Core Ultra 5/7 200H または Ryzen AI PRO 300",
+            "memory": "16GB/32GB",
+            "storage": "256GB〜1TB SSD",
+            "display": "14.0インチ FHD+/QHD+"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行寄りで中古サンプル未確認"
+          ]
+        },
+        {
+          "brandSeries": "Dell Pro",
+          "modelName": "Dell Pro 14 2025",
+          "modelNumber": "PC14250",
+          "category": "business notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/laptops/dell-pro-14%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/dell-pro-pc14250-laptop/bts009_pc14250_jp",
+          "keySpecs": {
+            "cpu": "Core Ultra 5/7 200U または Core 5/7",
+            "memory": "16GB/32GB DDR5",
+            "storage": "SSD",
+            "display": "14インチ 16:10"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行寄りで中古サンプル未確認"
+          ]
+        },
+        {
+          "brandSeries": "XPS",
+          "modelName": "XPS 13 9315 2022",
+          "modelNumber": "9315",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/ja-jp",
+          "keySpecs": {
+            "cpu": "第12世代 Core i5/i7 U",
+            "memory": "8GB/16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "13.4インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m16647251959",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 65000,
+              "matchType": "exact",
+              "notes": "i7/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m77133820040",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 49000,
+              "matchType": "exact",
+              "notes": "i5/8GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m82779781608",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 75000,
+              "matchType": "exact",
+              "notes": "i5/8GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/iP5VcFH4ibfnDU4vYmYUce",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "refurbished",
+              "priceJPY": 83600,
+              "matchType": "exact",
+              "notes": "整備済み系ショップ表示"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m76395417350",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 63000,
+              "matchType": "exact",
+              "notes": "i5/16GB/512GB"
+            },
+            {
+              "marketplace": "ラクマ",
+              "sourceUrl": "https://item.fril.jp/de93ffcf75351d10c464879e9ab393a2",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 61990,
+              "matchType": "exact",
+              "notes": "i5/8GB/256GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 6,
+            "minJPY": 49000,
+            "medianJPY": 64000,
+            "maxJPY": 83600
+          },
+          "confidence": "high",
+          "notes": [
+            "第12世代XPS 13。メモリ/SSD差を混在"
+          ]
+        },
+        {
+          "brandSeries": "XPS",
+          "modelName": "XPS 13 Plus 9320 2022-2023",
+          "modelNumber": "9320",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/ja-jp",
+          "keySpecs": {
+            "cpu": "第12世代 Core i5/i7 P",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.4インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m74046170151",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 78800,
+              "matchType": "exact",
+              "notes": "検索結果/個別ページ表示価格"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m96509857119",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 100000,
+              "matchType": "exact",
+              "notes": "検索結果/個別ページ表示価格"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 78800,
+            "medianJPY": 89400,
+            "maxJPY": 100000
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "XPS",
+          "modelName": "XPS 15 9530 2023",
+          "modelNumber": "9530",
+          "category": "creator notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/ja-jp",
+          "keySpecs": {
+            "cpu": "第13世代 Core i7/i9 H",
+            "memory": "16GB/32GB",
+            "storage": "512GB/1TB SSD",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m18630349487",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 190000,
+              "matchType": "exact",
+              "notes": "i7/32GB級の出品表示"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 190000,
+            "medianJPY": 190000,
+            "maxJPY": 190000
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "XPS",
+          "modelName": "XPS 16 9640 2024",
+          "modelNumber": "9640",
+          "category": "creator notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/ja-jp",
+          "keySpecs": {
+            "cpu": "Core Ultra 7/9",
+            "memory": "16GB〜64GB",
+            "storage": "SSD",
+            "display": "16.3インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "中古サンプル未確認"
+          ]
+        },
+        {
+          "brandSeries": "Inspiron",
+          "modelName": "Inspiron 14 5425/5430 2022-2023",
+          "modelNumber": null,
+          "category": "notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/laptops",
+          "keySpecs": {
+            "cpu": "Ryzen 5000/7000 または 第13世代Core",
+            "memory": "8GB/16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "型番混在が多く価格サンプルは未採用"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5320/5330/5340 2021-2023",
+          "modelNumber": "5320/5330/5340",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/ja-jp",
+          "keySpecs": {
+            "cpu": "第11〜13世代 Core U",
+            "memory": "8GB/16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "法人流通が多いが型番混在のため未採用"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 7440/7450 2023-2024",
+          "modelNumber": "7440/7450",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/ja-jp",
+          "keySpecs": {
+            "cpu": "第13世代Core / Core Ultra",
+            "memory": "16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Vostro",
+          "modelName": "Vostro 3520 2022-2023",
+          "modelNumber": "3520",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/ja-jp",
+          "keySpecs": {
+            "cpu": "第12世代Core",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Precision",
+          "modelName": "Precision 5570/5680 2022-2023",
+          "modelNumber": "5570/5680",
+          "category": "mobile workstation",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/ja-jp",
+          "keySpecs": {
+            "cpu": "Core i7/i9 H",
+            "memory": "16GB〜64GB",
+            "storage": "SSD",
+            "display": "15.6/16インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Alienware",
+          "modelName": "Alienware m16 R2 2024",
+          "modelNumber": "m16 R2",
+          "category": "gaming notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/game-laptops/new-m16/spd/alienware-m16-r2-laptop",
+          "keySpecs": {
+            "cpu": "Core Ultra 7/9",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "16インチ OLED/高リフレッシュレート"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "公式ページは販売終了表示。中古サンプル未確認"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lenovo",
+      "officialSources": [
+        {
+          "title": "Lenovo ThinkPad 製品一覧",
+          "url": "https://www.lenovo.com/jp/ja/c/laptops/thinkpad/",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Lenovo Legion 製品一覧",
+          "url": "https://www.lenovo.com/jp/ja/c/laptops/legion-laptops/",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "ThinkPad X1",
+          "modelName": "ThinkPad X1 Carbon Gen 9-11 2021-2023",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/thinkpad/thinkpadx1/",
+          "keySpecs": {
+            "cpu": "第11〜13世代 Core",
+            "memory": "16GB/32GB",
+            "storage": "256GB〜1TB SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "世代差が大きいため次回はGen別に採取推奨"
+          ]
+        },
+        {
+          "brandSeries": "ThinkPad X1",
+          "modelName": "ThinkPad X1 Carbon Gen 12-13 2024-2025",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/thinkpad/thinkpadx1/",
+          "keySpecs": {
+            "cpu": "Core Ultra",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行寄りでサンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "ThinkPad T",
+          "modelName": "ThinkPad T14 Gen 3-5 2022-2024",
+          "modelNumber": null,
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/thinkpad/thinkpadt/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen Pro",
+            "memory": "16GB前後",
+            "storage": "SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "法人流通型番が多く未集計"
+          ]
+        },
+        {
+          "brandSeries": "ThinkPad X",
+          "modelName": "ThinkPad X13 Gen 3-5 2022-2024",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/thinkpad/thinkpadx/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen Pro",
+            "memory": "16GB",
+            "storage": "SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "ThinkPad E",
+          "modelName": "ThinkPad E14 Gen 4-6 2022-2024",
+          "modelNumber": null,
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/thinkpad/thinkpade/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "ThinkPad P",
+          "modelName": "ThinkPad P14s Gen 3-5 2022-2024",
+          "modelNumber": null,
+          "category": "mobile workstation",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/thinkpad/thinkpadp/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen Pro",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "ThinkBook",
+          "modelName": "ThinkBook 14 Gen 6 2023-2024",
+          "modelNumber": "21KG/21KJ系",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/thinkbook/thinkbook-series/",
+          "keySpecs": {
+            "cpu": "第13世代Core または Ryzen 7000",
+            "memory": "8GB/16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=ThinkBook+14+Gen+6",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 85000,
+              "matchType": "exact",
+              "notes": "検索結果リスト表示。AMDモデル"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=ThinkBook14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 71000,
+              "matchType": "exact",
+              "notes": "使用2か月表記"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/ripWHefvLBY4xK8xnRykv7",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 73479,
+              "matchType": "exact",
+              "notes": "ThinkBook 14 Gen 6 21KJCTO1WW"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JPgZ447Me7TRAXQwPcYq5",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 79800,
+              "matchType": "exact",
+              "notes": "第13世代 i5/8GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=ThinkBook14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 115479,
+              "matchType": "exact",
+              "notes": "ソフマップ中古表示"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 71000,
+            "medianJPY": 79800,
+            "maxJPY": 115479
+          },
+          "confidence": "medium",
+          "notes": [
+            "出品中価格中心"
+          ]
+        },
+        {
+          "brandSeries": "IdeaPad",
+          "modelName": "IdeaPad Slim 5 / Slim 5 Light 2023-2025",
+          "modelNumber": null,
+          "category": "notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/ideapad/",
+          "keySpecs": {
+            "cpu": "Ryzen 7000/8000 または Core",
+            "memory": "16GB前後",
+            "storage": "512GB SSD",
+            "display": "13〜16インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=ideaPad+ryzen",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 60000,
+              "matchType": "approximate",
+              "notes": "IdeaPad Slim 5 13ARP10"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=ideaPad+ryzen",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 90000,
+              "matchType": "approximate",
+              "notes": "IdeaPad Slim 5 Light 14ABR8"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=ideaPad+ryzen",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 110000,
+              "matchType": "approximate",
+              "notes": "IdeaPad Slim 5 Light Gen 10"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 60000,
+            "medianJPY": 90000,
+            "maxJPY": 110000
+          },
+          "confidence": "low",
+          "notes": [
+            "シリーズ内世代・画面サイズ混在"
+          ]
+        },
+        {
+          "brandSeries": "Yoga",
+          "modelName": "Yoga 7i / Yoga Slim 7i 2023-2025",
+          "modelNumber": null,
+          "category": "2-in-1 notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/yoga/",
+          "keySpecs": {
+            "cpu": "Core Ultra / Core i7",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "14〜15インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "本体以外アクセサリが多く未採用"
+          ]
+        },
+        {
+          "brandSeries": "Legion",
+          "modelName": "Legion 5 Pro / Legion Pro 5 2021-2024",
+          "modelNumber": "16ACH6H / 16ITH6H / 16IRX9等",
+          "category": "gaming notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/legion-laptops/",
+          "keySpecs": {
+            "cpu": "Ryzen 5/7 または Core i7 HX",
+            "memory": "16GB/32GB",
+            "storage": "512GB/1TB SSD",
+            "display": "16インチ QHD/WQXGA 高リフレッシュレート"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m86446533313",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 126000,
+              "matchType": "exact",
+              "notes": "Legion 5 Pro 16ACH6H Ryzen 5/RTX3060"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=LENOVO+legion+5+pro",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 120000,
+              "matchType": "approximate",
+              "notes": "Legion 5 Pro 16ITH6H i7/RTX3060"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=LENOVO+legion+5+pro",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 188000,
+              "matchType": "approximate",
+              "notes": "Legion 5 15IAH7H"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=LENOVO+legion+5+pro",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 216900,
+              "matchType": "approximate",
+              "notes": "Legion 5 Pro 2024"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=LENOVO+legion+5+pro",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 237000,
+              "matchType": "approximate",
+              "notes": "Legion 5 16IRX9"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 120000,
+            "medianJPY": 188000,
+            "maxJPY": 237000
+          },
+          "confidence": "medium",
+          "notes": [
+            "GPU世代混在"
+          ]
+        },
+        {
+          "brandSeries": "LOQ",
+          "modelName": "LOQ 15/16 2023-2025",
+          "modelNumber": null,
+          "category": "gaming notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.lenovo.com/jp/ja/c/laptops/loq-laptops/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen H/HX",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "15.6/16インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "中古サンプル未確認"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HP",
+      "officialSources": [
+        {
+          "title": "HP Pavilion Aero 13-bg 製品詳細",
+          "url": "https://jp.ext.hp.com/notebooks/personal/pavilion_aero_13_bg/",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "HP Spectre x360 14-eu 製品詳細",
+          "url": "https://jp.ext.hp.com/notebooks/personal/spectre_x360_14_eu/",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "HP OmniBook X 14-fe 製品詳細",
+          "url": "https://jp.ext.hp.com/notebooks/personal/omnibook_x_14_fe/",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "HP EliteBook 830 G11 CTOスペック表",
+          "url": "https://jp.ext.hp.com/prod/notebooks/business/elitebook_830_g11/cto/",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "Pavilion",
+          "modelName": "HP Pavilion Aero 13-be/bg 2021-2024",
+          "modelNumber": "13-be / 13-bg",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://jp.ext.hp.com/notebooks/personal/pavilion_aero_13_bg/",
+          "keySpecs": {
+            "cpu": "Ryzen 5000/7000/8040",
+            "memory": "16GB",
+            "storage": "512GB/1TB SSD",
+            "display": "13.3インチ WUXGA"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "価格サンプル未採用"
+          ]
+        },
+        {
+          "brandSeries": "ENVY",
+          "modelName": "HP ENVY x360 13-bf / 14-fc 2022-2024",
+          "modelNumber": "13-bf / 14-fc",
+          "category": "2-in-1 notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://jp.ext.hp.com/notebooks/personal/",
+          "keySpecs": {
+            "cpu": "Core i5/i7 または Core Ultra",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.3/14インチ OLED選択"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Spectre",
+          "modelName": "HP Spectre x360 14-eu 2024",
+          "modelNumber": "14-eu",
+          "category": "2-in-1 notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://jp.ext.hp.com/notebooks/personal/spectre_x360_14_eu/",
+          "keySpecs": {
+            "cpu": "Core Ultra 5/7",
+            "memory": "16GB/32GB",
+            "storage": "512GB/1TB SSD",
+            "display": "14.0インチ 2.8K OLED"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行寄りで中古サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "OmniBook",
+          "modelName": "HP OmniBook X 14-fe 2024-2025",
+          "modelNumber": "14-fe",
+          "category": "Copilot+ notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://jp.ext.hp.com/notebooks/personal/omnibook_x_14_fe/",
+          "keySpecs": {
+            "cpu": "Snapdragon X Elite / X Plus",
+            "memory": "16GB/32GB",
+            "storage": "512GB/1TB SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "中古サンプル未確認"
+          ]
+        },
+        {
+          "brandSeries": "EliteBook",
+          "modelName": "HP EliteBook 830 G11 2024",
+          "modelNumber": "830 G11",
+          "category": "business notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://jp.ext.hp.com/prod/notebooks/business/elitebook_830_g11/cto/",
+          "keySpecs": {
+            "cpu": "Core Ultra 5/7 U",
+            "memory": "16GB",
+            "storage": "SSD",
+            "display": "13.3インチ WUXGA"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "法人向け現行。中古サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "ProBook",
+          "modelName": "HP ProBook 450 G9 2022",
+          "modelNumber": "450 G9",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://jp.ext.hp.com/notebooks/business/",
+          "keySpecs": {
+            "cpu": "第12世代 Core i3/i5/i7",
+            "memory": "8GB/16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Hp+probook+450+g9",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 36500,
+              "matchType": "exact",
+              "notes": "検索結果リスト表示"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m67586456555",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 42500,
+              "matchType": "exact",
+              "notes": "Core i3/16GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Hp+probook+450+g9",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 51999,
+              "matchType": "exact",
+              "notes": "i5/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Hp+probook+450+g9",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 53800,
+              "matchType": "exact",
+              "notes": "第12世代i5/16GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Hp+probook+450+g9",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 55000,
+              "matchType": "exact",
+              "notes": "i5/16GB/256GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 36500,
+            "medianJPY": 51999,
+            "maxJPY": 55000
+          },
+          "confidence": "medium",
+          "notes": [
+            "出品中価格中心"
+          ]
+        },
+        {
+          "brandSeries": "ZBook",
+          "modelName": "HP ZBook Firefly 14 G8/G9 2021-2022",
+          "modelNumber": "Firefly 14 G8/G9",
+          "category": "mobile workstation",
+          "releaseStatus": "recent",
+          "officialUrl": "https://jp.ext.hp.com/workstations/zbook/",
+          "keySpecs": {
+            "cpu": "第11/12世代 Core i5/i7",
+            "memory": "16GB/32GB",
+            "storage": "512GB SSD",
+            "display": "14インチ",
+            "gpu": "NVIDIA T500等"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=ZBOOK+firefly",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 54800,
+              "matchType": "approximate",
+              "notes": "Firefly 14 G8"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=ZBOOK+firefly",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 77999,
+              "matchType": "approximate",
+              "notes": "Firefly G8 i7/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=ZBOOK+firefly",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 99980,
+              "matchType": "approximate",
+              "notes": "Firefly 14 G8 i7/1TB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=HP_ZBook_Firefly_14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 65800,
+              "matchType": "approximate",
+              "notes": "Firefly G8"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=HP_ZBook_Firefly_14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-acceptable",
+              "priceJPY": 51800,
+              "matchType": "approximate",
+              "notes": "Aキー無し表記"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 51800,
+            "medianJPY": 65800,
+            "maxJPY": 99980
+          },
+          "confidence": "medium",
+          "notes": [
+            "G7/G8/G9混在を除き、Firefly 14中心に採取"
+          ]
+        },
+        {
+          "brandSeries": "Victus",
+          "modelName": "Victus by HP 16 2021-2024",
+          "modelNumber": "16-d / 16-s / 16-r等",
+          "category": "gaming notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://jp.ext.hp.com/gaming/",
+          "keySpecs": {
+            "cpu": "Ryzen 7 / Core i5/i7",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "16.1インチ",
+            "gpu": "RTX 3050 Ti/4050/4060等"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=victus+16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 77000,
+              "matchType": "approximate",
+              "notes": "Ryzen7/RTX3050Ti級"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=victus+16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 90000,
+              "matchType": "approximate",
+              "notes": "16-r0012TX"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=victus+16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 94999,
+              "matchType": "approximate",
+              "notes": "Ryzen7/RTX3050Ti"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=victus+16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 103000,
+              "matchType": "approximate",
+              "notes": "RTX4050級"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=victus+16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 121000,
+              "matchType": "approximate",
+              "notes": "Ryzen7/RTX3050Ti美品"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 77000,
+            "medianJPY": 94999,
+            "maxJPY": 121000
+          },
+          "confidence": "medium",
+          "notes": [
+            "GPU世代混在"
+          ]
+        },
+        {
+          "brandSeries": "OMEN",
+          "modelName": "OMEN by HP 16 2021-2024",
+          "modelNumber": "16-wf / 16-xf等",
+          "category": "gaming notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://jp.ext.hp.com/gaming/omen/",
+          "keySpecs": {
+            "cpu": "Core i7/i9 / Ryzen 7",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "16.1インチ",
+            "gpu": "RTX 3060〜4080等"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=hP+omen+16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 74000,
+              "matchType": "approximate",
+              "notes": "OMEN16 RTX3060級"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=hP+omen+16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 115000,
+              "matchType": "approximate",
+              "notes": "OMEN 16-wf0022TX"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=hP+omen+16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 170000,
+              "matchType": "approximate",
+              "notes": "OMEN 16-wf0022TX"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=omen+16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 224900,
+              "matchType": "approximate",
+              "notes": "i7/RTX4080級"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 4,
+            "minJPY": 74000,
+            "medianJPY": 142500,
+            "maxJPY": 224900
+          },
+          "confidence": "low",
+          "notes": [
+            "GPU差が大きくサンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "OMEN",
+          "modelName": "OMEN Transcend 14/16 2024-2025",
+          "modelNumber": null,
+          "category": "gaming creator notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://jp.ext.hp.com/gaming/omen/",
+          "keySpecs": {
+            "cpu": "Core Ultra / Core HX",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "14/16インチ OLED選択",
+            "gpu": "RTX 4060/4070等"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "中古サンプル未確認"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panasonic Let's note",
+      "officialSources": [
+        {
+          "title": "レッツノートFV（CF-FV5）",
+          "url": "https://panasonic.jp/cns/pc/products/fv5e/",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "レッツノートSR（CF-SR4）仕様",
+          "url": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "レッツノートQR（CF-QR4）仕様",
+          "url": "https://panasonic.jp/cns/pc/products/qr4h/spec.html",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "FV",
+          "modelName": "Let's note FV5 2024-2025",
+          "modelNumber": "CF-FV5",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/fv5e/",
+          "keySpecs": {
+            "cpu": "Core Ultra 5/7",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "14.0インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88%E3%80%80CF-FV3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 195000,
+              "matchType": "exact",
+              "notes": "CF-FV5FDNCR表示。検索結果リスト上の価格"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 195000,
+            "medianJPY": 195000,
+            "maxJPY": 195000
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "FV",
+          "modelName": "Let's note FV4 2023",
+          "modelNumber": "CF-FV4",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/",
+          "keySpecs": {
+            "cpu": "第13世代 Core i5/i7",
+            "memory": "16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "14.0インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+FV4+CF-FV4RDAAS",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 144700,
+              "matchType": "exact",
+              "notes": "第13世代i5/16GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+%E9%BB%92",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 175000,
+              "matchType": "exact",
+              "notes": "CF-FV4ADMCR"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 144700,
+            "medianJPY": 159850,
+            "maxJPY": 175000
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "FV",
+          "modelName": "Let's note FV3 2022",
+          "modelNumber": "CF-FV3",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/",
+          "keySpecs": {
+            "cpu": "第12世代 Core i5/i7",
+            "memory": "16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "14.0インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88%E3%80%80CF-FV3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 129000,
+              "matchType": "exact",
+              "notes": "CF-FV3HDPCR i7/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m62791013826",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 114900,
+              "matchType": "exact",
+              "notes": "CF-FV3GDMCR i5/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88%E3%80%80CF-FV3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 105000,
+              "matchType": "exact",
+              "notes": "CF-FV3 1235U/16GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 105000,
+            "medianJPY": 114900,
+            "maxJPY": 129000
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "SR",
+          "modelName": "Let's note SR4 2023-2024",
+          "modelNumber": "CF-SR4",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+          "keySpecs": {
+            "cpu": "Core i5-1335U / Core i7-1360P",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "12.4インチ FHD+"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+sr3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 124000,
+              "matchType": "approximate",
+              "notes": "SR4表示"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+sr3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 97800,
+              "matchType": "exact",
+              "notes": "CF-SR4 第13世代i5/16GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+sr3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 264800,
+              "matchType": "exact",
+              "notes": "SR4 i7/32GB/5G LTE対応"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 97800,
+            "medianJPY": 124000,
+            "maxJPY": 264800
+          },
+          "confidence": "low",
+          "notes": [
+            "上位構成を含み価格幅大"
+          ]
+        },
+        {
+          "brandSeries": "SR",
+          "modelName": "Let's note SR3 2022",
+          "modelNumber": "CF-SR3",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/",
+          "keySpecs": {
+            "cpu": "第12世代 Core i5/i7",
+            "memory": "16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "12.4インチ FHD+"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/4nyppiUrLYTLZwWWFqnvxc",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 145000,
+              "matchType": "exact",
+              "notes": "CF-SR3 i7/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+sr3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 130000,
+              "matchType": "exact",
+              "notes": "CF-SR3 Core i7"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+sr3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 128000,
+              "matchType": "exact",
+              "notes": "i5/16GB/512GB バッテリー付"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+sr3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 129000,
+              "matchType": "exact",
+              "notes": "SR3GDMCR"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JM3vocDUNPbMtaB6upaLC",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 98000,
+              "matchType": "exact",
+              "notes": "CF-SR3 i5/16GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+sr3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 107800,
+              "matchType": "exact",
+              "notes": "CF-SR3 i5/16GB/256GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 6,
+            "minJPY": 98000,
+            "medianJPY": 128500,
+            "maxJPY": 145000
+          },
+          "confidence": "medium",
+          "notes": [
+            "出品中価格中心"
+          ]
+        },
+        {
+          "brandSeries": "QR",
+          "modelName": "Let's note QR4 2023-2024",
+          "modelNumber": "CF-QR4",
+          "category": "2-in-1 notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/qr4h/spec.html",
+          "keySpecs": {
+            "cpu": "Core i5-1335U / Core i7-1360P",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "12.4インチ FHD+ タッチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m59580021004",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 228000,
+              "matchType": "exact",
+              "notes": "CF-QR4HDNCR"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 228000,
+            "medianJPY": 228000,
+            "maxJPY": 228000
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "QV",
+          "modelName": "Let's note QV1 2021",
+          "modelNumber": "CF-QV1",
+          "category": "2-in-1 notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/",
+          "keySpecs": {
+            "cpu": "第11世代 Core",
+            "memory": "16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "12.0インチ タッチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88%E3%80%80CF-FV3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 34800,
+              "matchType": "exact",
+              "notes": "CF-QV1 16GB 2in1"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88%E3%80%80CF-FV3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 58800,
+              "matchType": "exact",
+              "notes": "CF-QV1 2in1"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88%E3%80%80CF-FV3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 58900,
+              "matchType": "exact",
+              "notes": "CF-QV1 2in1"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 34800,
+            "medianJPY": 58800,
+            "maxJPY": 58900
+          },
+          "confidence": "medium",
+          "notes": [
+            "検索結果内サンプル"
+          ]
+        },
+        {
+          "brandSeries": "SV",
+          "modelName": "Let's note SV9/SV1/SV2 2020-2022",
+          "modelNumber": "CF-SV9 / CF-SV1 / CF-SV2",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/",
+          "keySpecs": {
+            "cpu": "第10〜12世代 Core",
+            "memory": "8GB/16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "12.1インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88%E3%80%80CF-FV3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 32000,
+              "matchType": "approximate",
+              "notes": "CF-SV9 16GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+FV4+CF-FV4RDAAS",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 25600,
+              "matchType": "approximate",
+              "notes": "CF-SV9"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88%E3%80%80CF-FV3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 27000,
+              "matchType": "approximate",
+              "notes": "CF-SV9"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+FV4+CF-FV4RDAAS",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 28900,
+              "matchType": "approximate",
+              "notes": "CF-SV9RDQVS"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88+FV4+CF-FV4RDAAS",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 23800,
+              "matchType": "approximate",
+              "notes": "CF-SV9"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 23800,
+            "medianJPY": 27000,
+            "maxJPY": 32000
+          },
+          "confidence": "medium",
+          "notes": [
+            "SV9中心。SV1/SV2は追加調査推奨"
+          ]
+        },
+        {
+          "brandSeries": "LV",
+          "modelName": "Let's note LV9/LV1 2020-2021",
+          "modelNumber": "CF-LV9 / CF-LV1",
+          "category": "notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/",
+          "keySpecs": {
+            "cpu": "第10/11世代 Core",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dynabook / 東芝",
+      "officialSources": [
+        {
+          "title": "dynabook RZ/MY ハードウェア仕様",
+          "url": "https://dynabook.com/direct/pc/catalog/2025-summer/rzmy/spec.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "dynabook GZ/HY ハードウェア仕様",
+          "url": "https://dynabook.com/direct/pc/catalog/2024-fall-winter/gzhy/spec.html",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "RZ",
+          "modelName": "dynabook RZ/MY 2025",
+          "modelNumber": "W6RZMY系",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://dynabook.com/direct/pc/catalog/2025-summer/rzmy/spec.html",
+          "keySpecs": {
+            "cpu": "Core Ultra 5/7 155H等",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "14インチ級"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行モデルのため中古サンプル未確認"
+          ]
+        },
+        {
+          "brandSeries": "RZ",
+          "modelName": "dynabook RZ/HV-HW 2022-2024",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://dynabook.com/direct/",
+          "keySpecs": {
+            "cpu": "第12〜13世代 Core",
+            "memory": "16GB",
+            "storage": "SSD",
+            "display": "14インチ級"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "GZ",
+          "modelName": "dynabook GZ/HY-HV-HUL 2021-2024",
+          "modelNumber": "W6GZ系",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://dynabook.com/direct/pc/catalog/2024-fall-winter/gzhy/spec.html",
+          "keySpecs": {
+            "cpu": "第11〜13世代 Core i5/i7",
+            "memory": "8GB/16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+gz",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 27222,
+              "matchType": "approximate",
+              "notes": "GZ/HSL i7/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/zn5k96RAowacHFo69U7aaj",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 32980,
+              "matchType": "approximate",
+              "notes": "GZ/HSL i7/16GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+gz",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 38600,
+              "matchType": "approximate",
+              "notes": "GZ/HPL i7/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+gz",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 51600,
+              "matchType": "approximate",
+              "notes": "GZ/HUL i7/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+gz",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 68000,
+              "matchType": "approximate",
+              "notes": "GZ/HUL 16GB/512GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 27222,
+            "medianJPY": 38600,
+            "maxJPY": 68000
+          },
+          "confidence": "medium",
+          "notes": [
+            "GZ世代混在。難有り表記は除外"
+          ]
+        },
+        {
+          "brandSeries": "G83",
+          "modelName": "dynabook G83/HU-KV 2021-2024",
+          "modelNumber": "G83系",
+          "category": "business mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://dynabook.com/business-mobile-notebook/",
+          "keySpecs": {
+            "cpu": "第11〜12世代 Core i5/i7",
+            "memory": "16GB/32GB",
+            "storage": "256GB/512GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+g83+i7",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 41500,
+              "matchType": "approximate",
+              "notes": "G83/HU i7/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+i7",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 41990,
+              "matchType": "approximate",
+              "notes": "G83/HS i7/16GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+i7",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 43000,
+              "matchType": "approximate",
+              "notes": "G83/HU i7/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+g83+i7",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 54800,
+              "matchType": "approximate",
+              "notes": "G83/HS i7/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+g83+i7",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 58800,
+              "matchType": "approximate",
+              "notes": "G83 第11世代 i7/16GB/512GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 41500,
+            "medianJPY": 43000,
+            "maxJPY": 58800
+          },
+          "confidence": "medium",
+          "notes": [
+            "法人系型番混在"
+          ]
+        },
+        {
+          "brandSeries": "XZ",
+          "modelName": "dynabook XZ/HY 2024",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://dynabook.com/direct/",
+          "keySpecs": {
+            "cpu": "Core Ultra世代",
+            "memory": "16GB",
+            "storage": "SSD",
+            "display": "13〜14インチ級"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "MZ",
+          "modelName": "dynabook MZ/MY 2025",
+          "modelNumber": null,
+          "category": "notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://dynabook.com/direct/",
+          "keySpecs": {
+            "cpu": "Core / Core Ultra",
+            "memory": "16GB",
+            "storage": "SSD",
+            "display": "14〜15インチ級"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "中古サンプル未確認"
+          ]
+        },
+        {
+          "brandSeries": "CZ",
+          "modelName": "dynabook CZ/MY 2025",
+          "modelNumber": null,
+          "category": "notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://dynabook.com/direct/",
+          "keySpecs": {
+            "cpu": "Core / Ryzen系",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "15インチ級"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "中古サンプル未確認"
+          ]
+        },
+        {
+          "brandSeries": "K",
+          "modelName": "dynabook K/KZ 2021-2024",
+          "modelNumber": null,
+          "category": "2-in-1 detachable",
+          "releaseStatus": "recent",
+          "officialUrl": "https://dynabook.com/direct/",
+          "keySpecs": {
+            "cpu": "Celeron/Pentium/N100系",
+            "memory": "4GB/8GB",
+            "storage": "eMMC/SSD",
+            "display": "10〜11インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "本体と教育向け付属品が混在するため未採用"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NEC LAVIE",
+      "officialSources": [
+        {
+          "title": "LAVIE N13 Slim 仕様一覧",
+          "url": "https://www.nec-lavie.jp/navigate/products2/pc/244q/11/lavie/n13s/spec/",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "LAVIE NEXTREME Carbon 仕様一覧",
+          "url": "https://www.nec-lavie.jp/navigate/products2/pc/231q/01/lavie/xc/spec/index.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "LAVIE SOL 仕様一覧",
+          "url": "https://www.nec-lavie.jp/navigate/products2/pc/254q/10/lavie/s13/spec/",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "NEXTREME",
+          "modelName": "LAVIE NEXTREME Carbon 2022-2023",
+          "modelNumber": "XC950/XC750/XC550系",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.nec-lavie.jp/navigate/products2/pc/231q/01/lavie/xc/spec/index.html",
+          "keySpecs": {
+            "cpu": "第12世代 Core i5/i7",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "14インチ級",
+            "weight": "約879〜935g"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=lavie+nextreme",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 180000,
+              "matchType": "approximate",
+              "notes": "LAVIE Smart NEXTREME Carbon"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 180000,
+            "medianJPY": 180000,
+            "maxJPY": 180000
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "N13",
+          "modelName": "LAVIE N13 Slim 2023-2025",
+          "modelNumber": "PC-N1375 / PC-N1355系",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.nec-lavie.jp/navigate/products2/pc/244q/11/lavie/n13s/spec/",
+          "keySpecs": {
+            "cpu": "Core i5/i7 または Ryzen 5/7",
+            "memory": "16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "13.3インチ WUXGA"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=NEC+LAVIE+n13",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 70000,
+              "matchType": "approximate",
+              "notes": "PC-N1355HAL"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=lavie+n13",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 77000,
+              "matchType": "approximate",
+              "notes": "PC-N1355 16GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=NEC+LAVIE+n13",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 82000,
+              "matchType": "approximate",
+              "notes": "16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=lavie+n13",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 95000,
+              "matchType": "approximate",
+              "notes": "Ryzen 7/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=lavie+n13",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 108000,
+              "matchType": "approximate",
+              "notes": "2024年モデル Ryzen 7/512GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 70000,
+            "medianJPY": 82000,
+            "maxJPY": 108000
+          },
+          "confidence": "medium",
+          "notes": [
+            "Intel/Ryzen世代混在"
+          ]
+        },
+        {
+          "brandSeries": "N15",
+          "modelName": "LAVIE N15 / N15 Slim 2021-2025",
+          "modelNumber": "PC-N1575 / PC-N1555系",
+          "category": "notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.nec-lavie.jp/",
+          "keySpecs": {
+            "cpu": "Core i3/i5/i7 または Ryzen",
+            "memory": "8GB/16GB",
+            "storage": "256GB/512GB SSD",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=lavie+n15",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 59800,
+              "matchType": "approximate",
+              "notes": "第11世代Core i5級"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=lavie+n15",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 62000,
+              "matchType": "approximate",
+              "notes": "PC-N1570GAL-E3"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JG3otjToTpcaSC7y6D6xz",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 78414,
+              "matchType": "exact",
+              "notes": "PC-N1575CAL"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=lavie+n15",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 80000,
+              "matchType": "approximate",
+              "notes": "Core i7-1255U"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/6h8QQmrtrBtuMvriokcydF",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "new-unused",
+              "priceJPY": 102000,
+              "matchType": "exact",
+              "notes": "PC-N1575CAL 未使用品"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 59800,
+            "medianJPY": 78414,
+            "maxJPY": 102000
+          },
+          "confidence": "medium",
+          "notes": [
+            "N15/N15 Slim混在"
+          ]
+        },
+        {
+          "brandSeries": "SOL",
+          "modelName": "LAVIE SOL 2024-2025",
+          "modelNumber": "PC-S1375 / PC-S1365 / PC-S1355系",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.nec-lavie.jp/navigate/products2/pc/254q/10/lavie/s13/spec/",
+          "keySpecs": {
+            "cpu": "Core Ultra 7 258V / Core Ultra 5 226V / Core i5-1335U",
+            "memory": "16GB",
+            "storage": "SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行寄りでサンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "N14",
+          "modelName": "LAVIE N14 / N14 Slim 2022-2025",
+          "modelNumber": null,
+          "category": "notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.nec-lavie.jp/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "N16",
+          "modelName": "LAVIE N16 2023-2025",
+          "modelNumber": null,
+          "category": "notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.nec-lavie.jp/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "16インチ級"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "A / Home All-in-one",
+          "modelName": "LAVIE A / Home All-in-one 2021-2025",
+          "modelNumber": "A23/A27/HA系",
+          "category": "all-in-one desktop",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.nec-lavie.jp/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen",
+            "memory": "8GB/16GB",
+            "storage": "SSD/HDD",
+            "display": "23.8/27インチ級"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "大型一体型は配送・地域差が大きく未採用"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VAIO",
+      "officialSources": [
+        {
+          "title": "VAIO SX14-R VJS4R2 仕様",
+          "url": "https://vaio.com/products/sx14r2/14-0/specification/",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "VAIO 個人向け標準仕様モデルカタログ 2026.04",
+          "url": "https://vaio.com/wp-content/uploads/2026/04/VAIO_PMC_202604.pdf",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "SX14-R",
+          "modelName": "VAIO SX14-R VJS4R1/VJS4R2 2024-2026",
+          "modelNumber": "VJS4R1 / VJS4R2",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://vaio.com/products/sx14r2/14-0/specification/",
+          "keySpecs": {
+            "cpu": "Core Ultra 5/7 / Core Ultra 5 325U",
+            "memory": "16GB/32GB",
+            "storage": "512GB SSD",
+            "display": "14.0インチ WUXGA"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行寄りで中古サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "SX14",
+          "modelName": "VAIO SX14 VJS145 2022-2023",
+          "modelNumber": "VJS145",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://vaio.com/products/",
+          "keySpecs": {
+            "cpu": "第12〜13世代 Core",
+            "memory": "16GB/32GB",
+            "storage": "256GB〜1TB SSD",
+            "display": "14.0インチ FHD/4K"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+sx14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 49800,
+              "matchType": "approximate",
+              "notes": "SX14 ALL BLACK EDITION旧世代"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+sx14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 63700,
+              "matchType": "approximate",
+              "notes": "Pro PK/SX14同等 13世代i5"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+sx14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 88900,
+              "matchType": "approximate",
+              "notes": "ALL BLACK EDITION 4K"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+sx14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 123300,
+              "matchType": "exact",
+              "notes": "VJS145 ALL BLACK EDITION 4K"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+sx14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 130000,
+              "matchType": "exact",
+              "notes": "VJS1458"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 49800,
+            "medianJPY": 88900,
+            "maxJPY": 130000
+          },
+          "confidence": "medium",
+          "notes": [
+            "Pro PK同等機を一部近似として含む"
+          ]
+        },
+        {
+          "brandSeries": "SX12",
+          "modelName": "VAIO SX12 2021-2025",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://vaio.com/products/",
+          "keySpecs": {
+            "cpu": "第11〜13世代 Core",
+            "memory": "16GB",
+            "storage": "SSD",
+            "display": "12.5インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "S13",
+          "modelName": "VAIO S13 VJS136 2024-2026",
+          "modelNumber": "VJS136",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://vaio.com/wp-content/uploads/2026/04/VAIO_PMC_202604.pdf",
+          "keySpecs": {
+            "cpu": "Core 5 120U / Core 7 150U",
+            "memory": "16GB",
+            "storage": "512GB/1TB SSD",
+            "display": "13.3インチ WUXGA"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行寄りでサンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "F",
+          "modelName": "VAIO F16 VJF161/VJF162 2023-2025",
+          "modelNumber": "VJF161 / VJF162",
+          "category": "notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://vaio.com/products/",
+          "keySpecs": {
+            "cpu": "第13世代 Core / Core Ultra系",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "16インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+f16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 129800,
+              "matchType": "exact",
+              "notes": "F16 Core i5/16GB/512GB 新品表示"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+f16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 148000,
+              "matchType": "exact",
+              "notes": "2023 第13世代Core i7"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+f16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 156534,
+              "matchType": "exact",
+              "notes": "ソフマップ中古 VJF1611"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+f16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 100000,
+              "matchType": "exact",
+              "notes": "VJF1618 i5/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+f16",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 150969,
+              "matchType": "exact",
+              "notes": "ソフマップ中古 VJF1618"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 100000,
+            "medianJPY": 148000,
+            "maxJPY": 156534
+          },
+          "confidence": "medium",
+          "notes": [
+            "新品表示を含むため状態差あり"
+          ]
+        },
+        {
+          "brandSeries": "F",
+          "modelName": "VAIO F14 2023-2025",
+          "modelNumber": "VJF142等",
+          "category": "notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://vaio.com/products/",
+          "keySpecs": {
+            "cpu": "Core i5/i7",
+            "memory": "16GB",
+            "storage": "SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "本体以外アクセサリが多く未採用"
+          ]
+        },
+        {
+          "brandSeries": "Pro",
+          "modelName": "VAIO Pro PK/PJ/PG 2021-2025",
+          "modelNumber": "VJPK/VJPJ/VJPG系",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://vaio.com/business/",
+          "keySpecs": {
+            "cpu": "第11〜13世代 Core",
+            "memory": "8GB/16GB/32GB",
+            "storage": "SSD",
+            "display": "12.5〜14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "法人向け同等モデルはSX系と混在しやすく未集計"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apple",
+      "officialSources": [
+        {
+          "title": "MacBook Air (13インチ, M5) 技術仕様",
+          "url": "https://support.apple.com/ja-jp/126320",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "MacBook Pro (14インチ, M5) 技術仕様",
+          "url": "https://support.apple.com/ja-jp/125405",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "MacBook Pro M5 Pro/M5 Max 発表",
+          "url": "https://www.apple.com/jp/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "MacBook Air",
+          "modelName": "MacBook Air 13インチ M5 2026",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://support.apple.com/ja-jp/126320",
+          "keySpecs": {
+            "cpu": "Apple M5",
+            "memory": "16GB/24GB/32GB",
+            "storage": "512GB〜4TB",
+            "display": "13.6インチ Liquid Retina"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "発売直後寄りで中古サンプル未確認"
+          ]
+        },
+        {
+          "brandSeries": "MacBook Air",
+          "modelName": "MacBook Air 13インチ M4 2025",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://support.apple.com/ja-jp/122209",
+          "keySpecs": {
+            "cpu": "Apple M4",
+            "memory": "16GB以上",
+            "storage": "256GB/512GB以上",
+            "display": "13.6インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=m2macbook+air",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 180000,
+              "matchType": "approximate",
+              "notes": "検索結果内M4 MacBook Air 13インチ 16GB/512GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 180000,
+            "medianJPY": 180000,
+            "maxJPY": 180000
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足。検索クエリ内混在"
+          ]
+        },
+        {
+          "brandSeries": "MacBook Air",
+          "modelName": "MacBook Air 13インチ M2 2022",
+          "modelNumber": "A2681",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://support.apple.com/ja-jp/",
+          "keySpecs": {
+            "cpu": "Apple M2",
+            "memory": "8GB/16GB/24GB",
+            "storage": "256GB/512GB/1TB",
+            "display": "13.6インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=MACBook+Air+13%E3%82%A4%E3%83%B3%E3%83%81+m2",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 81000,
+              "matchType": "exact",
+              "notes": "8GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=MACBook+Air+13%E3%82%A4%E3%83%B3%E3%83%81+m2",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 90000,
+              "matchType": "exact",
+              "notes": "16GB/256GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=MACBook+Air+13%E3%82%A4%E3%83%B3%E3%83%81+m2",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 74500,
+              "matchType": "exact",
+              "notes": "256GB ミッドナイト"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=MACBook+Air+13%E3%82%A4%E3%83%B3%E3%83%81+m2",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 89999,
+              "matchType": "exact",
+              "notes": "極美品表記"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=MACBook+Air+13%E3%82%A4%E3%83%B3%E3%83%81+m2",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 83000,
+              "matchType": "exact",
+              "notes": "M2 13.6インチ"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 74500,
+            "medianJPY": 83000,
+            "maxJPY": 90000
+          },
+          "confidence": "medium",
+          "notes": [
+            "出品中価格中心。8GB/16GB混在"
+          ]
+        },
+        {
+          "brandSeries": "MacBook Pro",
+          "modelName": "MacBook Pro 14インチ M5 / M5 Pro / M5 Max 2025-2026",
+          "modelNumber": null,
+          "category": "creator notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.apple.com/jp/macbook-pro/specs/",
+          "keySpecs": {
+            "cpu": "Apple M5 / M5 Pro / M5 Max",
+            "memory": "16GB〜",
+            "storage": "512GB〜",
+            "display": "14.2インチ Liquid Retina XDR"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行寄りで中古サンプル未確認"
+          ]
+        },
+        {
+          "brandSeries": "MacBook Pro",
+          "modelName": "MacBook Pro 14/16インチ M3-M4 2023-2024",
+          "modelNumber": null,
+          "category": "creator notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://support.apple.com/ja-jp/121553",
+          "keySpecs": {
+            "cpu": "Apple M3/M4 Pro/Max",
+            "memory": "18GB/24GB以上",
+            "storage": "512GB〜",
+            "display": "14.2/16.2インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Mac mini / iMac",
+          "modelName": "Mac mini M4 / iMac M4 2024-2025",
+          "modelNumber": null,
+          "category": "desktop",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.apple.com/jp/mac/",
+          "keySpecs": {
+            "cpu": "Apple M4",
+            "memory": "16GB以上",
+            "storage": "256GB以上",
+            "display": "iMacは24インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "PC本体価格調査対象として次回追加推奨"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Surface",
+      "officialSources": [
+        {
+          "title": "Surface Pro 第11版の機能",
+          "url": "https://support.microsoft.com/ja-jp/surface/models/surface-pro-11th-edition-features",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "Surface Pro",
+          "modelName": "Surface Pro 第11世代 2024 Copilot+ PC",
+          "modelNumber": null,
+          "category": "2-in-1 tablet PC",
+          "releaseStatus": "current",
+          "officialUrl": "https://support.microsoft.com/ja-jp/surface/models/surface-pro-11th-edition-features",
+          "keySpecs": {
+            "cpu": "Snapdragon X Plus / X Elite または Intel法人向け",
+            "memory": "16GB/32GB",
+            "storage": "256GB〜1TB SSD",
+            "display": "13インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JLQKpr3tXiPiCyAp9j8FU",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 126900,
+              "matchType": "exact",
+              "notes": "Snapdragon X/16GB/1TB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=surface+pro+11%E4%B8%96%E4%BB%A3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 131229,
+              "matchType": "exact",
+              "notes": "Snapdragon X Plus/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=surface+pro+11+%E3%83%87%E3%83%A5%E3%83%BC%E3%83%B3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 137004,
+              "matchType": "exact",
+              "notes": "展示品 X Plus/16GB/512GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=surface+pro+11%E4%B8%96%E4%BB%A3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "new-unused",
+              "priceJPY": 145425,
+              "matchType": "exact",
+              "notes": "EP2-19223 新品未開封表示"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=surface+pro+11%E4%B8%96%E4%BB%A3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 147800,
+              "matchType": "exact",
+              "notes": "Surface Pro 11 256GB/16GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 126900,
+            "medianJPY": 137004,
+            "maxJPY": 147800
+          },
+          "confidence": "medium",
+          "notes": [
+            "キーボード/ペン有無の差は未補正"
+          ]
+        },
+        {
+          "brandSeries": "Surface Laptop",
+          "modelName": "Surface Laptop 第7世代 2024 Copilot+ PC",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.microsoft.com/ja-jp/surface",
+          "keySpecs": {
+            "cpu": "Snapdragon X Plus / X Elite",
+            "memory": "16GB/32GB",
+            "storage": "256GB〜1TB SSD",
+            "display": "13.8/15インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "Pro 11検索結果に一部混在したが未採用"
+          ]
+        },
+        {
+          "brandSeries": "Surface Pro",
+          "modelName": "Surface Pro 9 2022",
+          "modelNumber": null,
+          "category": "2-in-1 tablet PC",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.microsoft.com/ja-jp/surface",
+          "keySpecs": {
+            "cpu": "第12世代 Core / Microsoft SQ3",
+            "memory": "8GB/16GB",
+            "storage": "128GB〜512GB",
+            "display": "13インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "本体・キーボードセット混在のため未集計"
+          ]
+        },
+        {
+          "brandSeries": "Surface Laptop Studio",
+          "modelName": "Surface Laptop Studio 2 2023",
+          "modelNumber": null,
+          "category": "creator notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.microsoft.com/ja-jp/surface",
+          "keySpecs": {
+            "cpu": "第13世代 Core H",
+            "memory": "16GB/32GB/64GB",
+            "storage": "SSD",
+            "display": "14.4インチ",
+            "gpu": "RTX 4050/4060等"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Surface Laptop Go",
+          "modelName": "Surface Laptop Go 3 2023",
+          "modelNumber": null,
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.microsoft.com/ja-jp/surface",
+          "keySpecs": {
+            "cpu": "第12世代 Core i5",
+            "memory": "8GB/16GB",
+            "storage": "256GB SSD",
+            "display": "12.4インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASUS",
+      "officialSources": [
+        {
+          "title": "ASUS Zenbook 14 OLED UX3405 日本公式",
+          "url": "https://www.asus.com/jp/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/shop-ux3405ca/",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "Zenbook",
+          "modelName": "ASUS Zenbook 14 OLED UX3405 2024-2025",
+          "modelNumber": "UX3405MA/UX3405CA",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.asus.com/jp/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/shop-ux3405ca/",
+          "keySpecs": {
+            "cpu": "Core Ultra 7/9",
+            "memory": "16GB/32GB",
+            "storage": "512GB/1TB SSD",
+            "display": "14インチ 3K OLED 120Hz"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Zenbook+14+OLED+UX3405",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 106029,
+              "matchType": "exact",
+              "notes": "UX3405MA-TU5165WBL中古"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Zenbook+14+OLED+UX3405",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 120729,
+              "matchType": "exact",
+              "notes": "UX3405MA-U5165W"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m56946443095",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 126000,
+              "matchType": "exact",
+              "notes": "UX3405MA-U7161W"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Zenbook+14+OLED+UX3405",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 127000,
+              "matchType": "exact",
+              "notes": "使用期間1週間表記"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m88132087260",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 140000,
+              "matchType": "exact",
+              "notes": "UX3405MA U7161WS"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 106029,
+            "medianJPY": 126000,
+            "maxJPY": 140000
+          },
+          "confidence": "medium",
+          "notes": [
+            "Core Ultra 5/7/9構成混在"
+          ]
+        },
+        {
+          "brandSeries": "Zenbook",
+          "modelName": "ASUS Zenbook DUO UX8406 2024-2025",
+          "modelNumber": "UX8406",
+          "category": "dual-screen notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.asus.com/jp/laptops/for-home/zenbook/",
+          "keySpecs": {
+            "cpu": "Core Ultra",
+            "memory": "16GB/32GB",
+            "storage": "1TB SSD",
+            "display": "14インチ OLED x2"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Vivobook",
+          "modelName": "ASUS Vivobook S 14/15 OLED 2024-2025",
+          "modelNumber": null,
+          "category": "notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.asus.com/jp/laptops/for-home/vivobook/",
+          "keySpecs": {
+            "cpu": "Core Ultra / Ryzen AI",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "14/15インチ OLED選択"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "ROG",
+          "modelName": "ROG Zephyrus G14/G16 2023-2025",
+          "modelNumber": null,
+          "category": "gaming notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://rog.asus.com/jp/laptops/",
+          "keySpecs": {
+            "cpu": "Ryzen / Core Ultra",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "14/16インチ OLED選択",
+            "gpu": "RTX 4060/4070/4080等"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "TUF Gaming",
+          "modelName": "TUF Gaming A15/F15 2022-2025",
+          "modelNumber": null,
+          "category": "gaming notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.asus.com/jp/laptops/for-gaming/tuf-gaming/",
+          "keySpecs": {
+            "cpu": "Ryzen/Core H",
+            "memory": "16GB",
+            "storage": "512GB/1TB SSD",
+            "display": "15.6インチ",
+            "gpu": "RTX 3050〜4070"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Acer",
+      "officialSources": [
+        {
+          "title": "Acer Swift Go 14 AI 日本公式",
+          "url": "https://www.acer.com/jp-ja/laptops/swift/swift-go-14-ai",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Swift Go 14 AI SFG14-01-A56Y 技術仕様",
+          "url": "https://www.acer.com/jp-ja/laptops/swift/swift-go-14-ai/pdp/NX.KYXSJ.006",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "Swift",
+          "modelName": "Acer Swift Go 14 AI / Swift Go 14 2023-2025",
+          "modelNumber": "SFG14系",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.acer.com/jp-ja/laptops/swift/swift-go-14-ai",
+          "keySpecs": {
+            "cpu": "Snapdragon X Plus / Core Ultra / Ryzen AI",
+            "memory": "16GB/32GB",
+            "storage": "512GB/1TB SSD",
+            "display": "14インチ 2K/3K OLED選択"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=acer+Swift+Go+14+",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 75400,
+              "matchType": "approximate",
+              "notes": "SFG14-72 OLED"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=swift+go+14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 80000,
+              "matchType": "approximate",
+              "notes": "Swift Go 14"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=swift+go+14",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 85000,
+              "matchType": "approximate",
+              "notes": "Swift Go 14 Officeあり"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=acer+Swift+Go+14+",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 93800,
+              "matchType": "approximate",
+              "notes": "SFG14-73-N73Y/F"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=acer+Swift+Go+14+",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 104979,
+              "matchType": "approximate",
+              "notes": "SFG14-71-H56Y/S中古"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 75400,
+            "medianJPY": 85000,
+            "maxJPY": 104979
+          },
+          "confidence": "medium",
+          "notes": [
+            "AI/非AI、Intel/ARM/AMD混在"
+          ]
+        },
+        {
+          "brandSeries": "Aspire",
+          "modelName": "Acer Aspire 14/15 2022-2025",
+          "modelNumber": null,
+          "category": "notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.acer.com/jp-ja/laptops/aspire",
+          "keySpecs": {
+            "cpu": "Core/Ryzen",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "14/15.6インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Predator",
+          "modelName": "Predator Helios Neo 16 2023-2025",
+          "modelNumber": null,
+          "category": "gaming notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.acer.com/jp-ja/predator/laptops/helios",
+          "keySpecs": {
+            "cpu": "Core HX",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "16インチ",
+            "gpu": "RTX 4060/4070等"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Nitro",
+          "modelName": "Acer Nitro V 15/16 2023-2025",
+          "modelNumber": null,
+          "category": "gaming notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.acer.com/jp-ja/laptops/nitro",
+          "keySpecs": {
+            "cpu": "Core/Ryzen H",
+            "memory": "16GB",
+            "storage": "SSD",
+            "display": "15.6/16インチ",
+            "gpu": "RTX 3050/4050/4060等"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "富士通 FMV",
+      "officialSources": [
+        {
+          "title": "FMV 公式製品情報",
+          "url": "https://www.fmworld.net/fmv/",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "LIFEBOOK UH",
+          "modelName": "FMV LIFEBOOK UH-X / WU-X 2023-2025",
+          "modelNumber": "UH-X/J3, WU-X/H1等",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.fmworld.net/fmv/",
+          "keySpecs": {
+            "cpu": "Core i5/i7 / Core Ultra世代",
+            "memory": "16GB/32GB",
+            "storage": "512GB/1TB SSD",
+            "display": "14インチ級",
+            "weight": "超軽量クラス"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=fmv+LIFEBOOK+uh",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 125000,
+              "matchType": "approximate",
+              "notes": "WU2/H1 Core i5/16GB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E5%AF%8C%E5%A3%AB%E9%80%9A+fmv+uh",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 131999,
+              "matchType": "approximate",
+              "notes": "WU4/J3 FMV ZERO"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=%E5%AF%8C%E5%A3%AB%E9%80%9A+fmv+uh",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 143800,
+              "matchType": "approximate",
+              "notes": "WU4/H1 i7/32GB/1TB"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=LIFEBOOK+uh",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 148000,
+              "matchType": "approximate",
+              "notes": "UH-X/J3"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=fmv+LIFEBOOK+uh",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 113000,
+              "matchType": "approximate",
+              "notes": "WU2/H1"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 113000,
+            "medianJPY": 131999,
+            "maxJPY": 148000
+          },
+          "confidence": "medium",
+          "notes": [
+            "UH/WU系の高年式・軽量モデルをまとめて採取"
+          ]
+        },
+        {
+          "brandSeries": "LIFEBOOK UH",
+          "modelName": "FMV LIFEBOOK UH90/UH75 2021-2025",
+          "modelNumber": "UH90/H1/J3等",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.fmworld.net/fmv/",
+          "keySpecs": {
+            "cpu": "第11〜13世代 Core / Core Ultra",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "13.3/14インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "市場出品は旧世代混在が多く未集計"
+          ]
+        },
+        {
+          "brandSeries": "LIFEBOOK AH",
+          "modelName": "FMV LIFEBOOK AH50/AH53/AH77 2021-2025",
+          "modelNumber": "AH系",
+          "category": "notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.fmworld.net/fmv/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "FMV Lite",
+          "modelName": "FMV Lite WA1/H3 2023-2025",
+          "modelNumber": "WA1/H3等",
+          "category": "notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.fmworld.net/fmv/",
+          "keySpecs": {
+            "cpu": "Core/Ryzen系",
+            "memory": "8GB/16GB",
+            "storage": "SSD",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "市場出品は新品未開封を確認したがサンプル不足"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MSI",
+      "officialSources": [
+        {
+          "title": "MSI Katana 15 B13V 仕様",
+          "url": "https://jp.msi.com/Laptop/Katana-15-B13VX/Specification",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "MSI Katana 15 HX B14W",
+          "url": "https://jp.msi.com/Laptop/Katana-15-HX-B14WX",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "MSI Prestige 13 AI Evo A2HM 発売情報",
+          "url": "https://jp.msi.com/news/detail/Prestige-13-AI-Evo-A2HMG-5579JP-147403",
+          "accessedDate": "2026-05-19"
+        }
+      ],
+      "models": [
+        {
+          "brandSeries": "Katana",
+          "modelName": "MSI Katana 15 B12V/B13V/B14W 2023-2026",
+          "modelNumber": "Katana-15-B13V等",
+          "category": "gaming notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://jp.msi.com/Laptop/Katana-15-B13VX/Specification",
+          "keySpecs": {
+            "cpu": "Core i7/i9 H/HX",
+            "memory": "16GB/32GB",
+            "storage": "512GB/1TB SSD",
+            "display": "15.6インチ FHD/WQHD 高リフレッシュレート",
+            "gpu": "RTX 4060/4070/5050/5060/5070等"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=MSI%E3%83%8E%E3%83%BC%E3%83%88PC+Katana",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 113000,
+              "matchType": "approximate",
+              "notes": "Katana 15 RTX4060"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m49061781349",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 128000,
+              "matchType": "approximate",
+              "notes": "Katana 15 B12V RTX4060"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=msi+geforce+rtx+4060",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 130000,
+              "matchType": "approximate",
+              "notes": "Katana 15 B13V上位構成"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JPopzUkVPs8Jx8BqaopWp",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "refurbished",
+              "priceJPY": 134000,
+              "matchType": "approximate",
+              "notes": "Katana-15-B12VFK MSI認定整備済"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JNMeiTmsJvkKh6bP3eHqZ",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 188979,
+              "matchType": "exact",
+              "notes": "Katana 15 B13V KATANA-15-B13VFK-879JP"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 113000,
+            "medianJPY": 130000,
+            "maxJPY": 188979
+          },
+          "confidence": "medium",
+          "notes": [
+            "B12V/B13V中心。RTX 4060級と上位構成混在"
+          ]
+        },
+        {
+          "brandSeries": "Prestige",
+          "modelName": "MSI Prestige 13 AI Evo A1M/A2HM 2025",
+          "modelNumber": "Prestige-13-AI-Evo-A2HMG等",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://jp.msi.com/news/detail/Prestige-13-AI-Evo-A2HMG-5579JP-147403",
+          "keySpecs": {
+            "cpu": "Core Ultra 7 シリーズ2等",
+            "memory": "32GB等",
+            "storage": "SSD",
+            "display": "13.3インチ",
+            "weight": "約990g"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Stealth",
+          "modelName": "MSI Stealth 16 AI Studio A1V 2024",
+          "modelNumber": "A1V",
+          "category": "gaming creator notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://jp.msi.com/Laptop/Stealth-16-AI-Studio-A1VX",
+          "keySpecs": {
+            "cpu": "Core Ultra 9",
+            "memory": "32GB級",
+            "storage": "SSD",
+            "display": "16インチ",
+            "gpu": "RTX 4080/4090 Laptop GPU等"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Cyborg",
+          "modelName": "MSI Cyborg 15 B2RW/A13V 2024-2025",
+          "modelNumber": "Cyborg-15系",
+          "category": "gaming notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://jp.msi.com/",
+          "keySpecs": {
+            "cpu": "Core 7 / Core i7",
+            "memory": "16GB/32GB",
+            "storage": "SSD",
+            "display": "15.6インチ",
+            "gpu": "RTX 4060/5060等"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "Katana検索に混在したが別シリーズとして未集計"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dell Pro Max 14 ノートパソコン",
+      "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/dell-pro-max-14-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/dell-pro-max-mc14250-laptop",
+      "publisher": "Dell 日本",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Dell Pro 14 ノートパソコン",
+      "url": "https://www.dell.com/ja-jp/shop/laptops/dell-pro-14%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/dell-pro-pc14250-laptop/bts009_pc14250_jp",
+      "publisher": "Dell 日本",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Alienware m16 R2 ゲーミングノートパソコン",
+      "url": "https://www.dell.com/ja-jp/shop/game-laptops/new-m16/spd/alienware-m16-r2-laptop",
+      "publisher": "Dell 日本",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "HP EliteBook 830 G11 CTOスペック表",
+      "url": "https://jp.ext.hp.com/prod/notebooks/business/elitebook_830_g11/cto/",
+      "publisher": "日本HP",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "HP Pavilion Aero 13-bg 製品詳細",
+      "url": "https://jp.ext.hp.com/notebooks/personal/pavilion_aero_13_bg/",
+      "publisher": "日本HP",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "レッツノートFV（CF-FV5）",
+      "url": "https://panasonic.jp/cns/pc/products/fv5e/",
+      "publisher": "Panasonic",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "レッツノートSR（CF-SR4）仕様",
+      "url": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+      "publisher": "Panasonic",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "dynabook RZ/MY ハードウェア仕様",
+      "url": "https://dynabook.com/direct/pc/catalog/2025-summer/rzmy/spec.html",
+      "publisher": "Dynabook Direct",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "LAVIE N13 Slim 仕様一覧",
+      "url": "https://www.nec-lavie.jp/navigate/products2/pc/244q/11/lavie/n13s/spec/",
+      "publisher": "NEC LAVIE",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "VAIO SX14-R VJS4R2 仕様",
+      "url": "https://vaio.com/products/sx14r2/14-0/specification/",
+      "publisher": "VAIO",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "MacBook Air 13インチ M5 技術仕様",
+      "url": "https://support.apple.com/ja-jp/126320",
+      "publisher": "Apple サポート",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "MacBook Pro 14インチ M5 技術仕様",
+      "url": "https://support.apple.com/ja-jp/125405",
+      "publisher": "Apple サポート",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Surface Pro 第11版の機能",
+      "url": "https://support.microsoft.com/ja-jp/surface/models/surface-pro-11th-edition-features",
+      "publisher": "Microsoft Support",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "ASUS Zenbook 14 OLED UX3405 日本公式",
+      "url": "https://www.asus.com/jp/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/shop-ux3405ca/",
+      "publisher": "ASUS日本",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Acer Swift Go 14 AI 日本公式",
+      "url": "https://www.acer.com/jp-ja/laptops/swift/swift-go-14-ai",
+      "publisher": "Acer 日本",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "MSI Katana 15 B13V 仕様",
+      "url": "https://jp.msi.com/Laptop/Katana-15-B13VX/Specification",
+      "publisher": "MSI Japan",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ XPS 13 9315 サンプル",
+      "url": "https://jp.mercari.com/search?keyword=Dell+XPS+13+9315",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ ThinkBook 14 Gen 6 サンプル",
+      "url": "https://jp.mercari.com/search?keyword=ThinkBook+14+Gen+6",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ レッツノートCF-FV3 サンプル",
+      "url": "https://jp.mercari.com/search?keyword=%E3%83%AC%E3%83%83%E3%83%84%E3%83%8E%E3%83%BC%E3%83%88%E3%80%80CF-FV3",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ VAIO SX14 サンプル",
+      "url": "https://jp.mercari.com/search?keyword=VAIO+sx14",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    }
+  ],
+  "notes": [
+    "公開Web検索と各サイトの検索結果・個別商品ページで確認できた表示価格のみ採用した。",
+    "メルカリの公開結果が最も多く、ラクマはXPS 13 9315の1件のみ採用。Yahoo!フリマとヤフオクは今回の公開検索では十分な個別サンプルを確認できなかったため、次回は個別サイト内検索で補完が必要。",
+    "listedは出品中価格であり成約価格ではない。soldの件数が少ないモデルはconfidenceをlowまたはmediumにした。",
+    "アクセサリ、保護フィルム、キーボードカバー、明確なジャンク、部品取り、故障品は原則除外した。ただし検索結果リスト上に難有り等の表記があり判別不能なものは採用しなかった。",
+    "重点メーカーでは価格サンプルがない現行・準現行モデルも公式確認モデルとして残した。"
+  ],
+  "modelCount": 92,
+  "marketSampleCount": 127,
+  "generatedFile": "pc_market_research_20260519_083745.json",
+  "generatedAt": "2026-05-19T08:37:45"
+}
