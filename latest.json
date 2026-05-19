@@ -26,7 +26,7 @@
     ],
     "modelLookbackYears": 5
   },
-  "summary": "2026年5月19日時点では、Apple M3/M4/M5、ThinkPad X1 Carbon Gen10以降、HP/Dell/VAIOの第12〜13世代CoreおよびCore Ultra搭載機、Let's note SR/FV、dynabook RZ/XZ、LAVIE N15がフリマ上で比較的確認しやすい。メルカリは検索結果・Shopsを含めて掲載量が多く、Yahoo!フリマは個別ページで購入日時・状態・構成まで確認できる例があった。ラクマはLet's note、dynabookなどで成約・SOLD OUT価格が確認できた。一方、現行法人機や2025〜2026年モデルは流通が少なく、公式で確認できても価格サンプルが空またはlisted中心になりやすい。価格統計はCPU、メモリ、SSDが同一または明記差分が小さいものだけで計算し、検索結果のみのものや構成差が残るものはconfidenceを下げた。 DellとPanasonic Let's noteは追加深掘りにより、CPU世代・CPU型番・メモリ・SSD容量別の構成単位へ分割し、Latitude/Inspiron/XPS/AlienwareおよびLet's note FV/SR/SV/QV/FC/SC系の価格サンプルを補強した。",
+  "summary": "2026年5月19日時点では、Apple M3/M4/M5、ThinkPad X1 Carbon Gen10以降、HP/Dell/VAIOの第12〜13世代CoreおよびCore Ultra搭載機、Let's note SR/FV、dynabook RZ/XZ、LAVIE N15がフリマ上で比較的確認しやすい。メルカリは検索結果・Shopsを含めて掲載量が多く、Yahoo!フリマは個別ページで購入日時・状態・構成まで確認できる例があった。ラクマはLet's note、dynabookなどで成約・SOLD OUT価格が確認できた。一方、現行法人機や2025〜2026年モデルは流通が少なく、公式で確認できても価格サンプルが空またはlisted中心になりやすい。価格統計はCPU、メモリ、SSDが同一または明記差分が小さいものだけで計算し、検索結果のみのものや構成差が残るものはconfidenceを下げた。 DellとPanasonic Let's noteは追加深掘りにより、CPU世代・CPU型番・メモリ・SSD容量別の構成単位へ分割し、Latitude/Inspiron/XPS/AlienwareおよびLet's note FV/SR/SV/QV/FC/SC系の価格サンプルを補強した。 追加でDell Latitude 3000/5000/7000系とdynabook G83/R73/R63/B65/S73など旧モデルを深掘りし、CPU世代・CPU型番・メモリ・SSD別の価格サンプルを補強した。",
   "manufacturers": [
     {
       "name": "Apple",
@@ -840,53 +840,1154 @@
     {
       "name": "Dell",
       "officialSources": [
-        {
-          "title": "Dell 日本 XPS 13 9350 公式販売ページ",
-          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/xps-13-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3-2024/spd/xps-13-9350-intel-laptop/sxn9350130001mpnojp",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "Dell 日本 Inspiron 14 5430 公式販売ページ",
-          "url": "https://www.dell.com/ja-jp/shop/%E3%83%87%E3%83%AB%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/inspiron-14-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/inspiron-14-5430-laptop/in5430382r3m2csmnojp",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "Dell 日本 Latitude 5440 公式販売ページ",
-          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/new-latitude-5450-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/latitude-14-5440-laptop/sml00205440f16bn2tjp_vp",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "Dell 日本 Inspiron 14 5425 セットアップと仕様",
-          "url": "https://www.dell.com/support/manuals/ja-jp/inspiron-14-5425-laptop/inspiron-14-5425-setup-and-specifications/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "Dell 日本 Vostro 3520 セットアップおよび仕様",
-          "url": "https://www.dell.com/support/manuals/ja-jp/vostro-15-3520-laptop/vostro_3520_ss/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "Dell 日本 XPS 15 9530 セットアップと仕様",
-          "url": "https://www.dell.com/support/manuals/ja-jp/xps-15-9530-laptop/xps-15-9530-setup-and-specifications/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "Dell 日本 Dell Pro 13 Premium 公式販売ページ",
-          "url": "https://www.dell.com/ja-jp/shop/dell-laptops/dell-pro-13-premium-laptop/spd/dell-pro-pa13250-laptop",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "Dell 日本 Dell Pro 14 Plus 公式販売ページ",
-          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/dell-pro-14-plus-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%BE%E3%81%9F%E3%81%AF2-in-1/spd/dell-pro-pb14250-2-in-1-laptop/bto103_pb14250_jp",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "Dell 日本 Dell Pro Max 14 Premium 公式販売ページ",
-          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/dell-pro-max-14-premium-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/dell-pro-max-ma14250-laptop/bto105_ma14250_jp",
-          "accessedDate": "2026-05-19"
-        }
+        "https://www.dell.com/support/manuals/en-us/latitude-5430-laptop/latitude_5430_ss/Specifications-of-Latitude-5430?guid=guid-7c9f07ce-626e-44ca-be3a-a1fb036413f9&lang=en-us",
+        "https://www.dell.com/support/kbdoc/en-us/000199919/dell-latitude-5430-laptop-system-guide",
+        "https://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5350-5450-5550-spec-sheet.pdf"
       ],
       "models": [
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5320 2021 Core i5-1145G7 16GB/256GB",
+          "modelNumber": "5320",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-13-5320-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1145G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JKMzwXryYGD5epQkd7EUn",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 44800,
+              "matchType": "exact",
+              "notes": "TCEダイレクト。Core i5-1145G7/16GB/256GB/FHD。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JMSjh9CnJGUW26ZwkadgJ",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 35500,
+              "matchType": "exact",
+              "notes": "Core i5-1145G7/16GB/256GB。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 35500,
+            "medianJPY": 40150,
+            "maxJPY": 44800
+          },
+          "confidence": "medium",
+          "notes": [
+            "5320はi5-1135G7構成とi5-1145G7構成が混在するため分離。"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5320 2021 Core i5-1135G7 16GB/256GB",
+          "modelNumber": "5320",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-13-5320-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/NNRAMUbgaA68x9MXd68iN3",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 33000,
+              "matchType": "exact",
+              "notes": "Core i5-1135G7/16GB/256GB。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 33000,
+            "medianJPY": 33000,
+            "maxJPY": 33000
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5330 2022 Core i5-1245U 16GB/256GB",
+          "modelNumber": "5330",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-13-5330-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1245U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/NxfpBx4YgwkKm73gVUjkfn",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 48000,
+              "matchType": "exact",
+              "notes": "Core i5-1245U/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JQMu97AB7LYRopagq8L8o",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 47080,
+              "matchType": "exact",
+              "notes": "送料別。画面輝度ムラ・外装傷あり。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m13315362874",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 38888,
+              "matchType": "exact",
+              "notes": "個人出品。外観傷あり。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DELL+latitude+5330",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 45000,
+              "matchType": "approximate",
+              "notes": "検索結果上の同構成候補。個別ページ未確認。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 4,
+            "minJPY": 38888,
+            "medianJPY": 46040,
+            "maxJPY": 48000
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5330 2022 Core i7-1265U 16GB/256GB",
+          "modelNumber": "5330",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-13-5330-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1265U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DELL+latitude+5330",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 42480,
+              "matchType": "approximate",
+              "notes": "検索結果上のCore i7-1265U/16GB/256GB候補。ACアダプターなし表記。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DELL+latitude+5330",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 41980,
+              "matchType": "approximate",
+              "notes": "検索結果上のCore i7-1265U/16GB/256GB候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DELL+latitude+5330",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 36800,
+              "matchType": "approximate",
+              "notes": "検索結果上のCore i7-1265U/16GB/256GB候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 36800,
+            "medianJPY": 41980,
+            "maxJPY": 42480
+          },
+          "confidence": "low",
+          "notes": [
+            "検索結果ベースのため、個別ページでSSD容量・付属品確認推奨。"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5340 2023 Core i5-1345U 16GB/256GB",
+          "modelNumber": "5340",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-13-5340-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1345U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m86514268815",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 48000,
+              "matchType": "exact",
+              "notes": "USキーボード。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/44xDVZSLV6JUFEsAr3QPeH",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 59800,
+              "matchType": "exact",
+              "notes": "タッチパネル。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m88205228458",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-very-good",
+              "priceJPY": 58800,
+              "matchType": "exact",
+              "notes": "Office付。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m67738538423",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 41500,
+              "matchType": "exact",
+              "notes": "天板傷・塗装剥がれあり。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 4,
+            "minJPY": 41500,
+            "medianJPY": 53400,
+            "maxJPY": 59800
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5350 2024 Core Ultra 5 135U 16GB/256GB",
+          "modelNumber": "5350",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-13-5350-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 5 135U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "調査時点ではフリマ上の完全一致サンプルを確保できず。再検索URL: https://jp.mercari.com/search?keyword=Latitude%205350%20Ultra%205%2016GB%20256GB"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5420 2021 Core i5-1135G7 16GB/256GB",
+          "modelNumber": "5420",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-14-5420-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JMyvfAao2zLiJyEDXi8TE",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 44800,
+              "matchType": "exact",
+              "notes": "TCEダイレクト。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JMNADyaQ7CfGu5xzhvi32",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 44700,
+              "matchType": "exact",
+              "notes": "PCサポートなんもさ。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 44700,
+            "medianJPY": 44750,
+            "maxJPY": 44800
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5420 2021 Core i5-1145G7 16GB/256GB",
+          "modelNumber": "5420",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-14-5420-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1145G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JKVnEyPVXfWSgMpknemmb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 44800,
+              "matchType": "exact",
+              "notes": "Core i5-1145G7/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dell+latitude+5420",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 42800,
+              "matchType": "approximate",
+              "notes": "検索結果上のCore i5-1145G7/16GB/256GB候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dell+latitude+5420",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 38500,
+              "matchType": "approximate",
+              "notes": "検索結果上の同構成候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 38500,
+            "medianJPY": 42800,
+            "maxJPY": 44800
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5430 2022 Core i5-1245U 16GB/256GB",
+          "modelNumber": "5430",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/manuals/en-us/latitude-5430-laptop/latitude_5430_ss/Specifications-of-Latitude-5430?guid=guid-7c9f07ce-626e-44ca-be3a-a1fb036413f9&lang=en-us",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1245U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "14インチ FHD/WUXGA"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m35207511500",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 44800,
+              "matchType": "exact",
+              "notes": "WUXGA。液晶薄い色ムラ、ヒンジカバー欠けあり。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m95880653967",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 39800,
+              "matchType": "exact",
+              "notes": "外装状態悪め、非純正AC。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m32464762968",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 38000,
+              "matchType": "exact",
+              "notes": "Core i5-1245U/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m46372871909",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 40980,
+              "matchType": "exact",
+              "notes": "Officeあり表記。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2jVmQWireTkPg6icxs8YHX",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 64800,
+              "matchType": "exact",
+              "notes": "ショップ保証系で高値。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 38000,
+            "medianJPY": 40980,
+            "maxJPY": 64800
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5430 2022 Core i7-1265U 16GB/256GB",
+          "modelNumber": "5430",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/manuals/en-us/latitude-5430-laptop/latitude_5430_ss/Specifications-of-Latitude-5430?guid=guid-7c9f07ce-626e-44ca-be3a-a1fb036413f9&lang=en-us",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1265U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "ラクマ",
+              "sourceUrl": "https://item.fril.jp/30226508629bbaad6316a54ffc9eda28",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 52980,
+              "matchType": "exact",
+              "notes": "Core i7-1265U/16GB/256GB、2023年製。"
+            },
+            {
+              "marketplace": "ラクマ",
+              "sourceUrl": "https://item.fril.jp/9855d128defce208203d24fd0ded8249",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 49980,
+              "matchType": "exact",
+              "notes": "Core i7-1265U/16GB/256GB。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 49980,
+            "medianJPY": 51480,
+            "maxJPY": 52980
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5430 2022 Core i5-1245U 16GB/512GB",
+          "modelNumber": "5430",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/manuals/en-us/latitude-5430-laptop/latitude_5430_ss/Specifications-of-Latitude-5430?guid=guid-7c9f07ce-626e-44ca-be3a-a1fb036413f9&lang=en-us",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1245U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "Yahoo!フリマ",
+              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z570342216",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-very-good",
+              "priceJPY": 55300,
+              "matchType": "exact",
+              "notes": "Core i5-1245U/16GB/512GB。"
+            },
+            {
+              "marketplace": "Yahoo!フリマ",
+              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z529845642",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 48800,
+              "matchType": "exact",
+              "notes": "新品512GB SSD換装表記。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 48800,
+            "medianJPY": 52050,
+            "maxJPY": 55300
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5440 2023 Core i5-1345U 16GB/512GB",
+          "modelNumber": "5440",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-14-5440-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1345U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/aBfBPkVp9zs7KxLgT68rbP",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-fair",
+              "priceJPY": 89100,
+              "matchType": "exact",
+              "notes": "3年保証系ショップ。使用感、塗装剥げ、シール跡あり。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 89100,
+            "medianJPY": 89100,
+            "maxJPY": 89100
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5450 2024 Core Ultra 5 135U 16GB/256GB",
+          "modelNumber": "5450",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-14-5450-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 5 135U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dell%20latitude%205420",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "unused-open-box",
+              "priceJPY": 86000,
+              "matchType": "approximate",
+              "notes": "検索結果上の新品未使用Latitude 5450。詳細CPU/SSDは個別確認推奨。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Core+ultra+5",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "unused-open-box",
+              "priceJPY": 88500,
+              "matchType": "exact",
+              "notes": "検索結果上でUltra 5 135U/16GB表記。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m36213546028",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "unused-open-box",
+              "priceJPY": 122000,
+              "matchType": "approximate",
+              "notes": "Core Ultra 5 135H表記。SSD容量が本文で明示されず、近似扱い。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 86000,
+            "medianJPY": 88500,
+            "maxJPY": 122000
+          },
+          "confidence": "low",
+          "notes": [
+            "5450は未使用・準新品中心で、中古成約サンプルは少ない。"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5520 2021 Core i5-1135G7 16GB/256GB",
+          "modelNumber": "5520",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-15-5520-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "15.6インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m79598547846",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 48900,
+              "matchType": "exact",
+              "notes": "Office付、AC付属。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 48900,
+            "medianJPY": 48900,
+            "maxJPY": 48900
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5530 2022 Core i5-1245U 16GB/256GB",
+          "modelNumber": "5530",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-15-5530-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1245U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "15.6インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JM6A2jLpVVuLBiFD7bkGq",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 71100,
+              "matchType": "exact",
+              "notes": "TCEダイレクト。液晶色ムラ、外装傷あり。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dell+5530",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 76300,
+              "matchType": "approximate",
+              "notes": "検索結果上のCore i5-1245U/16GB/256GB候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 71100,
+            "medianJPY": 73700,
+            "maxJPY": 76300
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5540 2023 Core i5-1345U 16GB/512GB",
+          "modelNumber": "5540",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-15-5540-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1345U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "15.6インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JQ8wzHM7PydDZK2Kybo5b",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 97900,
+              "matchType": "exact",
+              "notes": "3年保証系ショップ。Core i5-1345U/16GB/512GB。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 97900,
+            "medianJPY": 97900,
+            "maxJPY": 97900
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5550 2024 Core Ultra 5 135U 16GB/512GB",
+          "modelNumber": "5550",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-15-5550-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 5 135U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "完全一致の中古フリマサンプルは未確保。再検索URL: https://jp.mercari.com/search?keyword=Latitude%205550%20Ultra%205%2016GB%20512GB"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 7320 2021 Core i5-1145G7 16GB/256GB",
+          "modelNumber": "7320",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-13-7320-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1145G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/cUyWLVVnd4McAxNWzNFtt5",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 71379,
+              "matchType": "exact",
+              "notes": "ソフマップ。タッチパネルモデル。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 71379,
+            "medianJPY": 71379,
+            "maxJPY": 71379
+          },
+          "confidence": "medium",
+          "notes": [
+            "7320はi7構成の出品も多い。"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 7330 2022 Core i5-1245U 16GB/256GB",
+          "modelNumber": "7330",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-13-7330-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1245U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m97849958037",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 46000,
+              "matchType": "exact",
+              "notes": "Core i5-1245U/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JGrRziSpmXEoAWRQvrGAs",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 41200,
+              "matchType": "exact",
+              "notes": "ベタつきあり、送料別。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m99406564513",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 39800,
+              "matchType": "exact",
+              "notes": "Officeなし。商品特徴欄CPUがi7になっているが本文はi5-1245Uのため本文優先。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m60453237178",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 49800,
+              "matchType": "exact",
+              "notes": "高輝度400nit液晶表記。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 4,
+            "minJPY": 39800,
+            "medianJPY": 43600,
+            "maxJPY": 49800
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 7420 2021 Core i5-1145G7 16GB/512GB",
+          "modelNumber": "7420",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-14-7420-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1145G7",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m69824841343",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 34990,
+              "matchType": "exact",
+              "notes": "16GB/512GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JLaTrrYGNcvYXyPs3TYYa",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-very-good",
+              "priceJPY": 52600,
+              "matchType": "exact",
+              "notes": "極美品ショップ出品。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m13247736044",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 34000,
+              "matchType": "exact",
+              "notes": "タッチ対応。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 34000,
+            "medianJPY": 34990,
+            "maxJPY": 52600
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 7430 2022 Core i5-1245U 16GB/256GB",
+          "modelNumber": "7430",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-14-7430-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1245U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m95716511294",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-very-good",
+              "priceJPY": 49800,
+              "matchType": "exact",
+              "notes": "個人出品。日本語配列。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JNr442chSPmKEMPYZ4msv",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 59800,
+              "matchType": "exact",
+              "notes": "中古PCショップ。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JHHdqSA6jequtusvfBVER",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 43550,
+              "matchType": "exact",
+              "notes": "画面輝度ムラ、パームレスト塗装剥がれあり。送料別。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=1245U",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 37800,
+              "matchType": "approximate",
+              "notes": "検索結果上のLatitude 7430 i5-1245U/16GB/256GB候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 4,
+            "minJPY": 37800,
+            "medianJPY": 46675,
+            "maxJPY": 59800
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 7430 2022 Core i7-1265U 16GB/256GB",
+          "modelNumber": "7430",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-14-7430-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1265U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "ラクマ",
+              "sourceUrl": "https://item.fril.jp/cb099360d069a6580f4d7544ba6e24df",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 39800,
+              "matchType": "exact",
+              "notes": "画面色ムラ、バッテリー60%台、パームレストべたつきあり。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 39800,
+            "medianJPY": 39800,
+            "maxJPY": 39800
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 7440 2023 Core i5-1345U 16GB/256GB",
+          "modelNumber": "7440",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-14-7440-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1345U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "14インチ WUXGA"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "メルカリ/Yahoo!フリマに54,000-58,000円前後の同構成が見つかったが、USB-Aデータ通信不可の明確な不具合ありのため統計から除外。再検索URL: https://paypayfleamarket.yahoo.co.jp/search/Latitude%207440%20i5-1345U%2016GB%20256GB"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 7440 2023 Core i7-1365U 16GB/512GB",
+          "modelNumber": "7440",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-14-7440-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1365U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "14インチ WUXGA"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m77672928649",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "unused-open-box",
+              "priceJPY": 93500,
+              "matchType": "exact",
+              "notes": "開封・動作確認のみ、新品同様。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dell+latitude+7400",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "unused-open-box",
+              "priceJPY": 88000,
+              "matchType": "approximate",
+              "notes": "検索結果上の新品同様i7-1365U/16GB候補。SSD容量は個別確認推奨。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 88000,
+            "medianJPY": 90750,
+            "maxJPY": 93500
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 7350 2024 Core Ultra 5 135U 16GB/256GB",
+          "modelNumber": "7350",
+          "category": "business notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://www.dell.com/support/home/ja-jp/product-support/product/latitude-13-7350-laptop/docs",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 5 135U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DELL+latitude+7350",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 91800,
+              "matchType": "exact",
+              "notes": "検索結果上のUltra 5 135U/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Latitude+7350",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 95700,
+              "matchType": "exact",
+              "notes": "3年保証系ショップ。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 91800,
+            "medianJPY": 93750,
+            "maxJPY": 95700
+          },
+          "confidence": "low",
+          "notes": [
+            "7350はUltra 7/32GB/1TBの出品も多く、Ultra 5構成のみ抽出。"
+          ]
+        },
         {
           "brandSeries": "Inspiron 14",
           "modelName": "Inspiron 14 5430 2023 第13世代 Core i5-1335U 16GB/512GB",
@@ -1286,152 +2387,6 @@
           ]
         },
         {
-          "brandSeries": "Latitude",
-          "modelName": "Latitude 5430 2022 Core i5-1245U 16GB/256GB",
-          "modelNumber": "5430",
-          "category": "business notebook",
-          "releaseStatus": "discontinued",
-          "officialUrl": "https://i.dell.com/sites/csdocuments/App-Merchandizing_Documents/ja/jp/230824_workstation%E7%B7%8F%E5%90%88%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0_%E5%85%A8%E3%83%9A%E3%83%BC%E3%82%B8.pdf",
-          "keySpecs": {
-            "cpu": "Intel Core i5-1245U",
-            "memory": "16GB DDR4",
-            "storage": "256GB SSD",
-            "display": "14インチ FHD"
-          },
-          "marketPrices": [
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/item/m95880653967",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-fair",
-              "priceJPY": 39800,
-              "matchType": "exact",
-              "notes": "外装状態悪め"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/shops/product/2jVmQWireTkPg6icxs8YHX",
-              "sourceDate": "2026-05-19",
-              "status": "sold",
-              "condition": "used-good",
-              "priceJPY": 64800,
-              "matchType": "exact",
-              "notes": "バッテリー良好、ショップ中古"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/shops/product/zGdxA2iYAD5hsqVYEVjh2k",
-              "sourceDate": "2026-05-19",
-              "status": "sold",
-              "condition": "used-unknown",
-              "priceJPY": 34800,
-              "matchType": "exact",
-              "notes": "ショップ中古"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=Latitude+5430+i%EF%BC%95",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-unknown",
-              "priceJPY": 37300,
-              "matchType": "exact",
-              "notes": "検索結果スニペット"
-            },
-            {
-              "marketplace": "ラクマ",
-              "sourceUrl": "https://fril.jp/s?query=5430+DELL",
-              "sourceDate": "2026-05-19",
-              "status": "sold",
-              "condition": "used-unknown",
-              "priceJPY": 45980,
-              "matchType": "approximate",
-              "notes": "ラクマ検索結果、Latitude 5430 第12世代Core i5"
-            }
-          ],
-          "priceStats": {
-            "sampleCount": 5,
-            "minJPY": 34800,
-            "medianJPY": 39800,
-            "maxJPY": 64800
-          },
-          "confidence": "high",
-          "notes": []
-        },
-        {
-          "brandSeries": "Latitude",
-          "modelName": "Latitude 5440 2023 Core i5-1345U 16GB/512GB",
-          "modelNumber": "5440",
-          "category": "business notebook",
-          "releaseStatus": "discontinued",
-          "officialUrl": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/new-latitude-5450-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/latitude-14-5440-laptop/sml00205440f16bn2tjp_vp",
-          "keySpecs": {
-            "cpu": "Intel Core i5-1345U",
-            "memory": "16GB",
-            "storage": "512GB SSD",
-            "display": "14インチ FHD"
-          },
-          "marketPrices": [
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=dell+ssd+512",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-unknown",
-              "priceJPY": 49999,
-              "matchType": "exact",
-              "notes": "検索結果スニペット"
-            }
-          ],
-          "priceStats": {
-            "sampleCount": 1,
-            "minJPY": 49999,
-            "medianJPY": 49999,
-            "maxJPY": 49999
-          },
-          "confidence": "low",
-          "notes": [
-            "サンプル不足"
-          ]
-        },
-        {
-          "brandSeries": "Latitude",
-          "modelName": "Latitude 5340 2023 Core i5-1345U 16GB/512GB",
-          "modelNumber": "5340",
-          "category": "business mobile notebook",
-          "releaseStatus": "discontinued",
-          "officialUrl": "https://i.dell.com/sites/csdocuments/App-Merchandizing_Documents/ja/jp/230824_workstation%E7%B7%8F%E5%90%88%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0_%E5%85%A8%E3%83%9A%E3%83%BC%E3%82%B8.pdf",
-          "keySpecs": {
-            "cpu": "Intel Core i5-1345U",
-            "memory": "16GB",
-            "storage": "512GB SSD",
-            "display": "13.3インチ FHD"
-          },
-          "marketPrices": [
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/item/m31289054580",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 64800,
-              "matchType": "exact",
-              "notes": "Office 2024付属表記"
-            }
-          ],
-          "priceStats": {
-            "sampleCount": 1,
-            "minJPY": 64800,
-            "medianJPY": 64800,
-            "maxJPY": 64800
-          },
-          "confidence": "medium",
-          "notes": [
-            "サンプル不足"
-          ]
-        },
-        {
           "brandSeries": "Vostro 15",
           "modelName": "Vostro 3520 2022 Core i5-1235U 8GB/512GB",
           "modelNumber": "3520",
@@ -1690,6 +2645,9 @@
             "高額現行ワークステーションで中古サンプル未確認。再検索URL: https://jp.mercari.com/search?keyword=Dell%20Pro%20Max%2014%20Premium"
           ]
         }
+      ],
+      "notes": [
+        "Latitude系は2020-2025年の3000/5000/7000系を追加深掘りし、CPU/メモリ/SSD別に再構成しました。"
       ]
     },
     {
@@ -2327,28 +3285,1032 @@
     {
       "name": "Dynabook / 東芝",
       "officialSources": [
-        {
-          "title": "dynabook RZ/HX ハードウェア仕様",
-          "url": "https://dynabook.com/direct/pc/catalog/2024-spring/rzhx/spec.html",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "dynabook RZ/MY ハードウェア仕様",
-          "url": "https://dynabook.com/direct/pc/catalog/2025-summer/rzmy/spec.html",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "dynabook MZ/MY ハードウェア仕様",
-          "url": "https://dynabook.com/direct/pc/catalog/2025-summer/mzmy/spec.html",
-          "accessedDate": "2026-05-19"
-        },
-        {
-          "title": "dynabook XZ/HW ハードウェア仕様",
-          "url": "https://dynabook.com/direct/pc/catalog/2023-fall-winter/xzhw/spec.html",
-          "accessedDate": "2026-05-19"
-        }
+        "https://dynabook.com/business-mobile-notebook-g-series/g83hs-mar-2021-13-3-inch/spec.html",
+        "https://dynabook.com/search2/searchlist/search-detail/spec_notebook.html?salesModelNo=A6GSKVDCD61A",
+        "https://dynabook.com/b/spec/b65hu_mar_2022_spec.pdf"
       ],
       "models": [
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/HS 2021 Core i5-1135G7 16GB/256GB",
+          "modelNumber": "G83/HS",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/business-mobile-notebook-g-series/g83hs-mar-2021-13-3-inch/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m81519357501",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 33000,
+              "matchType": "exact",
+              "notes": "Core i5-1135G7/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m73194920065",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 30000,
+              "matchType": "exact",
+              "notes": "Office2021付、AC付属。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JM7KkDR367HBeKDHBik9k",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-very-good",
+              "priceJPY": 36800,
+              "matchType": "exact",
+              "notes": "タッチパネル、極美品表記。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JMdHyhYSnKSGJEMxGKR5h",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 55300,
+              "matchType": "exact",
+              "notes": "TCEダイレクト、SIMスロットあり構成。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 4,
+            "minJPY": 30000,
+            "medianJPY": 34900,
+            "maxJPY": 55300
+          },
+          "confidence": "high",
+          "notes": [
+            "フレーム破損ありの24,500円出品は除外。"
+          ]
+        },
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/HS 2021 Core i5-1135G7 16GB/512GB",
+          "modelNumber": "G83/HS",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/business-mobile-notebook-g-series/g83hs-mar-2021-13-3-inch/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dynabook_G83",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 32800,
+              "matchType": "approximate",
+              "notes": "検索結果上のG83/HS 16GB/512GB候補。CPUは第11世代i5前提。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DYNABOOK+13.3+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 30800,
+              "matchType": "approximate",
+              "notes": "検索結果上の東芝 dynabook G83/HS 16GB/512GB候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 30800,
+            "medianJPY": 31800,
+            "maxJPY": 32800
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/HU 2021 Core i5-1135G7 16GB/256GB",
+          "modelNumber": "G83/HU",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/business-mobile-notebook-g-series/g83hu-mar-2022-13-3-inch/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JGz4L2npkk8LkHLbLwzJX",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 45000,
+              "matchType": "exact",
+              "notes": "TOSHIBA DynaBook G83/HU、Core i5-1135G7/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+g83%2Fhu",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 36500,
+              "matchType": "exact",
+              "notes": "検索結果上の東芝 Dynabook G83/HU i5-1135G7/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+g83%2Fhu",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 35900,
+              "matchType": "approximate",
+              "notes": "検索結果上の第11世代/16GB/G83/HU候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+g83%2Fhu",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 41800,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/HU i5-1135G7/16GB/256GB候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynaBook+g83+16g",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 35000,
+              "matchType": "exact",
+              "notes": "検索結果上の東芝 Dynabook G83/HU i5-1135G7/16GB/256GB候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 35000,
+            "medianJPY": 36500,
+            "maxJPY": 45000
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/HU 2021 Core i5-1135G7 16GB/512GB",
+          "modelNumber": "G83/HU",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/business-mobile-notebook-g-series/g83hu-mar-2022-13-3-inch/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+g83%2Fhu",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 44000,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/HU i5-11世代/16GB/512GB候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+g83%2Fhu",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 54000,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/HU i5-11世代/16GB/512GB Office付候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+g83%2Fhu",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 39800,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/HU Core i5-1135G7/16GB/512GB候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 39800,
+            "medianJPY": 44000,
+            "maxJPY": 54000
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/HU 2021 Core i7-1185G7 16GB/512GB",
+          "modelNumber": "G83/HU",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/business-mobile-notebook-g-series/g83hu-mar-2022-13-3-inch/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1185G7",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+g83%2Fhu",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 37000,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/HU Core i7-1185G7/16GB/512GB候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DYNABOOK+13.3+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 33000,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/HU Core i7-1185G7/16GB/512GB候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 33000,
+            "medianJPY": 35000,
+            "maxJPY": 37000
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/HV 2021 Core i5-1135G7 16GB/256GB",
+          "modelNumber": "G83/HV",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dynabook_G83",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 32200,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/HV Core i5/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dynabook_G83",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 31000,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/HV 第11世代/16GB/256GB候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DYNABOOK+13.3+16gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-very-good",
+              "priceJPY": 41500,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/HV 16GB/256GB i5第11世代候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 31000,
+            "medianJPY": 32200,
+            "maxJPY": 41500
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/KV 2022 Core i5-1245U 16GB/256GB",
+          "modelNumber": "G83/KV",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/searchlist/search-detail/spec_notebook.html?salesModelNo=A6GSKVDCD61A",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1245U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m19176524737",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 60500,
+              "matchType": "exact",
+              "notes": "Core i5-1245U/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=1245U",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 37500,
+              "matchType": "approximate",
+              "notes": "検索結果上のG83/KV候補。CPU/メモリ/SSDの完全一致は個別確認推奨。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 37500,
+            "medianJPY": 49000,
+            "maxJPY": 60500
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/KW 2023 Core i5-1235U 16GB/256GB",
+          "modelNumber": "G83/KW",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1235U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JJpAAU3iGSb5iHSYnU5ih",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 49800,
+              "matchType": "exact",
+              "notes": "Core i5-1235U/16GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynaBook+g83+16g",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 54800,
+              "matchType": "approximate",
+              "notes": "検索結果上のG83/KW 16GB/256GB候補。新品液晶整備済み表記。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 49800,
+            "medianJPY": 52300,
+            "maxJPY": 54800
+          },
+          "confidence": "medium",
+          "notes": [
+            "G83/KWは出品上で第12世代表記のものが多い。"
+          ]
+        },
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/FP 2020 Core i7-10510U 8GB/256GB",
+          "modelNumber": "G83/FP",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i7-10510U",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dynabook_G83",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-very-good",
+              "priceJPY": 30000,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/FP i7-10510U/8GB/256GB候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 30000,
+            "medianJPY": 30000,
+            "maxJPY": 30000
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook G",
+          "modelName": "dynabook G83/FP 2020 Core i5-10210U 8GB/256GB",
+          "modelNumber": "G83/FP",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-10210U",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dynabook_G83",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 22700,
+              "matchType": "exact",
+              "notes": "検索結果上のG83/FP i5/8GB/256GB候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dynabook_G83",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 18900,
+              "matchType": "approximate",
+              "notes": "検索結果上の第10世代i5/8GB/256GB候補。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 18900,
+            "medianJPY": 20800,
+            "maxJPY": 22700
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook GZ",
+          "modelName": "dynabook GZ/HWL 2023 Core i7-1360P 16GB/256GB",
+          "modelNumber": "GZ/HWL",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/direct/",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1360P",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "同構成のメルカリ出品は確認できたが、取得結果内で価格が確認できなかったためmarketPricesは空。再検索URL: https://jp.mercari.com/search?keyword=dynabook%20GZ%2FHWL%20i7-1360P%2016GB%20256GB"
+          ]
+        },
+        {
+          "brandSeries": "dynabook GZ",
+          "modelName": "dynabook GZ/HRL 2023 16GB/512GB",
+          "modelNumber": "GZ/HRL",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/direct/",
+          "keySpecs": {
+            "cpu": "Intel Core i5/i7（出品CPU未確認）",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DYNABOOK+13.3+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 56000,
+              "matchType": "approximate",
+              "notes": "検索結果上のGZ/HRL 16GB/512GB候補。CPU未確認のため近似。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 56000,
+            "medianJPY": 56000,
+            "maxJPY": 56000
+          },
+          "confidence": "low",
+          "notes": [
+            "CPU型番が検索結果内で確定できなかったため、追加確認推奨。"
+          ]
+        },
+        {
+          "brandSeries": "dynabook RZ",
+          "modelName": "dynabook RZ/HX 2023 16GB/512GB",
+          "modelNumber": "RZ/HX",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/direct/",
+          "keySpecs": {
+            "cpu": "Intel Core i5/i7（構成により異なる）",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "14インチ級"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "RZ/HXは対象フリマで完全一致の価格サンプルを取得できず。再検索URL: https://jp.mercari.com/search?keyword=dynabook%20RZ%2FHX%2016GB%20512GB"
+          ]
+        },
+        {
+          "brandSeries": "dynabook R",
+          "modelName": "dynabook R73/F Core i5-6300U 8GB/256GB",
+          "modelNumber": "R73/F",
+          "category": "business notebook",
+          "releaseStatus": "legacy",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-6300U",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ HD/FWXGA"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m69662925041",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 12400,
+              "matchType": "exact",
+              "notes": "Windows 11 Pro導入表記。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynaBook+r73",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 9800,
+              "matchType": "approximate",
+              "notes": "検索結果上のR73/F 第7世代 i5 8GB/256GB候補。CPU世代差あり。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+r73",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 14500,
+              "matchType": "approximate",
+              "notes": "検索結果上のR73/B 13.3型 i5 SSD238GB/8GB候補。近似。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 9800,
+            "medianJPY": 12400,
+            "maxJPY": 14500
+          },
+          "confidence": "medium",
+          "notes": [
+            "R73は旧流通名が多く、世代違いを近似として補助採用。"
+          ]
+        },
+        {
+          "brandSeries": "dynabook R",
+          "modelName": "dynabook R73/F Core i5-6300U 16GB/256GB",
+          "modelNumber": "R73/F",
+          "category": "business notebook",
+          "releaseStatus": "legacy",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-6300U",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ HD/FWXGA"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JQDj6DJ3mQqF6XtqQnYUi",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 16500,
+              "matchType": "exact",
+              "notes": "TCEダイレクト。Core i5-6300U/16GB/256GB。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 16500,
+            "medianJPY": 16500,
+            "maxJPY": 16500
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook R",
+          "modelName": "dynabook R73/D Core i5-6300U 8GB/256GB",
+          "modelNumber": "R73/D",
+          "category": "business notebook",
+          "releaseStatus": "legacy",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-6300U",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/pL4ZKe4LqC7wRC9SstszUe",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 19800,
+              "matchType": "exact",
+              "notes": "Office付。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+r73",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 11980,
+              "matchType": "exact",
+              "notes": "検索結果上のR73/D i5-6世代/8GB/SSD候補。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DynaBook+r73",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 14999,
+              "matchType": "exact",
+              "notes": "検索結果上のR73/D i5-6200U/8GB/256GB候補。CPUが6300Uでない可能性あり。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 11980,
+            "medianJPY": 14999,
+            "maxJPY": 19800
+          },
+          "confidence": "medium",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook R",
+          "modelName": "dynabook R63 Core i5 8GB/256GB",
+          "modelNumber": "R63",
+          "category": "business mobile notebook",
+          "releaseStatus": "legacy",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5（詳細世代は出品により異なる）",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dyna+r63",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 13150,
+              "matchType": "approximate",
+              "notes": "検索結果上のDynabook R63/Core i5/8GB/SSD256GB/Win11候補。CPU型番未確認。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 13150,
+            "medianJPY": 13150,
+            "maxJPY": 13150
+          },
+          "confidence": "low",
+          "notes": [
+            "リカバリーメディアなど部品出品は除外。"
+          ]
+        },
+        {
+          "brandSeries": "dynabook B",
+          "modelName": "dynabook B65/HU 2022 Core i5-1135G7 16GB/256GB",
+          "modelNumber": "B65/HU",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/b/spec/b65hu_mar_2022_spec.pdf",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dynabook+b65",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 32800,
+              "matchType": "exact",
+              "notes": "検索結果上のB65/HU 第11世代 i5/16GB候補。SSD容量は256GB想定。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 32800,
+            "medianJPY": 32800,
+            "maxJPY": 32800
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook B",
+          "modelName": "dynabook B65/HV 2021 Core i5-1135G7 8GB/256GB",
+          "modelNumber": "B65/HV",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "15.6インチ HD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dyna+b65",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 23000,
+              "matchType": "exact",
+              "notes": "検索結果上のB65/HV i5第11世代/8GB/256GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dyna+b65",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 25000,
+              "matchType": "exact",
+              "notes": "検索結果上のB65/HV i5第11世代/8GB/256GB。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 23000,
+            "medianJPY": 24000,
+            "maxJPY": 25000
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook B",
+          "modelName": "dynabook B65/DP Core i5-8250U 8GB/256GB",
+          "modelNumber": "B65/DP",
+          "category": "business notebook",
+          "releaseStatus": "legacy",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-8250U",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "15.6インチ HD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dyna+b65",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 32200,
+              "matchType": "exact",
+              "notes": "検索結果上のB65/DP Core i5-8250U/8GB/256GB。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 32200,
+            "medianJPY": 32200,
+            "maxJPY": 32200
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook S",
+          "modelName": "dynabook S73/HU 2021 Core i7-1165G7 16GB/512GB",
+          "modelNumber": "S73/HU",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1165G7",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DYNABOOK+13.3+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 45000,
+              "matchType": "exact",
+              "notes": "検索結果上のS73/HU i7第11世代/16GB/512GB。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 45000,
+            "medianJPY": 45000,
+            "maxJPY": 45000
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook S",
+          "modelName": "dynabook S73/FS 2020 Core i5-10210U 16GB/512GB",
+          "modelNumber": "S73/FS",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-10210U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DYNABOOK+13.3+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 32100,
+              "matchType": "exact",
+              "notes": "検索結果上のS73/FS 第10世代i5/16GB/512GB。"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JLaTrrYGNcvYXyPs3TYYa",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-very-good",
+              "priceJPY": 32700,
+              "matchType": "approximate",
+              "notes": "関連出品欄に出たS73/FS 第10世代Core i5 16GB/256GB。SSD容量差あり。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 32100,
+            "medianJPY": 32400,
+            "maxJPY": 32700
+          },
+          "confidence": "low",
+          "notes": [
+            "2件目は256GBの可能性があるため近似。"
+          ]
+        },
+        {
+          "brandSeries": "dynabook SZ",
+          "modelName": "dynabook SZ/LSB 2021 Core i7 16GB/512GB",
+          "modelNumber": "SZ/LSB",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i7（第11世代級、詳細未確認）",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.3インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=DYNABOOK+13.3+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 39800,
+              "matchType": "approximate",
+              "notes": "検索結果上のSZ/LSB 11世代 i7/16GB/512GB候補。CPU型番未確認。"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 39800,
+            "medianJPY": 39800,
+            "maxJPY": 39800
+          },
+          "confidence": "low",
+          "notes": []
+        },
+        {
+          "brandSeries": "dynabook BJ",
+          "modelName": "dynabook BJ65 2020-2021 Core i5 8GB/256GB",
+          "modelNumber": "BJ65",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://dynabook.com/search2/",
+          "keySpecs": {
+            "cpu": "Intel Core i5（構成により異なる）",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "BJ65の完全一致サンプルは今回の検索範囲では取得できず。再検索URL: https://jp.mercari.com/search?keyword=dynabook%20BJ65%20Core%20i5%208GB%20256GB"
+          ]
+        },
         {
           "brandSeries": "dynabook RZ",
           "modelName": "dynabook RZ/HX Core Ultra 7 155H 32GB/1TB",
@@ -2515,6 +4477,9 @@
             "構成一致価格未確認"
           ]
         }
+      ],
+      "notes": [
+        "dynabookはG83/R73/R63/B65/S73など旧流通モデルを追加し、2020年以前相当の中古流通も一部参考として含めました。"
       ]
     },
     {
@@ -3883,17 +5848,88 @@
       "url": "https://jp.mercari.com/item/m30684380286",
       "publisher": "メルカリ",
       "accessedDate": "2026-05-19"
+    },
+    {
+      "type": "official",
+      "title": "Dell Latitude 5430 Setup and Specifications",
+      "url": "https://www.dell.com/support/manuals/en-us/latitude-5430-laptop/latitude_5430_ss/Specifications-of-Latitude-5430?guid=guid-7c9f07ce-626e-44ca-be3a-a1fb036413f9&lang=en-us"
+    },
+    {
+      "type": "official",
+      "title": "Dell Latitude 5430 Laptop System Guide",
+      "url": "https://www.dell.com/support/kbdoc/en-us/000199919/dell-latitude-5430-laptop-system-guide"
+    },
+    {
+      "type": "official",
+      "title": "Dell Latitude 5350/5450/5550 Spec Sheet",
+      "url": "https://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5350-5450-5550-spec-sheet.pdf"
+    },
+    {
+      "type": "official",
+      "title": "dynabook G83/HS 2021年3月発表モデル仕様",
+      "url": "https://dynabook.com/business-mobile-notebook-g-series/g83hs-mar-2021-13-3-inch/spec.html"
+    },
+    {
+      "type": "official",
+      "title": "dynabook G83/KV 仕様",
+      "url": "https://dynabook.com/search2/searchlist/search-detail/spec_notebook.html?salesModelNo=A6GSKVDCD61A"
+    },
+    {
+      "type": "official",
+      "title": "dynabook B65/HU 仕様PDF",
+      "url": "https://dynabook.com/b/spec/b65hu_mar_2022_spec.pdf"
+    },
+    {
+      "type": "marketplace",
+      "title": "メルカリ Dell Latitude 5430 i5-1245U 16GB 256GB",
+      "url": "https://jp.mercari.com/item/m35207511500"
+    },
+    {
+      "type": "marketplace",
+      "title": "ラクマ Dell Latitude 5430 Core i7-1265U 16GB 256GB",
+      "url": "https://item.fril.jp/30226508629bbaad6316a54ffc9eda28"
+    },
+    {
+      "type": "marketplace",
+      "title": "Yahoo!フリマ Dell Latitude 5430 Core i5-1245U 16GB 512GB",
+      "url": "https://paypayfleamarket.yahoo.co.jp/item/z570342216"
+    },
+    {
+      "type": "marketplace",
+      "title": "メルカリ dynabook G83/HS i5-1135G7 16GB 256GB",
+      "url": "https://jp.mercari.com/item/m81519357501"
+    },
+    {
+      "type": "marketplace",
+      "title": "メルカリ dynabook G83/KV i5-1245U 16GB 256GB",
+      "url": "https://jp.mercari.com/item/m19176524737"
+    },
+    {
+      "type": "marketplace",
+      "title": "メルカリ dynabook G83/KW i5-1235U 16GB 256GB",
+      "url": "https://jp.mercari.com/shops/product/2JJpAAU3iGSb5iHSYnU5ih"
+    },
+    {
+      "type": "search",
+      "title": "メルカリ Dell Latitude 検索",
+      "url": "https://jp.mercari.com/search?keyword=Dell%20latitude"
+    },
+    {
+      "type": "search",
+      "title": "メルカリ dynabook G83 検索",
+      "url": "https://jp.mercari.com/search?keyword=Dynabook_G83"
     }
   ],
   "notes": [
+    "Dell Latitude系とdynabook旧モデルは2026-05-19夜に追加深掘りし、Latitude 3000/5000/7000系およびdynabook G83/R73/R63/B65/S73系などを構成別に追加しました。",
     "DellとPanasonic Let's noteは2026-05-19夕方に追加深掘りし、構成別にモデルを再分割しました。価格未取得の現行/新型構成はサンプル不足として残しています。",
     "フリマ価格は公開ページまたはWeb検索結果で確認できた表示価格をそのまま記録した。送料込み・税込の厳密な扱いは各サイト表示に依存する。",
     "構成がCPU型番、メモリ、SSDまで完全一致したものを優先し、SSD容量やCPU型番が検索結果だけでは分離できないものはmatchTypeをapproximate、confidenceをmediumまたはlowにした。",
     "重点メーカーでも現行・準現行モデルは中古流通が少ないため、公式で確認できたモデルはmarketPrices空配列で残した。",
     "メルカリ検索結果ページは表示内容が変動するため、次回定点観測では同一検索語で再取得し、個別商品ページが残るものを優先して更新する。"
   ],
-  "modelCount": 82,
-  "marketSampleCount": 120,
-  "generatedFile": "pc_market_research_20260519_174753_dell_panasonic_deep.json",
-  "generatedAt": "2026-05-19T17:51:49"
+  "modelCount": 128,
+  "marketSampleCount": 209,
+  "generatedFile": "pc_market_research_20260519_181646_latitude_dynabook_deep.json",
+  "generatedAt": "2026-05-19T18:16:46"
 }
