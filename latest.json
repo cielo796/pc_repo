@@ -26,7 +26,7 @@
     ],
     "modelLookbackYears": 5
   },
-  "summary": "2026年5月19日時点では、Apple M3/M4/M5、ThinkPad X1 Carbon Gen10以降、HP/Dell/VAIOの第12〜13世代CoreおよびCore Ultra搭載機、Let's note SR/FV、dynabook RZ/XZ、LAVIE N15がフリマ上で比較的確認しやすい。メルカリは検索結果・Shopsを含めて掲載量が多く、Yahoo!フリマは個別ページで購入日時・状態・構成まで確認できる例があった。ラクマはLet's note、dynabookなどで成約・SOLD OUT価格が確認できた。一方、現行法人機や2025〜2026年モデルは流通が少なく、公式で確認できても価格サンプルが空またはlisted中心になりやすい。価格統計はCPU、メモリ、SSDが同一または明記差分が小さいものだけで計算し、検索結果のみのものや構成差が残るものはconfidenceを下げた。",
+  "summary": "2026年5月19日時点では、Apple M3/M4/M5、ThinkPad X1 Carbon Gen10以降、HP/Dell/VAIOの第12〜13世代CoreおよびCore Ultra搭載機、Let's note SR/FV、dynabook RZ/XZ、LAVIE N15がフリマ上で比較的確認しやすい。メルカリは検索結果・Shopsを含めて掲載量が多く、Yahoo!フリマは個別ページで購入日時・状態・構成まで確認できる例があった。ラクマはLet's note、dynabookなどで成約・SOLD OUT価格が確認できた。一方、現行法人機や2025〜2026年モデルは流通が少なく、公式で確認できても価格サンプルが空またはlisted中心になりやすい。価格統計はCPU、メモリ、SSDが同一または明記差分が小さいものだけで計算し、検索結果のみのものや構成差が残るものはconfidenceを下げた。 DellとPanasonic Let's noteは追加深掘りにより、CPU世代・CPU型番・メモリ・SSD容量別の構成単位へ分割し、Latitude/Inspiron/XPS/AlienwareおよびLet's note FV/SR/SV/QV/FC/SC系の価格サンプルを補強した。",
   "manufacturers": [
     {
       "name": "Apple",
@@ -841,134 +841,390 @@
       "name": "Dell",
       "officialSources": [
         {
-          "title": "ノートパソコン | Dell 日本",
-          "url": "https://www.dell.com/ja-jp/shop/dell-laptops/scr/laptops",
+          "title": "Dell 日本 XPS 13 9350 公式販売ページ",
+          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/xps-13-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3-2024/spd/xps-13-9350-intel-laptop/sxn9350130001mpnojp",
           "accessedDate": "2026-05-19"
         },
         {
-          "title": "XPS 13 9350 オーナーズ マニュアル",
-          "url": "https://www.dell.com/support/manuals/ja-jp/xps-13-9350-intel-laptop/xps-13-9350-owners-manual/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC?guid=guid-e25f3992-595c-44fd-83a2-3be669a094c1&lang=ja-jp",
+          "title": "Dell 日本 Inspiron 14 5430 公式販売ページ",
+          "url": "https://www.dell.com/ja-jp/shop/%E3%83%87%E3%83%AB%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/inspiron-14-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/inspiron-14-5430-laptop/in5430382r3m2csmnojp",
           "accessedDate": "2026-05-19"
         },
         {
-          "title": "Latitude 5440 ノートパソコン | Dell 日本",
-          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/new-latitude-5450-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/latitude-14-5440-laptop/sml00205440f16bn2tjp_vp?view=configurations",
+          "title": "Dell 日本 Latitude 5440 公式販売ページ",
+          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/new-latitude-5450-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/latitude-14-5440-laptop/sml00205440f16bn2tjp_vp",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Dell 日本 Inspiron 14 5425 セットアップと仕様",
+          "url": "https://www.dell.com/support/manuals/ja-jp/inspiron-14-5425-laptop/inspiron-14-5425-setup-and-specifications/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Dell 日本 Vostro 3520 セットアップおよび仕様",
+          "url": "https://www.dell.com/support/manuals/ja-jp/vostro-15-3520-laptop/vostro_3520_ss/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Dell 日本 XPS 15 9530 セットアップと仕様",
+          "url": "https://www.dell.com/support/manuals/ja-jp/xps-15-9530-laptop/xps-15-9530-setup-and-specifications/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Dell 日本 Dell Pro 13 Premium 公式販売ページ",
+          "url": "https://www.dell.com/ja-jp/shop/dell-laptops/dell-pro-13-premium-laptop/spd/dell-pro-pa13250-laptop",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Dell 日本 Dell Pro 14 Plus 公式販売ページ",
+          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/dell-pro-14-plus-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%BE%E3%81%9F%E3%81%AF2-in-1/spd/dell-pro-pb14250-2-in-1-laptop/bto103_pb14250_jp",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Dell 日本 Dell Pro Max 14 Premium 公式販売ページ",
+          "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/dell-pro-max-14-premium-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/dell-pro-max-ma14250-laptop/bto105_ma14250_jp",
           "accessedDate": "2026-05-19"
         }
       ],
       "models": [
         {
-          "brandSeries": "XPS",
-          "modelName": "Dell XPS 13 9350 Core Ultra 7 256V/258V 16GB/512GB",
-          "modelNumber": "9350",
+          "brandSeries": "Inspiron 14",
+          "modelName": "Inspiron 14 5430 2023 第13世代 Core i5-1335U 16GB/512GB",
+          "modelNumber": "5430",
           "category": "mobile notebook",
-          "releaseStatus": "current",
-          "officialUrl": "https://www.dell.com/support/manuals/ja-jp/xps-13-9350-intel-laptop/xps-13-9350-owners-manual/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC?guid=guid-e25f3992-595c-44fd-83a2-3be669a094c1&lang=ja-jp",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/%E3%83%87%E3%83%AB%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/inspiron-14-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/inspiron-14-5430-laptop/in5430382r3m2csmnojp",
           "keySpecs": {
-            "cpu": "Intel Core Ultra 7 256V/258V",
-            "memory": "16GB LPDDR5x",
-            "storage": "512GB",
-            "display": "13.4インチ"
+            "cpu": "Intel Core i5-1335U",
+            "memory": "16GB LPDDR5",
+            "storage": "512GB SSD",
+            "display": "14.0インチ FHD+ 1920x1200"
           },
           "marketPrices": [
             {
               "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=Core+ultra+32gb",
+              "sourceUrl": "https://jp.mercari.com/en/item/m73710445441",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-fair",
+              "priceJPY": 38000,
+              "matchType": "exact",
+              "notes": "Rキー入力遅延の記載あり"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m26896718499",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 70000,
+              "matchType": "exact",
+              "notes": "2023年購入、送料込み"
+            },
+            {
+              "marketplace": "Yahoo!フリマ",
+              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z450148694",
               "sourceDate": "2026-05-19",
               "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 198000,
+              "condition": "used-unknown",
+              "priceJPY": 54200,
+              "matchType": "exact",
+              "notes": "送料無料"
+            },
+            {
+              "marketplace": "Yahoo!フリマ",
+              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z365866698",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 58900,
+              "matchType": "exact",
+              "notes": "ほぼ未使用、送料無料"
+            },
+            {
+              "marketplace": "ラクマ",
+              "sourceUrl": "https://item.fril.jp/bce5de7f47b95d4c30baa27f95024bfb",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-unknown",
+              "priceJPY": 67800,
               "matchType": "approximate",
-              "notes": "Dell XPS 13 9350 Ultra 7 Touch表記、メモリ/SSD未分離"
+              "notes": "商品名のみで構成詳細は一部未確認"
             }
           ],
           "priceStats": {
-            "sampleCount": 1,
-            "minJPY": 198000,
-            "medianJPY": 198000,
-            "maxJPY": 198000
-          },
-          "confidence": "low",
-          "notes": [
-            "価格は構成完全一致未確認"
-          ]
-        },
-        {
-          "brandSeries": "XPS",
-          "modelName": "Dell XPS 13 9340 Core Ultra 7 155H 16GB/512GB",
-          "modelNumber": "9340",
-          "category": "mobile notebook",
-          "releaseStatus": "recent",
-          "officialUrl": "https://www.dell.com/support/manuals/ja-jp/xps-13-9340-laptop/xps-13-9340_owners_manual/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC?guid=guid-b426df85-6237-4365-b1fc-c3bb6e190257&lang=ja-jp",
-          "keySpecs": {
-            "cpu": "Intel Core Ultra 7 155H",
-            "memory": "16GB",
-            "storage": "512GB",
-            "display": "13.4インチ"
-          },
-          "marketPrices": [
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/shops/product/LMbhesMTUaju9i7HXyPKUh",
-              "sourceDate": "2026-05-19",
-              "status": "sold",
-              "condition": "display-model",
-              "priceJPY": 173229,
-              "matchType": "exact",
-              "notes": "ソフマップ展示品"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/shops/product/zmEFUimrze7HtkXw8LvJYZ",
-              "sourceDate": "2026-05-19",
-              "status": "sold",
-              "condition": "display-model",
-              "priceJPY": 188979,
-              "matchType": "exact",
-              "notes": "ソフマップ展示品"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=dell+xps+9340",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 157479,
-              "matchType": "exact",
-              "notes": "XPS 13 9340 MX73-ENL"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=dell+xps+9340",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 162729,
-              "matchType": "exact",
-              "notes": "XPS 13 9340"
-            }
-          ],
-          "priceStats": {
-            "sampleCount": 4,
-            "minJPY": 157479,
-            "medianJPY": 167979,
-            "maxJPY": 188979
+            "sampleCount": 5,
+            "minJPY": 38000,
+            "medianJPY": 58900,
+            "maxJPY": 70000
           },
           "confidence": "high",
           "notes": []
         },
         {
-          "brandSeries": "Latitude",
-          "modelName": "Dell Latitude 5440 Core i5-1345U vPro 16GB/256GB",
-          "modelNumber": "5440",
-          "category": "business notebook",
-          "releaseStatus": "recent",
-          "officialUrl": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/new-latitude-5450-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/latitude-14-5440-laptop/sml00205440f16bn2tjp_vp?view=configurations",
+          "brandSeries": "Inspiron 14",
+          "modelName": "Inspiron 14 5425 2022 Ryzen 7 5825U 16GB/512GB",
+          "modelNumber": "5425",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/manuals/ja-jp/inspiron-14-5425-laptop/inspiron-14-5425-setup-and-specifications/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
           "keySpecs": {
-            "cpu": "Intel Core i5-1345U",
-            "memory": "16GB DDR4",
-            "storage": "256GB SSD",
-            "display": "14インチ FHD"
+            "cpu": "AMD Ryzen 7 5825U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "14.0インチ 16:10"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m80865572607",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 50000,
+              "matchType": "exact",
+              "notes": "外箱あり"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/iDSCboKQMBUnJADGVZKjvE",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 78939,
+              "matchType": "exact",
+              "notes": "ショップ中古"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=inspiron+14+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 45555,
+              "matchType": "exact",
+              "notes": "検索結果スニペット"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=inspiron+14+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 65800,
+              "matchType": "exact",
+              "notes": "検索結果スニペット"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=inspiron+14+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 47950,
+              "matchType": "exact",
+              "notes": "検索結果スニペット"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 45555,
+            "medianJPY": 50000,
+            "maxJPY": 78939
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Inspiron 14",
+          "modelName": "Inspiron 14 5440 2024 Core i5-1334U 16GB/512GB",
+          "modelNumber": "5440",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": null,
+          "keySpecs": {
+            "cpu": "Intel Core i5-1334U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "14インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=inspiron+14+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 53900,
+              "matchType": "exact",
+              "notes": "Inspiron 14 5440 P185G002、検索結果スニペット"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=inspiron+14+16gb+512gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 55000,
+              "matchType": "approximate",
+              "notes": "バッテリー最大容量約95%、検索結果スニペット"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Dell+inspiron+14+5440",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 75000,
+              "matchType": "exact",
+              "notes": "検索結果スニペット"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 53900,
+            "medianJPY": 55000,
+            "maxJPY": 75000
+          },
+          "confidence": "medium",
+          "notes": [
+            "公式販売ページは再確認対象"
+          ]
+        },
+        {
+          "brandSeries": "XPS 13 Plus",
+          "modelName": "XPS 13 Plus 9320 2022 Core i7-1260P 16GB/512GB",
+          "modelNumber": "9320",
+          "category": "premium mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/en-us/shop/dell-laptops/new-xps-13-plus-laptop/spd/xps-13-9320-laptop/ctox13w11p1c4003",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1260P",
+            "memory": "16GB LPDDR5",
+            "storage": "512GB SSD",
+            "display": "13.4インチ FHD+またはOLED"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m94750217143",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 143300,
+              "matchType": "exact",
+              "notes": "FHD液晶"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/RBEwTBdJyLRXLdGoHs3yeN",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 125000,
+              "matchType": "exact",
+              "notes": "OLED/高解像度表記、ショップ品"
+            },
+            {
+              "marketplace": "Yahoo!フリマ",
+              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/j1145212197",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 105800,
+              "matchType": "exact",
+              "notes": "FHD、保証残の記載あり"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dell+XPS+9320",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 96000,
+              "matchType": "exact",
+              "notes": "検索結果スニペット"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dell+XPS+9320",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 97524,
+              "matchType": "exact",
+              "notes": "ソフマップ中古、検索結果スニペット"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 96000,
+            "medianJPY": 105800,
+            "maxJPY": 143300
+          },
+          "confidence": "high",
+          "notes": [
+            "FHD/OLEDの表示差あり。価格統計はCPU/メモリ/SSD一致を優先し、パネル差はnotesで管理"
+          ]
+        },
+        {
+          "brandSeries": "XPS 13",
+          "modelName": "XPS 13 9315 2022 Core i7-1250U 16GB/512GB",
+          "modelNumber": "9315",
+          "category": "premium mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/%E3%83%87%E3%83%AB%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/xps-13-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/xps-13-9315-laptop/sxn93151200mcmohojp",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1250U",
+            "memory": "16GB LPDDR5",
+            "storage": "512GB SSD",
+            "display": "13.4インチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=xps13+i7",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 84800,
+              "matchType": "exact",
+              "notes": "箱付、検索結果スニペット"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=xps+CORE",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 105000,
+              "matchType": "approximate",
+              "notes": "バッテリー良好表記、詳細構成は再確認対象"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 84800,
+            "medianJPY": 94900,
+            "maxJPY": 105000
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "XPS 13",
+          "modelName": "XPS 13 9350 2024 Core Ultra 7 258V 16GB/512GB",
+          "modelNumber": "9350",
+          "category": "premium mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/xps-13-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3-2024/spd/xps-13-9350-intel-laptop/sxn9350130001mpnojp",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 7 258V",
+            "memory": "16GB以上",
+            "storage": "512GB SSD想定",
+            "display": "13.4インチ"
           },
           "marketPrices": [],
           "priceStats": {
@@ -979,67 +1235,421 @@
           },
           "confidence": "low",
           "notes": [
-            "構成一致価格未確認",
-            "検索URL: https://jp.mercari.com/search?keyword=Dell+Latitude+5440+i5-1345U+16GB+256GB"
+            "現行/準現行で公開フリマ構成一致サンプル未確認。再検索URL: https://jp.mercari.com/search?keyword=XPS%2013%209350%20258V"
           ]
         },
         {
-          "brandSeries": "Latitude",
-          "modelName": "Dell Latitude 5330 Core i5-1245U 16GB/256GB",
-          "modelNumber": "5330",
-          "category": "business notebook",
-          "releaseStatus": "recent",
-          "officialUrl": "https://www.dell.com/ja-jp/shop/dell-laptops/scr/laptops",
+          "brandSeries": "XPS 15",
+          "modelName": "XPS 15 9530 2023 Core i7-13700H 16GB/512GB RTX 4050",
+          "modelNumber": "9530",
+          "category": "creator notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/manuals/ja-jp/xps-15-9530-laptop/xps-15-9530-setup-and-specifications/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
           "keySpecs": {
-            "cpu": "Intel Core i5-1245U",
+            "cpu": "Intel Core i7-13700H",
             "memory": "16GB",
-            "storage": "256GB",
-            "display": "13.3インチ"
+            "storage": "512GB SSD",
+            "display": "15.6インチ FHD+等",
+            "gpu": "NVIDIA GeForce RTX 4050"
           },
           "marketPrices": [
             {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=1245u+%E3%83%8E%E3%83%BC%E3%83%88",
+              "marketplace": "Yahoo!フリマ",
+              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z396054200",
               "sourceDate": "2026-05-19",
               "status": "listed",
               "condition": "used-good",
-              "priceJPY": 49800,
+              "priceJPY": 129100,
               "matchType": "exact",
-              "notes": "Latitude 5330 Core i5-1245U 16GB SSD256GB"
+              "notes": "US配列、購入日時の記載あり"
             },
             {
               "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=DELL+latitude&page_token=v1%3A4",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=xps+CORE",
               "sourceDate": "2026-05-19",
               "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 49800,
+              "condition": "used-unknown",
+              "priceJPY": 149800,
               "matchType": "exact",
-              "notes": "13インチ 12世代 i5 1245U 256GB/16GB"
+              "notes": "検索結果スニペット"
             }
           ],
           "priceStats": {
             "sampleCount": 2,
-            "minJPY": 49800,
-            "medianJPY": 49800,
-            "maxJPY": 49800
+            "minJPY": 129100,
+            "medianJPY": 139450,
+            "maxJPY": 149800
           },
           "confidence": "medium",
           "notes": [
-            "公式URLはDell製品一覧を再訪用に設定"
+            "サンプル不足"
           ]
         },
         {
-          "brandSeries": "Inspiron",
-          "modelName": "Dell Inspiron 14 5440 Core 5 120U 16GB/512GB",
-          "modelNumber": "5440",
-          "category": "notebook",
-          "releaseStatus": "recent",
-          "officialUrl": "https://www.dell.com/ja-jp/shop/dell-laptops/scr/laptops",
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5430 2022 Core i5-1245U 16GB/256GB",
+          "modelNumber": "5430",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://i.dell.com/sites/csdocuments/App-Merchandizing_Documents/ja/jp/230824_workstation%E7%B7%8F%E5%90%88%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0_%E5%85%A8%E3%83%9A%E3%83%BC%E3%82%B8.pdf",
           "keySpecs": {
-            "cpu": "Intel Core 5 120U",
+            "cpu": "Intel Core i5-1245U",
+            "memory": "16GB DDR4",
+            "storage": "256GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m95880653967",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 39800,
+              "matchType": "exact",
+              "notes": "外装状態悪め"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2jVmQWireTkPg6icxs8YHX",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 64800,
+              "matchType": "exact",
+              "notes": "バッテリー良好、ショップ中古"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/zGdxA2iYAD5hsqVYEVjh2k",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-unknown",
+              "priceJPY": 34800,
+              "matchType": "exact",
+              "notes": "ショップ中古"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Latitude+5430+i%EF%BC%95",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 37300,
+              "matchType": "exact",
+              "notes": "検索結果スニペット"
+            },
+            {
+              "marketplace": "ラクマ",
+              "sourceUrl": "https://fril.jp/s?query=5430+DELL",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-unknown",
+              "priceJPY": 45980,
+              "matchType": "approximate",
+              "notes": "ラクマ検索結果、Latitude 5430 第12世代Core i5"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 5,
+            "minJPY": 34800,
+            "medianJPY": 39800,
+            "maxJPY": 64800
+          },
+          "confidence": "high",
+          "notes": []
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5440 2023 Core i5-1345U 16GB/512GB",
+          "modelNumber": "5440",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/new-latitude-5450-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/latitude-14-5440-laptop/sml00205440f16bn2tjp_vp",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1345U",
             "memory": "16GB",
-            "storage": "512GB",
+            "storage": "512GB SSD",
+            "display": "14インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=dell+ssd+512",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 49999,
+              "matchType": "exact",
+              "notes": "検索結果スニペット"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 49999,
+            "medianJPY": 49999,
+            "maxJPY": 49999
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Latitude",
+          "modelName": "Latitude 5340 2023 Core i5-1345U 16GB/512GB",
+          "modelNumber": "5340",
+          "category": "business mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://i.dell.com/sites/csdocuments/App-Merchandizing_Documents/ja/jp/230824_workstation%E7%B7%8F%E5%90%88%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0_%E5%85%A8%E3%83%9A%E3%83%BC%E3%82%B8.pdf",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1345U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "13.3インチ FHD"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m31289054580",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 64800,
+              "matchType": "exact",
+              "notes": "Office 2024付属表記"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 64800,
+            "medianJPY": 64800,
+            "maxJPY": 64800
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Vostro 15",
+          "modelName": "Vostro 3520 2022 Core i5-1235U 8GB/512GB",
+          "modelNumber": "3520",
+          "category": "business notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://www.dell.com/support/manuals/ja-jp/vostro-15-3520-laptop/vostro_3520_ss/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1235U",
+            "memory": "8GB想定",
+            "storage": "512GB SSD想定",
+            "display": "15.6インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "構成一致価格サンプル未確認。再検索URL: https://jp.mercari.com/search?keyword=Vostro%203520%20i5-1235U%208GB%20512GB"
+          ]
+        },
+        {
+          "brandSeries": "Alienware x14",
+          "modelName": "Alienware x14 R2 2023 Core i7-13620H 16GB/1TB RTX 4060",
+          "modelNumber": "x14 R2",
+          "category": "gaming notebook",
+          "releaseStatus": "recent",
+          "officialUrl": null,
+          "keySpecs": {
+            "cpu": "Intel Core i7-13620H",
+            "memory": "16GB LPDDR5",
+            "storage": "1TB SSD",
+            "display": "14インチ WQXGA 165Hz",
+            "gpu": "NVIDIA GeForce RTX 4060"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m79299930544",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 150000,
+              "matchType": "exact",
+              "notes": "専用商品、送料込み"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=i7-13620H+4060",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 163000,
+              "matchType": "exact",
+              "notes": "検索結果スニペット"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 150000,
+            "medianJPY": 156500,
+            "maxJPY": 163000
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Alienware x14",
+          "modelName": "Alienware x14 R2 2023 Core i7-13620H 32GB/1TB RTX 4060",
+          "modelNumber": "x14 R2",
+          "category": "gaming notebook",
+          "releaseStatus": "recent",
+          "officialUrl": null,
+          "keySpecs": {
+            "cpu": "Intel Core i7-13620H",
+            "memory": "32GB",
+            "storage": "1TB SSD",
+            "display": "14インチ WQXGA 165Hz",
+            "gpu": "NVIDIA GeForce RTX 4060"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JJuKbbQGDP5LnZff2A4pR",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 160800,
+              "matchType": "exact",
+              "notes": "画面傷、底面傷の記載あり"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 160800,
+            "medianJPY": 160800,
+            "maxJPY": 160800
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Alienware x14",
+          "modelName": "Alienware x14 R2 2023 Core i7-13620H 32GB/2TB RTX 4060",
+          "modelNumber": "x14 R2",
+          "category": "gaming notebook",
+          "releaseStatus": "recent",
+          "officialUrl": null,
+          "keySpecs": {
+            "cpu": "Intel Core i7-13620H",
+            "memory": "32GB",
+            "storage": "2TB SSD",
+            "display": "14インチ WQXGA",
+            "gpu": "NVIDIA GeForce RTX 4060"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2qvcLokUSJ5bovyv5tYxdA",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "refurbished",
+              "priceJPY": 178479,
+              "matchType": "exact",
+              "notes": "展示品、ソフマップメルカリ店"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 178479,
+            "medianJPY": 178479,
+            "maxJPY": 178479
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Alienware m15",
+          "modelName": "Alienware m15 Ryzen Edition R5 2021 Ryzen 7 5800H 16GB/512GB RTX 3060",
+          "modelNumber": "m15 R5",
+          "category": "gaming notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": null,
+          "keySpecs": {
+            "cpu": "AMD Ryzen 7 5800H",
+            "memory": "16GB DDR4",
+            "storage": "512GB SSD",
+            "display": "15.6インチ FHD",
+            "gpu": "NVIDIA GeForce RTX 3060"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JKK2JAz46hXwRdXfxh3HV",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-fair",
+              "priceJPY": 87800,
+              "matchType": "exact",
+              "notes": "ACアダプタなし"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 87800,
+            "medianJPY": 87800,
+            "maxJPY": 87800
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Dell Pro 13 Premium",
+          "modelName": "Dell Pro 13 Premium PA13250 2025 Core Ultra 5 236V 16GB/256GB",
+          "modelNumber": "PA13250",
+          "category": "business mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/dell-laptops/dell-pro-13-premium-laptop/spd/dell-pro-pa13250-laptop",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 5 236V vPro",
+            "memory": "16GB LPDDR5x",
+            "storage": "256GB SSD",
+            "display": "13インチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行新ブランドで中古サンプル未確認。再検索URL: https://jp.mercari.com/search?keyword=Dell%20Pro%2013%20Premium%20PA13250"
+          ]
+        },
+        {
+          "brandSeries": "Dell Pro 14 Plus",
+          "modelName": "Dell Pro 14 Plus PB14250 2025 Core Ultra 5 235U 16GB/512GB",
+          "modelNumber": "PB14250",
+          "category": "business notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/dell-pro-14-plus-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%BE%E3%81%9F%E3%81%AF2-in-1/spd/dell-pro-pb14250-2-in-1-laptop/bto103_pb14250_jp",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 5 235U vPro",
+            "memory": "16GB想定",
+            "storage": "512GB SSD",
             "display": "14インチ"
           },
           "marketPrices": [],
@@ -1051,44 +1661,33 @@
           },
           "confidence": "low",
           "notes": [
-            "構成一致価格未確認",
-            "検索URL: https://jp.mercari.com/search?keyword=Dell+Inspiron+14+5440+Core+5+16GB+512GB"
+            "現行新ブランドで中古サンプル未確認。再検索URL: https://jp.mercari.com/search?keyword=Dell%20Pro%2014%20Plus%20PB14250"
           ]
         },
         {
-          "brandSeries": "Dell Pro",
-          "modelName": "Dell Pro 13 Premium Core Ultra 7 32GB/512GB",
-          "modelNumber": null,
-          "category": "business notebook",
+          "brandSeries": "Dell Pro Max 14 Premium",
+          "modelName": "Dell Pro Max 14 Premium MA14250 2025 Core Ultra 9 285H 32GB/1TB RTX PRO 2000",
+          "modelNumber": "MA14250",
+          "category": "mobile workstation",
           "releaseStatus": "current",
-          "officialUrl": "https://www.dell.com/ja-jp/shop/dell-laptops/scr/laptops",
+          "officialUrl": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/dell-pro-max-14-premium-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/dell-pro-max-ma14250-laptop/bto105_ma14250_jp",
           "keySpecs": {
-            "cpu": "Intel Core Ultra 7",
-            "memory": "32GB",
-            "storage": "512GB",
-            "display": "13インチ"
+            "cpu": "Intel Core Ultra 9 285H",
+            "memory": "32GB LPDDR5x",
+            "storage": "1TB SSD",
+            "display": "14インチ",
+            "gpu": "NVIDIA RTX PRO 2000 Blackwell 8GB"
           },
-          "marketPrices": [
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=Core+ultra+32gb",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 185000,
-              "matchType": "exact",
-              "notes": "Dell Pro 13 Premium Ultra 7 32GB 512GB表記"
-            }
-          ],
+          "marketPrices": [],
           "priceStats": {
-            "sampleCount": 1,
-            "minJPY": 185000,
-            "medianJPY": 185000,
-            "maxJPY": 185000
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
           },
-          "confidence": "medium",
+          "confidence": "low",
           "notes": [
-            "サンプル不足"
+            "高額現行ワークステーションで中古サンプル未確認。再検索URL: https://jp.mercari.com/search?keyword=Dell%20Pro%20Max%2014%20Premium"
           ]
         }
       ]
@@ -1922,304 +2521,788 @@
       "name": "Panasonic Let's note",
       "officialSources": [
         {
-          "title": "レッツノートSR（CF-SR4）仕様",
-          "url": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+          "title": "Panasonic レッツノート 生産終了品一覧",
+          "url": "https://panasonic.jp/cns/pc/support/products/",
           "accessedDate": "2026-05-19"
         },
         {
-          "title": "レッツノートFV（CF-FV5）仕様",
+          "title": "Panasonic レッツノート FV5 仕様",
           "url": "https://panasonic.jp/cns/pc/products/fv5g/spec.html",
           "accessedDate": "2026-05-19"
         },
         {
-          "title": "生産終了品一覧 | Panasonic",
-          "url": "https://panasonic.jp/cns/pc/support/products/",
+          "title": "Panasonic レッツノート FV4 仕様",
+          "url": "https://panasonic.jp/cns/pc/products/fv4a/spec.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Panasonic レッツノート SR4 仕様",
+          "url": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Panasonic レッツノート QR4 仕様",
+          "url": "https://panasonic.jp/cns/pc/products/qr4l/spec.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Panasonic レッツノート QV 仕様 Panasonic Store Plus",
+          "url": "https://ec-plus.panasonic.jp/store/page/pc/qv/spec.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Panasonic CF-SV1CDMQR 仕様",
+          "url": "https://panasonic.jp/pc/products/CF-SV1CDMQR/spec.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Panasonic CF-SV2JDCCR 仕様",
+          "url": "https://panasonic.jp/pc/products/CF-SV2JDCCR/spec.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Panasonic レッツノート FC6 仕様",
+          "url": "https://panasonic.jp/cns/pc/products/fc6a/spec.html",
+          "accessedDate": "2026-05-19"
+        },
+        {
+          "title": "Panasonic レッツノート SC7 仕様",
+          "url": "https://panasonic.jp/cns/pc/products/sc7a/spec.html",
           "accessedDate": "2026-05-19"
         }
       ],
       "models": [
         {
-          "brandSeries": "Let's note SR",
-          "modelName": "Let's note SR4 CF-SR4ADTCR Core i5-1335U 16GB/512GB",
-          "modelNumber": "CF-SR4ADTCR",
+          "brandSeries": "Let's note FV",
+          "modelName": "Let's note FV5 CF-FV5HDNCR 2025 Core Ultra 7 155H 16GB/512GB",
+          "modelNumber": "CF-FV5HDNCR",
           "category": "mobile notebook",
           "releaseStatus": "recent",
-          "officialUrl": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+          "officialUrl": "https://panasonic.jp/pc/products/CF-FV5HDNCR/spec.html",
           "keySpecs": {
-            "cpu": "Intel Core i5-1335U",
-            "memory": "16GB",
+            "cpu": "Intel Core Ultra 7 155H",
+            "memory": "16GB LPDDR5X",
             "storage": "512GB SSD",
-            "display": "12.4インチ FHD+"
+            "display": "14.0型 QHD 2160x1440"
           },
           "marketPrices": [
             {
-              "marketplace": "Yahoo!フリマ",
-              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z307655078",
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/product/B3HI9KY7LR000",
               "sourceDate": "2026-05-19",
-              "status": "sold",
-              "condition": "unused",
-              "priceJPY": 230000,
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 165000,
               "matchType": "exact",
-              "notes": "未使用品、購入日時2025-02-19"
+              "notes": "メルカリ製品ページ上のFV5 512GB/16GB/Core Ultra 7"
             },
             {
-              "marketplace": "Yahoo!フリマ",
-              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/e1207915133",
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=Core+Ultra7",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 189620,
+              "matchType": "approximate",
+              "notes": "CF-FV5FDNCR、同CPU/同容量として近似"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=urtra+7+155H",
               "sourceDate": "2026-05-19",
               "status": "listed",
               "condition": "new",
-              "priceJPY": 179800,
+              "priceJPY": 541640,
               "matchType": "exact",
-              "notes": "新品、CF-SR4AD6AS、同等i5/16GB/512GB"
+              "notes": "新品系ショップ価格、相場上限参考"
             }
           ],
           "priceStats": {
-            "sampleCount": 2,
-            "minJPY": 179800,
-            "medianJPY": 204900,
-            "maxJPY": 230000
+            "sampleCount": 3,
+            "minJPY": 165000,
+            "medianJPY": 189620,
+            "maxJPY": 541640
           },
           "confidence": "medium",
           "notes": [
-            "新品・未使用中心"
+            "新品・出品中価格を含むため上振れ注意"
           ]
         },
         {
           "brandSeries": "Let's note FV",
-          "modelName": "Let's note FV4 CF-FV4CDTCR Core i5-1335U 16GB/512GB",
-          "modelNumber": "CF-FV4CDTCR",
+          "modelName": "Let's note FV5 CF-FV5GDMCR 2025 Core Ultra 5 125U 16GB/512GB",
+          "modelNumber": "CF-FV5GDMCR",
           "category": "mobile notebook",
           "releaseStatus": "recent",
-          "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/fv5g/spec.html",
           "keySpecs": {
-            "cpu": "Intel Core i5-1335U",
-            "memory": "16GB",
+            "cpu": "Intel Core Ultra 5 125U",
+            "memory": "16GB LPDDR5X",
             "storage": "512GB SSD",
-            "display": "14.0インチ"
+            "display": "14.0型 QHD 2160x1440"
           },
-          "marketPrices": [
-            {
-              "marketplace": "Yahoo!フリマ",
-              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z296099464",
-              "sourceDate": "2026-05-19",
-              "status": "sold",
-              "condition": "unused",
-              "priceJPY": 210000,
-              "matchType": "exact",
-              "notes": "購入日時2024-03-12"
-            }
-          ],
+          "marketPrices": [],
           "priceStats": {
-            "sampleCount": 1,
-            "minJPY": 210000,
-            "medianJPY": 210000,
-            "maxJPY": 210000
-          },
-          "confidence": "high",
-          "notes": [
-            "サンプル不足"
-          ]
-        },
-        {
-          "brandSeries": "Let's note FV",
-          "modelName": "Let's note FV3 CF-FV3YDLKS Core i5-1245U 16GB/512GB",
-          "modelNumber": "CF-FV3YDLKS",
-          "category": "mobile notebook",
-          "releaseStatus": "discontinued",
-          "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
-          "keySpecs": {
-            "cpu": "Intel Core i5-1245U",
-            "memory": "16GB",
-            "storage": "512GB SSD",
-            "display": "14インチ 2160x1440"
-          },
-          "marketPrices": [
-            {
-              "marketplace": "ラクマ",
-              "sourceUrl": "https://item.fril.jp/38c51a7006fa7d23343c4a08a1d1378f",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-fair",
-              "priceJPY": 84800,
-              "matchType": "exact",
-              "notes": "Office Professional Plus 2021導入表記"
-            }
-          ],
-          "priceStats": {
-            "sampleCount": 1,
-            "minJPY": 84800,
-            "medianJPY": 84800,
-            "maxJPY": 84800
-          },
-          "confidence": "high",
-          "notes": [
-            "サンプル不足"
-          ]
-        },
-        {
-          "brandSeries": "Let's note SR",
-          "modelName": "Let's note SR3 Core i5-1245U 16GB/256GB",
-          "modelNumber": "CF-SR3",
-          "category": "mobile notebook",
-          "releaseStatus": "discontinued",
-          "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
-          "keySpecs": {
-            "cpu": "Intel Core i5-1245U",
-            "memory": "16GB",
-            "storage": "256GB SSD",
-            "display": "12.4インチ"
-          },
-          "marketPrices": [
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 107800,
-              "matchType": "exact",
-              "notes": "CF-SR3 Core i5-1245U メモリ16GB SSD256GB"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=cf+bluetooth",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 99800,
-              "matchType": "exact",
-              "notes": "CF-SR3 Core i5-1245U メモリ16GB SSD256GB"
-            }
-          ],
-          "priceStats": {
-            "sampleCount": 2,
-            "minJPY": 99800,
-            "medianJPY": 103800,
-            "maxJPY": 107800
-          },
-          "confidence": "medium",
-          "notes": []
-        },
-        {
-          "brandSeries": "Let's note SV",
-          "modelName": "Let's note SV2 Core i5 16GB/512GB",
-          "modelNumber": "CF-SV2",
-          "category": "mobile notebook",
-          "releaseStatus": "discontinued",
-          "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
-          "keySpecs": {
-            "cpu": "Intel Core i5",
-            "memory": "16GB",
-            "storage": "512GB SSD",
-            "display": "12.1インチ"
-          },
-          "marketPrices": [
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=cf+bluetooth",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 64800,
-              "matchType": "approximate",
-              "notes": "CF-SV2 2022年度モデル Core i5 RAM16GB SSD512GB、CPU型番未確認"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=ANA%E3%83%8E%E3%83%BC%E3%83%88&page_token=v1%3A2",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 79800,
-              "matchType": "approximate",
-              "notes": "CF-SV2 Core i5 RAM16GB SSD512GB"
-            }
-          ],
-          "priceStats": {
-            "sampleCount": 2,
-            "minJPY": 64800,
-            "medianJPY": 72300,
-            "maxJPY": 79800
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
           },
           "confidence": "low",
           "notes": [
-            "CPU型番未分離"
+            "価格サンプルなし。再検索URL: https://jp.mercari.com/search?keyword=CF-FV5GDMCR%20Core%20Ultra%205%20125U"
           ]
         },
         {
-          "brandSeries": "Let's note SV",
-          "modelName": "Let's note SV1 CF-SV1RDLVS Core i5-1145G7 16GB/256GB",
-          "modelNumber": "CF-SV1RDLVS",
+          "brandSeries": "Let's note FV",
+          "modelName": "Let's note FV4 CF-FV4BDPCR 2024 Core i7-1360P 16GB/512GB",
+          "modelNumber": "CF-FV4BDPCR",
           "category": "mobile notebook",
           "releaseStatus": "discontinued",
-          "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/fv4a/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1360P",
+            "memory": "16GB LPDDR4x",
+            "storage": "512GB SSD",
+            "display": "14.0型 QHD 2160x1440"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m62062804031",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 200000,
+              "matchType": "approximate",
+              "notes": "CF-FV4DDNCR、Core i7-1360P/16GB/512GB、法人向け"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 200000,
+            "medianJPY": 200000,
+            "maxJPY": 200000
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足、型番差あり"
+          ]
+        },
+        {
+          "brandSeries": "Let's note FV",
+          "modelName": "Let's note FV4 CF-FV4ADMCR 2024 Core i5-1335U 16GB/512GB",
+          "modelNumber": "CF-FV4ADMCR",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/fv4a/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1335U",
+            "memory": "16GB LPDDR4x",
+            "storage": "512GB SSD",
+            "display": "14.0型 QHD 2160x1440"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "価格サンプルなし。再検索URL: https://jp.mercari.com/search?keyword=CF-FV4ADMCR%20i5-1335U%2016GB%20512GB"
+          ]
+        },
+        {
+          "brandSeries": "Let's note FV",
+          "modelName": "Let's note FV1 2021 Core i5-1145G7 16GB/256GB",
+          "modelNumber": "CF-FV1RDAKS",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/hikaku/",
           "keySpecs": {
             "cpu": "Intel Core i5-1145G7",
             "memory": "16GB",
             "storage": "256GB SSD",
-            "display": "12.1インチ WUXGA"
+            "display": "14.0型 QHD 2160x1440"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "Yahoo!フリマ",
+              "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/m1184015291",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 79000,
+              "matchType": "exact",
+              "notes": "LTE内蔵"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m92138879098",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 49100,
+              "matchType": "exact",
+              "notes": "型番CFFV1-1表記"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JQbPVMyzMm4xwrAdRXCjD",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 49800,
+              "matchType": "exact",
+              "notes": "CF-FV1RDAKS、ショップ品"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JQ9Dq9MtCkAoxdVrqwgiC",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-unknown",
+              "priceJPY": 38500,
+              "matchType": "approximate",
+              "notes": "第11世代Core i5/16GB/256GB、CPU型番未記載"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 4,
+            "minJPY": 38500,
+            "medianJPY": 49450,
+            "maxJPY": 79000
+          },
+          "confidence": "medium",
+          "notes": [
+            "LTE有無とCPU型番差の混入リスクあり"
+          ]
+        },
+        {
+          "brandSeries": "Let's note FV",
+          "modelName": "Let's note FV1 2021 Core i5-1135G7 16GB/256GB",
+          "modelNumber": "CF-FV1",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/hikaku/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "14.0型 QHD 2160x1440"
           },
           "marketPrices": [
             {
               "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
+              "sourceUrl": "https://jp.mercari.com/item/m91939019605",
               "sourceDate": "2026-05-19",
-              "status": "listed",
+              "status": "sold",
               "condition": "used-good",
-              "priceJPY": 26800,
+              "priceJPY": 69800,
               "matchType": "exact",
-              "notes": "CF-SV1RDLVS Core i5 16GB SSD256GB"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 32000,
-              "matchType": "exact",
-              "notes": "CF-SV1 16GB 256GB"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 34700,
-              "matchType": "exact",
-              "notes": "第11世代 i5 CF-SV1"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 35700,
-              "matchType": "exact",
-              "notes": "CF-SV1 第11世代 i5 16GB 256GB"
-            },
-            {
-              "marketplace": "メルカリ",
-              "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
-              "sourceDate": "2026-05-19",
-              "status": "listed",
-              "condition": "used-good",
-              "priceJPY": 39800,
-              "matchType": "exact",
-              "notes": "CF-SV1 16GB 256GB"
+              "notes": "送料込み"
             }
           ],
           "priceStats": {
-            "sampleCount": 5,
-            "minJPY": 26800,
-            "medianJPY": 34700,
-            "maxJPY": 39800
+            "sampleCount": 1,
+            "minJPY": 69800,
+            "medianJPY": 69800,
+            "maxJPY": 69800
           },
           "confidence": "medium",
           "notes": [
-            "メルカリ検索結果中心"
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Let's note SR",
+          "modelName": "Let's note SR4 CF-SR4BDNCR 2023 Core i7-1360P 16GB/512GB",
+          "modelNumber": "CF-SR4BDNCR",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1360P",
+            "memory": "16GB LPDDR4x",
+            "storage": "512GB SSD",
+            "display": "12.4型 FHD+ 1920x1280"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m61131231715",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 168000,
+              "matchType": "exact",
+              "notes": "Officeなし"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JJbVi4jViji4ErvD2B8HX",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "new",
+              "priceJPY": 258645,
+              "matchType": "approximate",
+              "notes": "CF-SR4B20AS、新品、同CPU/同容量"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JJGhCUTCNxZMLwzp7f3iA",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 69804,
+              "matchType": "approximate",
+              "notes": "CF-SR4HDNCR、同CPU/同容量のショップ中古"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 69804,
+            "medianJPY": 168000,
+            "maxJPY": 258645
+          },
+          "confidence": "medium",
+          "notes": [
+            "新品と中古、型番違いを含むためばらつき大"
+          ]
+        },
+        {
+          "brandSeries": "Let's note SR",
+          "modelName": "Let's note SR4 CF-SR4HDNCR 2025 Core i7-1360P 16GB/512GB",
+          "modelNumber": "CF-SR4HDNCR",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1360P",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "12.4型 FHD+"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JJGhCUTCNxZMLwzp7f3iA",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 69804,
+              "matchType": "exact",
+              "notes": "ソフマップメルカリ店"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 69804,
+            "medianJPY": 69804,
+            "maxJPY": 69804
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Let's note SR",
+          "modelName": "Let's note SR4 法人/派生モデル 第13世代 Core i5-1345U 16GB/512GB",
+          "modelNumber": "CF-SR4RDAAS",
+          "category": "mobile notebook",
+          "releaseStatus": "recent",
+          "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1345U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "12.4型 FHD+"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=1345U",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 74900,
+              "matchType": "exact",
+              "notes": "CF-SR4RDAAS、検索結果スニペット"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=1345U",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-unknown",
+              "priceJPY": 125000,
+              "matchType": "approximate",
+              "notes": "Let'snote CF-SR4、Office2024、検索結果スニペット"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=1345U",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-excellent",
+              "priceJPY": 138500,
+              "matchType": "approximate",
+              "notes": "CF-SR4/512GB/16GB、検索結果スニペット"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 3,
+            "minJPY": 74900,
+            "medianJPY": 125000,
+            "maxJPY": 138500
+          },
+          "confidence": "medium",
+          "notes": [
+            "法人派生型番で公式仕様の再確認が必要"
+          ]
+        },
+        {
+          "brandSeries": "Let's note QR",
+          "modelName": "Let's note QR4 CF-QR4KDNCR 2024 Core i7-1360P 16GB/512GB",
+          "modelNumber": "CF-QR4KDNCR",
+          "category": "2-in-1",
+          "releaseStatus": "recent",
+          "officialUrl": "https://panasonic.jp/pc/p-db/CF-QR4KDNCR_spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i7-1360P",
+            "memory": "16GB LPDDR4X",
+            "storage": "512GB SSD",
+            "display": "12.4型 FHD+ タッチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "価格サンプルなし。再検索URL: https://jp.mercari.com/search?keyword=CF-QR4KDNCR%20i7-1360P%2016GB%20512GB"
+          ]
+        },
+        {
+          "brandSeries": "Let's note QR",
+          "modelName": "Let's note QR4 CF-QR4JDTCR 2024 Core i5-1335U 16GB/512GB",
+          "modelNumber": "CF-QR4JDTCR",
+          "category": "2-in-1",
+          "releaseStatus": "recent",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/qr4l/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1335U",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "12.4型 FHD+ タッチ"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "価格サンプルなし。再検索URL: https://jp.mercari.com/search?keyword=CF-QR4JDTCR%20i5-1335U%2016GB%20512GB"
+          ]
+        },
+        {
+          "brandSeries": "Let's note QV",
+          "modelName": "Let's note QV1 CF-QV1FDMQR 2021 Core i5-1135G7 16GB/512GB",
+          "modelNumber": "CF-QV1FDMQR",
+          "category": "2-in-1",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/pc/c-db/products/CF-QV1FDMQR/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB LPDDR4x",
+            "storage": "512GB SSD",
+            "display": "12.0型 WQXGA+ タッチ"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=QV1+16gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 71000,
+              "matchType": "approximate",
+              "notes": "検索結果表示: レッツノートCF-QV1 i5-11/16G/SSD512GB。型番未確定"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 71000,
+            "medianJPY": 71000,
+            "maxJPY": 71000
+          },
+          "confidence": "medium",
+          "notes": [
+            "メルカリ検索結果から構成一致または近似サンプルを補完"
+          ]
+        },
+        {
+          "brandSeries": "Let's note QV",
+          "modelName": "Let's note QV1 CF-QV1RFAVS 2021 Core i5-1145G7 16GB/512GB LTE",
+          "modelNumber": "CF-QV1RFAVS",
+          "category": "2-in-1",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://ec-plus.panasonic.jp/store/page/pc/qv/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1145G7",
+            "memory": "16GB",
+            "storage": "512GB SSD",
+            "display": "12.0型 WQXGA+ タッチ",
+            "network": "LTE"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=QV1+16gb",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 82980,
+              "matchType": "exact",
+              "notes": "検索結果表示: Panasonic CF-QV1RFAVS Core i5-1145G7/16GB/SSD512GB"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 82980,
+            "medianJPY": 82980,
+            "maxJPY": 82980
+          },
+          "confidence": "medium",
+          "notes": [
+            "構成一致ページは確認したが価格表示を取得できず。再検索URL: https://jp.mercari.com/search?keyword=CF-QV1RFAVS%20i5-1145G7%2016GB%20256GB"
+          ]
+        },
+        {
+          "brandSeries": "Let's note SV",
+          "modelName": "Let's note SV2 CF-SV2JDCCR 2022 Core i5-1155G7 8GB/256GB",
+          "modelNumber": "CF-SV2JDCCR",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/pc/products/CF-SV2JDCCR/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1155G7",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "12.1型 WUXGA"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "価格サンプルなし。再検索URL: https://jp.mercari.com/search?keyword=CF-SV2JDCCR%20i5-1155G7%208GB%20256GB"
+          ]
+        },
+        {
+          "brandSeries": "Let's note SV",
+          "modelName": "Let's note SV1 CF-SV1CDMQR 2021 Core i5-1135G7 16GB/256GB",
+          "modelNumber": "CF-SV1CDMQR",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/pc/products/CF-SV1CDMQR/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "12.1型 WUXGA"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/search?keyword=panasonic+cf-sv1",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 55419,
+              "matchType": "exact",
+              "notes": "検索結果表示: Sofmap中古品 Lets note SV1 CF-SV1CDMQR"
+            },
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/item/m30684380286",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 56000,
+              "matchType": "exact",
+              "notes": "CF-SV1CDMQR / i5-1135G7 / 16GB / 256GB 表示"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 2,
+            "minJPY": 55419,
+            "medianJPY": 55709,
+            "maxJPY": 56000
+          },
+          "confidence": "medium",
+          "notes": [
+            "メルカリ検索結果から構成一致または近似サンプルを補完"
+          ]
+        },
+        {
+          "brandSeries": "Let's note SV",
+          "modelName": "Let's note SV1 CF-SV1C8LLC 2021 Core i5-1135G7 8GB/256GB",
+          "modelNumber": "CF-SV1C8LLC",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://panasonic.jp/pc/products/CF-SV1CDCQR/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1135G7",
+            "memory": "8GB",
+            "storage": "256GB SSD",
+            "display": "12.1型 WUXGA"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/VDbKhjpsuTfNKSV5qBBxSa",
+              "sourceDate": "2026-05-19",
+              "status": "sold",
+              "condition": "used-good",
+              "priceJPY": 33000,
+              "matchType": "exact",
+              "notes": "バッテリー100%表記、ショップ品"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 33000,
+            "medianJPY": 33000,
+            "maxJPY": 33000
+          },
+          "confidence": "medium",
+          "notes": [
+            "サンプル不足"
+          ]
+        },
+        {
+          "brandSeries": "Let's note SV",
+          "modelName": "Let's note SV1 2021 Core i5-1145G7 16GB/256GB",
+          "modelNumber": "CF-SV1",
+          "category": "mobile notebook",
+          "releaseStatus": "discontinued",
+          "officialUrl": "https://ec-plus.panasonic.jp/biz/pc/campaign/sale_sp_2201/pdf/qv_spec_clamshell.pdf",
+          "keySpecs": {
+            "cpu": "Intel Core i5-1145G7",
+            "memory": "16GB",
+            "storage": "256GB SSD",
+            "display": "12.1型 WUXGA"
+          },
+          "marketPrices": [
+            {
+              "marketplace": "メルカリ",
+              "sourceUrl": "https://jp.mercari.com/shops/product/2JQbPVMyzMm4xwrAdRXCjD",
+              "sourceDate": "2026-05-19",
+              "status": "listed",
+              "condition": "used-good",
+              "priceJPY": 41800,
+              "matchType": "approximate",
+              "notes": "検索結果に同構成SV表記、詳細ページは関連商品欄"
+            }
+          ],
+          "priceStats": {
+            "sampleCount": 1,
+            "minJPY": 41800,
+            "medianJPY": 41800,
+            "maxJPY": 41800
+          },
+          "confidence": "low",
+          "notes": [
+            "サンプル不足、参照ページ内関連商品由来"
+          ]
+        },
+        {
+          "brandSeries": "Let's note FC",
+          "modelName": "Let's note FC6 CF-FC6BDPCR 2025 Core Ultra 7 255H 32GB/1TB",
+          "modelNumber": "CF-FC6BDPCR",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/fc6a/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 7 255H",
+            "memory": "32GB LPDDR5X",
+            "storage": "1TB SSD",
+            "display": "14.0型 WUXGA"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行モデルで価格サンプルなし。再検索URL: https://jp.mercari.com/search?keyword=CF-FC6BDPCR%20Core%20Ultra%207%20255H"
+          ]
+        },
+        {
+          "brandSeries": "Let's note FC",
+          "modelName": "Let's note FC6 CF-FC6ADTCR 2025 Core Ultra 5 225U 16GB/512GB",
+          "modelNumber": "CF-FC6ADTCR",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://panasonic.jp/pc/products/CF-FC6ADTCR/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 5 225U",
+            "memory": "16GB LPDDR5X",
+            "storage": "512GB SSD",
+            "display": "14.0型 WUXGA"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行モデルで価格サンプルなし。再検索URL: https://jp.mercari.com/search?keyword=CF-FC6ADTCR%20Core%20Ultra%205%20225U"
+          ]
+        },
+        {
+          "brandSeries": "Let's note SC",
+          "modelName": "Let's note SC7 CF-SC7BDPCR 2026 Core Ultra 7 356H 32GB/512GB",
+          "modelNumber": "CF-SC7BDPCR",
+          "category": "mobile notebook",
+          "releaseStatus": "current",
+          "officialUrl": "https://panasonic.jp/cns/pc/products/sc7a/spec.html",
+          "keySpecs": {
+            "cpu": "Intel Core Ultra 7 356H",
+            "memory": "32GB想定",
+            "storage": "512GB SSD",
+            "display": "12.4型 FHD+"
+          },
+          "marketPrices": [],
+          "priceStats": {
+            "sampleCount": 0,
+            "minJPY": null,
+            "medianJPY": null,
+            "maxJPY": null
+          },
+          "confidence": "low",
+          "notes": [
+            "現行モデルで価格サンプルなし。再検索URL: https://jp.mercari.com/search?keyword=CF-SC7BDPCR"
           ]
         }
       ]
@@ -2650,16 +3733,167 @@
       "url": "https://item.fril.jp/5bbd07f6368532fce9d63c4a51383634",
       "publisher": "ラクマ",
       "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ Inspiron 14 5430 13th Gen i5 16GB RAM",
+      "url": "https://jp.mercari.com/en/item/m73710445441",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Yahoo!フリマ DELL Inspiron14 5430 i5-1335U 512GB/16GB",
+      "url": "https://paypayfleamarket.yahoo.co.jp/item/z450148694",
+      "publisher": "Yahoo!フリマ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "ラクマ 5430 DELL検索結果",
+      "url": "https://fril.jp/s?query=5430+DELL",
+      "publisher": "ラクマ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ Inspiron 14 5425 Ryzen7 16GB/512GB",
+      "url": "https://jp.mercari.com/item/m80865572607",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ XPS 13 Plus 9320 i7-1260P",
+      "url": "https://jp.mercari.com/item/m94750217143",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Yahoo!フリマ XPS 13 Plus 9320",
+      "url": "https://paypayfleamarket.yahoo.co.jp/item/j1145212197",
+      "publisher": "Yahoo!フリマ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Yahoo!フリマ XPS15 9530 i7-13700H RTX4050",
+      "url": "https://paypayfleamarket.yahoo.co.jp/item/z396054200",
+      "publisher": "Yahoo!フリマ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ Latitude 5430 i5-1245U 16GB/256GB",
+      "url": "https://jp.mercari.com/item/m95880653967",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ Alienware x14 R2 i7-13620H RTX4060",
+      "url": "https://jp.mercari.com/item/m79299930544",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ Let's note FV1 i5-1135G7/16GB/256GB",
+      "url": "https://jp.mercari.com/item/m91939019605",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Yahoo!フリマ Let's note FV1 i5-1145G7/16GB/256GB LTE",
+      "url": "https://paypayfleamarket.yahoo.co.jp/item/m1184015291",
+      "publisher": "Yahoo!フリマ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ Panasonic レッツノート SR4 CF-SR4BDNCR",
+      "url": "https://jp.mercari.com/item/m61131231715",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ Panasonic Let's note CF-SR4 i7/16GB/512GB",
+      "url": "https://jp.mercari.com/shops/product/2JJbVi4jViji4ErvD2B8HX",
+      "publisher": "メルカリShops",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ Panasonic Let’s note FV4 CF-FV4DDNCR",
+      "url": "https://jp.mercari.com/item/m62062804031",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "メルカリ Panasonic CF-SV1C8LLC i5-1135G7",
+      "url": "https://jp.mercari.com/shops/product/VDbKhjpsuTfNKSV5qBBxSa",
+      "publisher": "メルカリShops",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Panasonic レッツノート FV5 仕様",
+      "url": "https://panasonic.jp/cns/pc/products/fv5g/spec.html",
+      "publisher": "Panasonic",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Panasonic レッツノート FV4 仕様",
+      "url": "https://panasonic.jp/cns/pc/products/fv4a/spec.html",
+      "publisher": "Panasonic",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Panasonic レッツノート QR4 仕様",
+      "url": "https://panasonic.jp/cns/pc/products/qr4l/spec.html",
+      "publisher": "Panasonic",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Dell 日本 Inspiron 14 5430 公式販売ページ",
+      "url": "https://www.dell.com/ja-jp/shop/%E3%83%87%E3%83%AB%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/inspiron-14-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/inspiron-14-5430-laptop/in5430382r3m2csmnojp",
+      "publisher": "Dell",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Dell 日本 Inspiron 14 5425 セットアップと仕様",
+      "url": "https://www.dell.com/support/manuals/ja-jp/inspiron-14-5425-laptop/inspiron-14-5425-setup-and-specifications/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC",
+      "publisher": "Dell",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Dell 日本 Latitude 5440 公式販売ページ",
+      "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/new-latitude-5450-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/latitude-14-5440-laptop/sml00205440f16bn2tjp_vp",
+      "publisher": "Dell",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Dell 日本 Dell Pro 13 Premium",
+      "url": "https://www.dell.com/ja-jp/shop/dell-laptops/dell-pro-13-premium-laptop/spd/dell-pro-pa13250-laptop",
+      "publisher": "Dell",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "panasonic cf-sv1 の検索結果 - メルカリ",
+      "url": "https://jp.mercari.com/search?keyword=panasonic+cf-sv1",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "QV1 16gb の検索結果 - メルカリ",
+      "url": "https://jp.mercari.com/search?keyword=QV1+16gb",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
+    },
+    {
+      "title": "Let’s note CF-SV1 ブラック&シルバー - メルカリ",
+      "url": "https://jp.mercari.com/item/m30684380286",
+      "publisher": "メルカリ",
+      "accessedDate": "2026-05-19"
     }
   ],
   "notes": [
+    "DellとPanasonic Let's noteは2026-05-19夕方に追加深掘りし、構成別にモデルを再分割しました。価格未取得の現行/新型構成はサンプル不足として残しています。",
     "フリマ価格は公開ページまたはWeb検索結果で確認できた表示価格をそのまま記録した。送料込み・税込の厳密な扱いは各サイト表示に依存する。",
     "構成がCPU型番、メモリ、SSDまで完全一致したものを優先し、SSD容量やCPU型番が検索結果だけでは分離できないものはmatchTypeをapproximate、confidenceをmediumまたはlowにした。",
     "重点メーカーでも現行・準現行モデルは中古流通が少ないため、公式で確認できたモデルはmarketPrices空配列で残した。",
     "メルカリ検索結果ページは表示内容が変動するため、次回定点観測では同一検索語で再取得し、個別商品ページが残るものを優先して更新する。"
   ],
-  "modelCount": 56,
-  "marketSampleCount": 85,
-  "generatedFile": "pc_market_research_20260519_171742.json",
-  "generatedAt": "2026-05-19T17:17:42"
+  "modelCount": 82,
+  "marketSampleCount": 120,
+  "generatedFile": "pc_market_research_20260519_174753_dell_panasonic_deep.json",
+  "generatedAt": "2026-05-19T17:51:49"
 }
