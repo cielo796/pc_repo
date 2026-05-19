@@ -1,3 +1,846 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PC Market Dashboard</title><style>
-:root{--bg:#f6f8fb;--surface:#fff;--line:#d9e0ea;--text:#172033;--muted:#667085;--accent:#0f766e;--warn:#a16207;--danger:#b42318;--blue:#2563eb}*{box-sizing:border-box}body{margin:0;font-family:Inter,'Noto Sans JP',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);letter-spacing:0}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.shell{width:min(1320px,calc(100vw - 28px));margin:0 auto;padding:24px 0 40px}header{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:18px}h1{margin:0;font-size:26px;line-height:1.2}.subtitle,.muted,footer{color:var(--muted)}.subtitle{margin-top:6px;font-size:14px;line-height:1.55}.status,.summary,.metric,.controls{border:1px solid var(--line);border-radius:8px;background:var(--surface)}.status{min-width:220px;padding:10px 12px;text-align:right;color:var(--muted);font-size:13px}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}.metric{padding:14px}.metric .label{color:var(--muted);font-size:12px}.metric .value{margin-top:6px;font-size:24px;font-weight:720}.controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:14px;margin-bottom:14px}label{display:block;color:var(--muted);font-size:12px;margin-bottom:5px}select,input{width:100%;height:38px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--text);font:inherit;font-size:14px;padding:0 10px}.summary{padding:14px;margin-bottom:14px;line-height:1.75;font-size:14px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}table{width:100%;min-width:1040px;border-collapse:collapse;font-size:13px}th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{position:sticky;top:0;background:#eef3f8;color:#344054;font-size:12px;white-space:nowrap}.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}.pill{display:inline-flex;min-height:24px;padding:2px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;font-size:12px}.pill.high{background:#d7f2ee;color:var(--accent)}.pill.medium{background:#fef3c7;color:var(--warn)}.pill.low{background:#fee4e2;color:var(--danger)}footer{margin-top:16px;font-size:12px;line-height:1.5}@media(max-width:860px){header{display:block}.status{margin-top:12px;text-align:left}.metrics,.controls{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.metrics,.controls{grid-template-columns:1fr}}
-</style></head><body><div class="shell"><header><div><h1>PC Market Dashboard</h1><div class="subtitle">主要PCメーカーの過去モデルとフリマ価格サンプルの定点観測ダッシュボードです。</div></div><div class="status"><div>Latest report: <strong>2026-05-18</strong></div><div>Generated: 2026-05-18T07:25:32</div></div></header><section class="metrics"><div class="metric"><div class="label">メーカー</div><div class="value" id="makerCount">0</div></div><div class="metric"><div class="label">モデル</div><div class="value" id="modelCount">0</div></div><div class="metric"><div class="label">価格サンプル</div><div class="value" id="sampleCount">0</div></div><div class="metric"><div class="label">中央値レンジ</div><div class="value" id="priceRange">-</div></div></section><section class="controls"><div><label for="makerSelect">メーカー</label><select id="makerSelect"></select></div><div><label for="modelSelect">モデル</label><select id="modelSelect"></select></div><div><label for="confidenceSelect">確度</label><select id="confidenceSelect"><option value="">すべて</option><option value="high">high</option><option value="medium">medium</option><option value="low">low</option></select></div><div><label for="searchInput">検索</label><input id="searchInput" type="search" placeholder="CPU、カテゴリなど"></div></section><section class="summary">2026年5月時点の日本中古PC市場では、Apple MacBookシリーズが最も流動性が高く、価格保持率も上位。MacBook Air M2/M3/M4は新品からの値下がりが緩やかで、メルカリでは概ね7万〜15万円台で安定して取引されている。Lenovo ThinkPad X1 Carbon Gen 11/Gen 12は中古12万円前後、ビジネス向けの安定需要が見られる。Microsoft Surface Laptop 5/6/Pro 9系はヤフオクで6万〜10万円台、Surface Pro 9以降の流通量が増えている。Panasonic Let&#x27;s note SR4/FV5/QR4は供給量が限定的だが、12万〜18万円台と高い価格保持率を維持。富士通 LIFEBOOK UH、NEC LAVIE NEXTREME Carbonなど国内法人/コンシューマー向けの軽量機は中古2万〜10万円とジェネレーション差が大きい。HP Pavilion Aero 13、Dell XPS 13、ASUS ZenBook、Acer Swift系は5万〜8万円のミドルレンジに集中。MSIゲーミング系はCPU/GPU構成で価格差が大きく、Stealthハイエンドは中古18万円超。本調査は集約データ（price-rank、aucfan等）の公開情報に基づき、各個別の成約価格は要二次確認。</section><section class="table-wrap"><table><thead><tr><th>メーカー</th><th>モデル</th><th>カテゴリ</th><th class="num">中央値</th><th class="num">価格レンジ</th><th class="num">サンプル</th><th>確度</th><th>参照</th></tr></thead><tbody id="rows"></tbody></table></section><footer>価格は調査時点の公開情報または集約値です。状態、構成、送料、付属品により変動します。</footer></div><script>const DATA=[{"maker":"Apple","model":"MacBook Air 13インチ M2 (2022)","category":"mobile notebook","cpu":"Apple M2","median":75000,"min":69800,"max":85000,"samples":3,"confidence":"medium","official":"https://support.apple.com/en-us/111867","priceUrl":"https://price-rank.com/p/28679/s/1"},{"maker":"Apple","model":"MacBook Air 13インチ M3 (2024)","category":"mobile notebook","cpu":"Apple M3","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://support.apple.com/en-us/118552","priceUrl":""},{"maker":"Apple","model":"MacBook Air 13インチ M4 (2025)","category":"mobile notebook","cpu":"Apple M4","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://support.apple.com/en-us/122209","priceUrl":""},{"maker":"Apple","model":"MacBook Air 15インチ M4 (2025)","category":"mobile notebook","cpu":"Apple M4","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://support.apple.com/en-us/122210","priceUrl":""},{"maker":"Apple","model":"MacBook Pro 14インチ M3/M3 Pro/M3 Max (2023)","category":"creator notebook","cpu":"Apple M3 / M3 Pro / M3 Max","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://support.apple.com/en-us/111340","priceUrl":""},{"maker":"Apple","model":"MacBook Pro 14インチ M4 Pro/M4 Max (2024)","category":"creator notebook","cpu":"Apple M4 Pro / M4 Max","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://support.apple.com/en-us/121553","priceUrl":""},{"maker":"Apple","model":"MacBook Pro 14インチ M5 (2025)","category":"creator notebook","cpu":"Apple M5","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.apple.com/jp/macbook-pro/","priceUrl":""},{"maker":"Lenovo","model":"ThinkPad X1 Carbon Gen 11 (2023)","category":"business notebook","cpu":"第13世代 Intel Core i5/i7","median":123039,"min":122078,"max":124000,"samples":2,"confidence":"medium","official":"https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-11/len101t0080","priceUrl":"https://price-rank.com/p/121736"},{"maker":"Lenovo","model":"ThinkPad X1 Carbon Gen 13 Aura Edition (2025)","category":"business notebook","cpu":"Intel Core Ultra (Series 2)","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.lenovo.com/jp/ja/","priceUrl":""},{"maker":"Lenovo","model":"ThinkPad X13 Gen 4 (2023)","category":"business notebook","cpu":"第13世代 Intel Core","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.lenovo.com/jp/ja/","priceUrl":""},{"maker":"Lenovo","model":"ThinkPad T14 Gen 6 (2025)","category":"business notebook","cpu":"Intel Core Ultra (Series 2) / AMD Ryzen AI","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.lenovo.com/jp/ja/","priceUrl":""},{"maker":"Lenovo","model":"ThinkPad E14 Gen 5 (2023)","category":"business notebook","cpu":"第13世代 Intel Core / AMD Ryzen 7000","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.lenovo.com/jp/ja/","priceUrl":""},{"maker":"Lenovo","model":"IdeaPad Slim 5i Gen 8 (2023)","category":"consumer notebook","cpu":"第13世代 Intel Core","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.lenovo.com/jp/ja/","priceUrl":""},{"maker":"Lenovo","model":"IdeaPad 5x 2-in-1 Gen 9 (2024)","category":"2-in-1","cpu":"Snapdragon X Plus","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.lenovo.com/jp/ja/","priceUrl":""},{"maker":"HP","model":"HP Pavilion Aero 13-be (2022-2023)","category":"mobile notebook","cpu":"AMD Ryzen 5/7 5000/7000系","median":67500,"min":50206,"max":74800,"samples":3,"confidence":"medium","official":"https://jp.ext.hp.com/notebooks/personal/pavilion_aero_13_be/","priceUrl":"https://price-rank.com/p/14279/s/1"},{"maker":"HP","model":"HP Pavilion Aero 13-bg (2024)","category":"mobile notebook","cpu":"AMD Ryzen 8000系 (NPU内蔵)","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://jp.ext.hp.com/notebooks/personal/pavilion_aero_13_bg/","priceUrl":""},{"maker":"HP","model":"HP Spectre x360 14 (2023-2024)","category":"2-in-1","cpu":"第13世代 Intel Core / Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://jp.ext.hp.com/notebooks/personal/spectre_x360_14/","priceUrl":""},{"maker":"HP","model":"HP ENVY x360 13/14 (2023-2024)","category":"2-in-1","cpu":"Intel Core / AMD Ryzen 8000HS","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://jp.ext.hp.com/notebooks/personal/envy_x360_14_fa/","priceUrl":""},{"maker":"HP","model":"HP Pavilion Plus 14-eh (2023-2024)","category":"mobile notebook","cpu":"第13世代 Intel Core U/Core Ultra H","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://jp.ext.hp.com/notebooks/personal/pavilion_plus_14_eh/","priceUrl":""},{"maker":"Dell","model":"Dell XPS 13 9305/9315/9320 (2021-2023)","category":"mobile notebook","cpu":"第11-13世代 Intel Core","median":43000,"min":28242,"max":56600,"samples":3,"confidence":"medium","official":"https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/xps-13-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3-2024/spd/xps-13-9345-laptop","priceUrl":"https://aucfan.com/search1/q-dell.20xps13/s-mix/"},{"maker":"Dell","model":"Dell XPS 13 9345 (2024)","category":"mobile notebook","cpu":"Snapdragon X Elite","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/xps-13-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3-2024/spd/xps-13-9345-laptop","priceUrl":""},{"maker":"Dell","model":"Dell XPS 14 9440 (2024)","category":"creator notebook","cpu":"Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.dell.com/ja-jp/","priceUrl":""},{"maker":"Dell","model":"Dell Inspiron 14 Plus 7441 (2024)","category":"consumer notebook","cpu":"Snapdragon X Plus / Intel","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.dell.com/ja-jp/","priceUrl":""},{"maker":"Dell","model":"Dell Latitude 7000シリーズ (2021-2024)","category":"business notebook","cpu":"第11-14世代 Intel Core / Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.dell.com/ja-jp/","priceUrl":""},{"maker":"ASUS","model":"ASUS Zenbook S 13 OLED UX5304 (2023)","category":"mobile notebook","cpu":"第13世代 Intel Core i5/i7","median":15728,"min":15728,"max":15728,"samples":1,"confidence":"low","official":"https://www.asus.com/jp/laptops/for-home/zenbook/zenbook-s-13-oled-ux5304/","priceUrl":"https://price-rank.com/p/2678/s/1"},{"maker":"ASUS","model":"ASUS Zenbook 14 OLED (2024-2025)","category":"mobile notebook","cpu":"Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.asus.com/jp/laptops/for-home/zenbook/","priceUrl":""},{"maker":"ASUS","model":"ASUS Vivobook Pro 16X OLED K6604 (2023)","category":"creator notebook","cpu":"第13世代 Intel Core i9","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.asus.com/jp/laptops/for-home/vivobook/","priceUrl":""},{"maker":"ASUS","model":"ASUS ROG Zephyrus G14 (2023-2024)","category":"gaming notebook","cpu":"AMD Ryzen 9","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://rog.asus.com/jp/","priceUrl":""},{"maker":"ASUS","model":"ASUS ProArt Studiobook 16 OLED (2023)","category":"creator notebook","cpu":"第13世代 Intel Core i9","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.asus.com/jp/laptops/for-creators/proart-studiobook/","priceUrl":""},{"maker":"Acer","model":"Acer Swift 3 (2020-2022)","category":"mobile notebook","cpu":"Intel Core / AMD Ryzen","median":25790,"min":25790,"max":25790,"samples":1,"confidence":"low","official":"https://www.acer.com/jp-ja/laptops/swift","priceUrl":"https://auctions.yahoo.co.jp/closedsearch/closedsearch/acer+swift+3/0/"},{"maker":"Acer","model":"Acer Swift Go 14 (2023-2024)","category":"mobile notebook","cpu":"Intel Core Ultra / 第13世代 Core","median":84990,"min":84990,"max":84990,"samples":1,"confidence":"low","official":"https://www.acer.com/jp-ja/laptops/swift","priceUrl":"https://price-rank.com/p/119981?condition=used"},{"maker":"Acer","model":"Acer Swift Air 16 (2026)","category":"mobile notebook","cpu":"AMD Ryzen AI 7 350","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.acer.com/jp-ja/about/news/20260213","priceUrl":""},{"maker":"Acer","model":"Acer Aspire Lite 14 (2026)","category":"consumer notebook","cpu":"Intel Core Ultra 5 115U","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.acer.com/jp-ja/about/news/20260213","priceUrl":""},{"maker":"Acer","model":"Acer Predator Helios / Triton (2023-2025)","category":"gaming notebook","cpu":"Intel Core i7/i9 / Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.acer.com/jp-ja/predator","priceUrl":""},{"maker":"Microsoft Surface","model":"Surface Laptop 5 13.5/15 (2022)","category":"mobile notebook","cpu":"第12世代 Intel Core i5/i7","median":65363,"min":64980,"max":72800,"samples":3,"confidence":"medium","official":"https://support.microsoft.com/ja-jp/surface/surface-laptop-5-features","priceUrl":"https://auctions.yahoo.co.jp/closedsearch/closedsearch/surface%20laptop/0"},{"maker":"Microsoft Surface","model":"Surface Laptop (第7世代, 2024)","category":"mobile notebook","cpu":"Snapdragon X Plus / X Elite","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.microsoft.com/ja-jp/store/b/buy-surface-laptop","priceUrl":""},{"maker":"Microsoft Surface","model":"Surface Laptop (13インチ, 2025)","category":"mobile notebook","cpu":"Snapdragon X Plus","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://blogs.windows.com/japan/2025/05/16/new-surface-pro-and-surface-laptop-pricing-information-and-pre-orders-now-available/","priceUrl":""},{"maker":"Microsoft Surface","model":"Surface Pro 9 (2022)","category":"2-in-1","cpu":"第12世代 Intel Core i5/i7 / SQ3","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://support.microsoft.com/ja-jp/surface/surface-pro-9-features","priceUrl":""},{"maker":"Microsoft Surface","model":"Surface Pro (第11世代, 2024)","category":"2-in-1","cpu":"Snapdragon X Plus / X Elite","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.microsoft.com/ja-jp/store/b/buy-surface-pro","priceUrl":""},{"maker":"Microsoft Surface","model":"Surface Laptop Go 3 (2023)","category":"mobile notebook","cpu":"第12世代 Intel Core i5","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://news.microsoft.com/ja-jp/features/231019-new-surface-laptop-go-3-and-surface-laptop-studio-2-now-available-in-japan/","priceUrl":""},{"maker":"Microsoft Surface","model":"Surface Laptop Studio 2 (2023)","category":"creator notebook","cpu":"第13世代 Intel Core i7 / RTX 4050/4060","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://news.microsoft.com/ja-jp/features/231019-new-surface-laptop-go-3-and-surface-laptop-studio-2-now-available-in-japan/","priceUrl":""},{"maker":"NEC LAVIE","model":"LAVIE NEXTREME Carbon XC750/FA (2023春)","category":"mobile notebook","cpu":"第12世代 Intel Core i7","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.nec-lavie.jp/products/archives/","priceUrl":""},{"maker":"NEC LAVIE","model":"LAVIE NEXTREME Carbon (2024冬モデル, Copilot+ PC)","category":"mobile notebook","cpu":"Snapdragon X / Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.nec-lavie.jp/common/release/","priceUrl":""},{"maker":"NEC LAVIE","model":"LAVIE NEXTREME 13.3型 (2025秋冬)","category":"mobile notebook","cpu":"Intel Core Ultra (NPU搭載)","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.nec-lavie.jp/","priceUrl":""},{"maker":"NEC LAVIE","model":"LAVIE N15 Slim (2025夏)","category":"consumer notebook","cpu":"","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.nec-lavie.jp/","priceUrl":""},{"maker":"NEC LAVIE","model":"LAVIE N16 (2024-2025)","category":"consumer notebook","cpu":"","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.itmedia.co.jp/pcuser/articles/2507/22/news057.html","priceUrl":""},{"maker":"NEC LAVIE","model":"LAVIE N13 Slim (2024秋冬)","category":"mobile notebook","cpu":"","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.nec-lavie.jp/","priceUrl":""},{"maker":"富士通 FMV","model":"LIFEBOOK UH-X (2021-2023)","category":"mobile notebook","cpu":"第11-13世代 Intel Core i7","median":52278,"min":24557,"max":80000,"samples":2,"confidence":"low","official":"https://www.fmworld.net/product/former/lifebook/l_uh.html","priceUrl":"https://price-rank.com/p/10445"},{"maker":"富士通 FMV","model":"LIFEBOOK UH-X/J3, UH90/J3 (2024秋冬)","category":"mobile notebook","cpu":"Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.fmworld.net/fmv/uh/2410/spec/","priceUrl":""},{"maker":"富士通 FMV","model":"FMV Zero LIFEBOOK WU-X/J3, WU5/J3 (634g, 2024)","category":"mobile notebook","cpu":"Intel Core Ultra 7","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.fmv.com/store/pc/custom/3274.html","priceUrl":""},{"maker":"富士通 FMV","model":"FMV LIFEBOOK WU2/J3, WU4/J3 (2024-2025)","category":"mobile notebook","cpu":"Intel Core Ultra 5/7","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://www.fmv.com/store/pc/custom/3274.html","priceUrl":""},{"maker":"富士通 FMV","model":"FMV 2026年1月発表モデル","category":"consumer notebook","cpu":"","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://fmv.fccl.fujitsu.com/shop/pc/newproduct","priceUrl":""},{"maker":"Dynabook","model":"dynabook RZ/MW (2023春)","category":"mobile notebook","cpu":"第12-13世代 Intel Core","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://dynabook.com/direct/pc/catalog/2023-spring/rzmw/spec.html","priceUrl":""},{"maker":"Dynabook","model":"dynabook RZ/HW (2023秋冬)","category":"mobile notebook","cpu":"第13世代 Intel Core i7","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://dynabook.com/direct/pc/catalog/2023-fall-winter/rzhw/index.html","priceUrl":""},{"maker":"Dynabook","model":"dynabook RZ/HX (2024春)","category":"mobile notebook","cpu":"Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://dynabook.com/direct/pc/catalog/2024-spring/rzhx/spec.html","priceUrl":""},{"maker":"Dynabook","model":"dynabook RZ/EX Special Edition (2024秋冬)","category":"creator notebook","cpu":"Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://dynabook.com/direct/pc/catalog/2024-fall-winter/rzex/index.html","priceUrl":""},{"maker":"Dynabook","model":"dynabook XZシリーズ (2023-2024)","category":"mobile notebook","cpu":"","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://dynabook.com/direct/mobile-note-pc/xz-series.html","priceUrl":""},{"maker":"Dynabook","model":"dynabook GR/ZZ, GR/ZY (2025秋, 13.3型)","category":"mobile notebook","cpu":"","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://dynabook.com/","priceUrl":""},{"maker":"Panasonic Let's note","model":"Let's note SR3 (2023)","category":"business notebook","cpu":"第13世代 Intel Core","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://connect.panasonic.com/jp-ja/products-services/letsnote","priceUrl":""},{"maker":"Panasonic Let's note","model":"Let's note SR4 (2024-2025)","category":"business notebook","cpu":"Intel Core Ultra","median":160989,"min":120000,"max":181800,"samples":4,"confidence":"medium","official":"https://panasonic.jp/cns/pc/products/sr4g/","priceUrl":"https://price-rank.com/p/115141"},{"maker":"Panasonic Let's note","model":"Let's note FV5 (2024-2025)","category":"business notebook","cpu":"Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://connect.panasonic.com/jp-ja/products-services/letsnote","priceUrl":""},{"maker":"Panasonic Let's note","model":"Let's note QR4 (2024)","category":"2-in-1","cpu":"Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://connect.panasonic.com/jp-ja/products-services/letsnote","priceUrl":""},{"maker":"Panasonic Let's note","model":"Let's note FV3/FV4 (2022-2023)","category":"business notebook","cpu":"第12-13世代 Intel Core","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://connect.panasonic.com/jp-ja/products-services/letsnote","priceUrl":""},{"maker":"MSI","model":"MSI Stealth 14 Studio A13V (2023)","category":"gaming notebook","cpu":"第13世代 Intel Core i7","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://jp.msi.com/","priceUrl":""},{"maker":"MSI","model":"MSI Stealth 16 Studio A13VF (2023)","category":"gaming notebook","cpu":"Core i7-13700H","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://jp.msi.com/","priceUrl":""},{"maker":"MSI","model":"MSI Stealth 14 AI Studio A1V (2024)","category":"gaming notebook","cpu":"Intel Core Ultra","median":184980,"min":184980,"max":184980,"samples":1,"confidence":"low","official":"https://jp.msi.com/Laptop/Stealth-14-AI-Studio-A1VX","priceUrl":"https://price-rank.com/p/190319?condition=used"},{"maker":"MSI","model":"MSI Prestige 13 AI Evo A1M (2024)","category":"business notebook","cpu":"Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://jp.msi.com/","priceUrl":""},{"maker":"MSI","model":"MSI Prestige 13 Evo (2026, マグネシウム・アルミ 999g)","category":"business notebook","cpu":"Intel Core Ultra","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://jpstore.msi.com/New_model","priceUrl":""},{"maker":"MSI","model":"MSI Raider / Titan (2024-2025)","category":"gaming notebook","cpu":"Intel Core Ultra 9","median":null,"min":null,"max":null,"samples":0,"confidence":"low","official":"https://jp.msi.com/","priceUrl":""}];const state={maker:'',modelKey:'',confidence:'',search:''};const qs=id=>document.getElementById(id);const yen=v=>v==null?'-':`${Math.round(Number(v)).toLocaleString('ja-JP')}円`;const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));const key=r=>`${r.maker}	${r.model}`;function init(){fillMakers();fillModels();bind();render()}function bind(){qs('makerSelect').onchange=e=>{state.maker=e.target.value;state.modelKey='';fillModels();render()};qs('modelSelect').onchange=e=>{state.modelKey=e.target.value;render()};qs('confidenceSelect').onchange=e=>{state.confidence=e.target.value;render()};qs('searchInput').oninput=e=>{state.search=e.target.value;render()}}function fillMakers(){const makers=[...new Set(DATA.map(r=>r.maker))].sort((a,b)=>a.localeCompare(b,'ja'));qs('makerSelect').innerHTML='<option value="">すべて</option>'+makers.map(m=>`<option>${esc(m)}</option>`).join('')}function fillModels(){const base=state.maker?DATA.filter(r=>r.maker===state.maker):DATA;const opts=base.map(r=>[key(r),state.maker?r.model:`${r.maker} - ${r.model}`]).sort((a,b)=>a[1].localeCompare(b[1],'ja'));qs('modelSelect').innerHTML='<option value="">すべて</option>'+opts.map(([v,l])=>`<option value="${esc(v)}">${esc(l)}</option>`).join('')}function filtered(){let out=DATA;if(state.maker)out=out.filter(r=>r.maker===state.maker);if(state.modelKey)out=out.filter(r=>key(r)===state.modelKey);if(state.confidence)out=out.filter(r=>r.confidence===state.confidence);const q=state.search.trim().toLowerCase();if(q)out=out.filter(r=>[r.maker,r.model,r.category,r.cpu,r.confidence].join(' ').toLowerCase().includes(q));return [...out].sort((a,b)=>(b.median??-1)-(a.median??-1))}function render(){const rows=filtered();const prices=rows.map(r=>r.median).filter(v=>v!=null);qs('makerCount').textContent=new Set(rows.map(r=>r.maker)).size.toLocaleString('ja-JP');qs('modelCount').textContent=rows.length.toLocaleString('ja-JP');qs('sampleCount').textContent=rows.reduce((n,r)=>n+(Number(r.samples)||0),0).toLocaleString('ja-JP');qs('priceRange').textContent=prices.length?`${yen(Math.min(...prices))} - ${yen(Math.max(...prices))}`:'-';qs('rows').innerHTML=rows.map(r=>{const links=[r.official&&`<a href="${esc(r.official)}" target="_blank" rel="noreferrer">公式</a>`,r.priceUrl&&`<a href="${esc(r.priceUrl)}" target="_blank" rel="noreferrer">価格</a>`].filter(Boolean).join(' / ')||'<span class="muted">-</span>';return `<tr><td>${esc(r.maker)}</td><td><strong>${esc(r.model)}</strong><div class="muted">${esc(r.cpu)}</div></td><td>${esc(r.category)}</td><td class="num">${yen(r.median)}</td><td class="num">${yen(r.min)} - ${yen(r.max)}</td><td class="num">${esc(r.samples)}</td><td><span class="pill ${esc(r.confidence)}">${esc(r.confidence)}</span></td><td>${links}</td></tr>`}).join('')}init();</script></body></html>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PC Market Dashboard</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fb;
+      --surface: #ffffff;
+      --line: #d9e0ea;
+      --text: #172033;
+      --muted: #667085;
+      --accent: #0f766e;
+      --accent-soft: #d7f2ee;
+      --warn: #a16207;
+      --danger: #b42318;
+      --blue: #2563eb;
+      --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      letter-spacing: 0;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .shell {
+      width: min(1400px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 24px 0 40px;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 26px;
+      line-height: 1.2;
+      font-weight: 720;
+    }
+
+    .subtitle {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .status {
+      min-width: 220px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      text-align: right;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    .metric {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .metric .label {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .metric .value {
+      margin-top: 6px;
+      font-size: 24px;
+      font-weight: 720;
+      line-height: 1.1;
+      white-space: nowrap;
+      overflow-wrap: anywhere;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(220px, 2fr) repeat(5, minmax(150px, 1fr));
+      gap: 10px;
+      align-items: end;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      margin-bottom: 14px;
+    }
+
+    label {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+      margin-bottom: 5px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      font: inherit;
+      font-size: 14px;
+      padding: 0 10px;
+    }
+
+    .summary {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      padding: 14px;
+      margin-bottom: 14px;
+      color: #344054;
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 1140px;
+      font-size: 13px;
+    }
+
+    th,
+    td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #eef3f8;
+      color: #344054;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    tbody tr:hover {
+      background: #f8fbfd;
+    }
+
+    .num {
+      text-align: right;
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .model {
+      font-weight: 700;
+      min-width: 240px;
+      overflow-wrap: anywhere;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #3730a3;
+      font-size: 12px;
+      line-height: 1.4;
+      white-space: nowrap;
+    }
+
+    .pill.high {
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .pill.medium {
+      background: #fef3c7;
+      color: var(--warn);
+    }
+
+    .pill.low {
+      background: #fee4e2;
+      color: var(--danger);
+    }
+
+    .samples {
+      display: grid;
+      gap: 6px;
+      min-width: 190px;
+    }
+
+    .lowest-price {
+      display: grid;
+      gap: 3px;
+    }
+
+    .sample-line {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      color: #344054;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .empty {
+      padding: 28px;
+      text-align: center;
+      color: var(--muted);
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    footer {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 960px) {
+      .shell {
+        width: min(100vw - 20px, 1400px);
+        padding-top: 14px;
+      }
+
+      header {
+        display: block;
+      }
+
+      .status {
+        margin-top: 12px;
+        text-align: left;
+      }
+
+      .metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .controls {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 620px) {
+      h1 {
+        font-size: 22px;
+      }
+
+      .metrics,
+      .controls {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .shell {
+        width: min(100vw - 16px, 1400px);
+        padding: 12px 0 28px;
+      }
+
+      h1 {
+        font-size: 21px;
+      }
+
+      .subtitle {
+        font-size: 13px;
+      }
+
+      .status {
+        width: 100%;
+        min-width: 0;
+        padding: 9px 10px;
+      }
+
+      .metric {
+        padding: 11px;
+      }
+
+      .metric .value {
+        font-size: 20px;
+        white-space: normal;
+      }
+
+      .controls {
+        padding: 10px;
+        gap: 8px;
+      }
+
+      .summary {
+        padding: 12px;
+        font-size: 13px;
+      }
+
+      .table-wrap {
+        overflow: visible;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+      }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+      }
+
+      table {
+        min-width: 0;
+        border-collapse: separate;
+        font-size: 13px;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tbody {
+        display: grid;
+        gap: 10px;
+      }
+
+      tbody tr {
+        padding: 6px 0;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+      }
+
+      tbody tr:hover {
+        background: var(--surface);
+      }
+
+      td {
+        display: grid;
+        grid-template-columns: 88px minmax(0, 1fr);
+        gap: 10px;
+        padding: 8px 12px;
+        border-bottom: 0;
+      }
+
+      td::before {
+        content: attr(data-label);
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1.5;
+      }
+
+      .num {
+        text-align: left;
+        white-space: normal;
+      }
+
+      .model,
+      .samples {
+        min-width: 0;
+      }
+
+      .sample-line {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: start;
+      }
+
+      .sample-line strong {
+        white-space: nowrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <h1>PC Market Dashboard</h1>
+        <div class="subtitle">主要PCメーカーの過去モデルとフリマ価格サンプルを一覧できます。</div>
+      </div>
+      <div class="status">
+        <div>Latest report: <strong>2026-05-18</strong></div>
+        <div>Dashboard generated: <span id="generatedAt">-</span></div>
+      </div>
+    </header>
+
+    <section class="metrics" aria-label="summary metrics">
+      <div class="metric"><div class="label">メーカー</div><div class="value" id="makerCount">0</div></div>
+      <div class="metric"><div class="label">モデル</div><div class="value" id="modelCount">0</div></div>
+      <div class="metric"><div class="label">価格サンプル</div><div class="value" id="sampleCount">0</div></div>
+      <div class="metric"><div class="label">最安値</div><div class="value" id="lowestPrice">-</div></div>
+      <div class="metric"><div class="label">中央値レンジ</div><div class="value" id="priceRange">-</div></div>
+    </section>
+
+    <section class="controls" aria-label="filters">
+      <div>
+        <label for="searchInput">検索</label>
+        <input id="searchInput" type="search" placeholder="メーカー、モデル、CPU、カテゴリ">
+      </div>
+      <div>
+        <label for="reportSelect">調査日</label>
+        <select id="reportSelect"></select>
+      </div>
+      <div>
+        <label for="makerSelect">メーカー</label>
+        <select id="makerSelect"></select>
+      </div>
+      <div>
+        <label for="modelSelect">モデル</label>
+        <select id="modelSelect"></select>
+      </div>
+      <div>
+        <label for="confidenceSelect">確度</label>
+        <select id="confidenceSelect">
+          <option value="">すべて</option>
+          <option value="high">high</option>
+          <option value="medium">medium</option>
+          <option value="low">low</option>
+        </select>
+      </div>
+      <div>
+        <label for="sortSelect">並び順</label>
+        <select id="sortSelect">
+          <option value="median-desc">中央値 高い順</option>
+          <option value="median-asc">中央値 安い順</option>
+          <option value="lowest-asc">最安値 安い順</option>
+          <option value="maker-asc">メーカー順</option>
+          <option value="samples-desc">サンプル数順</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="summary" id="summaryText"></section>
+    <div id="emptyState" class="empty" hidden>まだPC市場調査レポートがありません。調査実行後にこのページを再生成してください。</div>
+
+    <section class="table-wrap" aria-label="pc market model table">
+      <table>
+        <thead>
+          <tr>
+            <th>メーカー</th>
+            <th>モデル</th>
+            <th>カテゴリ</th>
+            <th class="num">最安値</th>
+            <th class="num">中央値</th>
+            <th class="num">価格レンジ</th>
+            <th class="num">サンプル</th>
+            <th>確度</th>
+            <th>主な価格サンプル</th>
+            <th>参照</th>
+          </tr>
+        </thead>
+        <tbody id="modelRows"></tbody>
+      </table>
+    </section>
+
+    <footer>
+      公開情報を定点観測するための一覧です。価格は調査時点の表示価格または成約価格であり、状態、構成、送料、付属品により変動します。
+    </footer>
+  </div>
+
+  <script>
+    let dashboard = { generatedAt: null, reports: [] };
+    let reports = [];
+    const state = {
+      reportIndex: 0,
+      search: '',
+      maker: '',
+      modelKey: '',
+      confidence: '',
+      sort: 'median-desc',
+    };
+
+    const reportSelect = document.getElementById('reportSelect');
+    const makerSelect = document.getElementById('makerSelect');
+    const modelSelect = document.getElementById('modelSelect');
+    const confidenceSelect = document.getElementById('confidenceSelect');
+    const sortSelect = document.getElementById('sortSelect');
+    const searchInput = document.getElementById('searchInput');
+
+    function currentReport() {
+      return reports[state.reportIndex] || null;
+    }
+
+    function flattenModels(report) {
+      if (!report) return [];
+      const rows = [];
+      for (const maker of report.manufacturers || []) {
+        for (const model of maker.models || []) {
+          const stats = model.priceStats || {};
+          const samples = model.marketPrices || [];
+          const lowestSample = findLowestSample(samples);
+          const lowest = minimumNumber([stats.minJPY, ...samples.map(sample => sample.priceJPY)]);
+          rows.push({
+            maker: maker.name || '-',
+            modelName: model.modelName || model.brandSeries || '-',
+            modelKey: `${maker.name || '-'}	${model.modelName || model.brandSeries || '-'}`,
+            brandSeries: model.brandSeries || '',
+            category: model.category || '-',
+            releaseStatus: model.releaseStatus || '',
+            officialUrl: model.officialUrl || '',
+            confidence: model.confidence || '',
+            specs: model.keySpecs || {},
+            notes: Array.isArray(model.notes) ? model.notes.join(' ') : String(model.notes || ''),
+            median: asNumber(stats.medianJPY),
+            min: asNumber(stats.minJPY),
+            max: asNumber(stats.maxJPY),
+            lowest,
+            lowestSample,
+            sampleCount: asNumber(stats.sampleCount),
+            samples,
+          });
+        }
+      }
+      return rows;
+    }
+
+    function refreshReportOptions() {
+      reportSelect.innerHTML = '';
+      if (!reports.length) {
+        reportSelect.append(new Option('レポートなし', '0'));
+        return;
+      }
+      reports.forEach((report, index) => {
+        const label = `${report.reportDate || '-'} ${report.generatedFile ? '(' + report.generatedFile + ')' : ''}`;
+        reportSelect.append(new Option(label, String(index)));
+      });
+    }
+
+    function refreshMakerOptions(rows) {
+      const makers = [...new Set(rows.map(row => row.maker).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ja'));
+      makerSelect.innerHTML = '';
+      makerSelect.append(new Option('すべて', ''));
+      makers.forEach(maker => makerSelect.append(new Option(maker, maker)));
+      if (!makers.includes(state.maker)) state.maker = '';
+      makerSelect.value = state.maker;
+    }
+
+    function refreshModelOptions(rows) {
+      const scopedRows = state.maker ? rows.filter(row => row.maker === state.maker) : rows;
+      const models = scopedRows
+        .map(row => ({
+          key: row.modelKey,
+          label: state.maker ? row.modelName : `${row.maker} - ${row.modelName}`,
+        }))
+        .sort((a, b) => a.label.localeCompare(b.label, 'ja'));
+      modelSelect.innerHTML = '';
+      modelSelect.append(new Option('すべて', ''));
+      for (const model of models) {
+        modelSelect.append(new Option(model.label, model.key));
+      }
+      if (!models.some(model => model.key === state.modelKey)) state.modelKey = '';
+      modelSelect.value = state.modelKey;
+    }
+
+    function filteredRows() {
+      const report = currentReport();
+      let rows = flattenModels(report);
+      if (state.maker) rows = rows.filter(row => row.maker === state.maker);
+      if (state.modelKey) rows = rows.filter(row => row.modelKey === state.modelKey);
+      if (state.confidence) rows = rows.filter(row => row.confidence === state.confidence);
+      const query = state.search.trim().toLowerCase();
+      if (query) {
+        rows = rows.filter(row => {
+          const text = [
+            row.maker,
+            row.modelName,
+            row.brandSeries,
+            row.category,
+            row.releaseStatus,
+            row.confidence,
+            row.specs.cpu,
+            row.specs.memory,
+            row.specs.storage,
+            row.notes,
+          ].join(' ').toLowerCase();
+          return text.includes(query);
+        });
+      }
+
+      rows.sort((a, b) => {
+        if (state.sort === 'lowest-asc') return nullLast(a.lowest, b.lowest);
+        if (state.sort === 'median-asc') return nullLast(a.median, b.median);
+        if (state.sort === 'maker-asc') return `${a.maker} ${a.modelName}`.localeCompare(`${b.maker} ${b.modelName}`, 'ja');
+        if (state.sort === 'samples-desc') return b.sampleCount - a.sampleCount;
+        return nullLast(b.median, a.median);
+      });
+      return rows;
+    }
+
+    function renderMetrics(allRows, rows) {
+      const prices = rows.map(row => row.median).filter(value => value !== null);
+      const lowestPrices = rows.map(row => row.lowest).filter(value => value !== null);
+      const makers = new Set(rows.map(row => row.maker));
+      const sampleTotal = rows.reduce((total, row) => total + (row.sampleCount || 0), 0);
+      document.getElementById('makerCount').textContent = makers.size.toLocaleString('ja-JP');
+      document.getElementById('modelCount').textContent = rows.length.toLocaleString('ja-JP');
+      document.getElementById('sampleCount').textContent = sampleTotal.toLocaleString('ja-JP');
+      document.getElementById('lowestPrice').textContent = lowestPrices.length ? yen(Math.min(...lowestPrices)) : '-';
+      document.getElementById('priceRange').textContent = prices.length ? `${yen(Math.min(...prices))} - ${yen(Math.max(...prices))}` : '-';
+      document.getElementById('emptyState').hidden = allRows.length > 0;
+    }
+
+    function renderSummary(report) {
+      const summary = document.getElementById('summaryText');
+      if (!report) {
+        summary.textContent = 'レポートがありません。';
+        return;
+      }
+      const scope = report.scope || {};
+      const lookback = scope.modelLookbackYears || 5;
+      const marketplaces = Array.isArray(scope.marketplaces) ? scope.marketplaces.join('、') : '-';
+      const base = report.summary || '';
+      summary.textContent = `${base} 対象モデルは過去${lookback}年、対象サイトは${marketplaces}です。`;
+    }
+
+    function renderRows(rows) {
+      const tbody = document.getElementById('modelRows');
+      tbody.innerHTML = '';
+      for (const row of rows) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td data-label="メーカー">${escapeHtml(row.maker)}</td>
+          <td class="model" data-label="モデル">
+            ${escapeHtml(row.modelName)}
+            <div class="muted">${escapeHtml([row.specs.cpu, row.specs.memory, row.specs.storage].filter(Boolean).join(' / '))}</div>
+          </td>
+          <td data-label="カテゴリ">${escapeHtml(row.category)}<div class="muted">${escapeHtml(row.releaseStatus)}</div></td>
+          <td class="num" data-label="最安値">${lowestPriceCell(row)}</td>
+          <td class="num" data-label="中央値">${yen(row.median)}</td>
+          <td class="num" data-label="価格レンジ">${rangeText(row.min, row.max)}</td>
+          <td class="num" data-label="サンプル">${row.sampleCount || 0}</td>
+          <td data-label="確度">${confidencePill(row.confidence)}</td>
+          <td data-label="主な価格サンプル">${sampleLines(row.samples)}</td>
+          <td data-label="参照">${links(row)}</td>
+        `;
+        tbody.appendChild(tr);
+      }
+    }
+
+    function render() {
+      const report = currentReport();
+      const allRows = flattenModels(report);
+      refreshMakerOptions(allRows);
+      refreshModelOptions(allRows);
+      const rows = filteredRows();
+      renderSummary(report);
+      renderMetrics(allRows, rows);
+      renderRows(rows);
+    }
+
+    reportSelect.addEventListener('change', () => {
+      state.reportIndex = Number(reportSelect.value || 0);
+      state.maker = '';
+      state.modelKey = '';
+      render();
+    });
+    makerSelect.addEventListener('change', () => {
+      state.maker = makerSelect.value;
+      state.modelKey = '';
+      render();
+    });
+    modelSelect.addEventListener('change', () => {
+      state.modelKey = modelSelect.value;
+      render();
+    });
+    confidenceSelect.addEventListener('change', () => {
+      state.confidence = confidenceSelect.value;
+      render();
+    });
+    sortSelect.addEventListener('change', () => {
+      state.sort = sortSelect.value;
+      render();
+    });
+    searchInput.addEventListener('input', () => {
+      state.search = searchInput.value;
+      render();
+    });
+
+    function asNumber(value) {
+      const number = Number(value);
+      return Number.isFinite(number) ? number : null;
+    }
+
+    function minimumNumber(values) {
+      const numbers = values.map(asNumber).filter(value => value !== null);
+      return numbers.length ? Math.min(...numbers) : null;
+    }
+
+    function findLowestSample(samples) {
+      if (!samples || !samples.length) return null;
+      return samples.reduce((best, sample) => {
+        const price = asNumber(sample.priceJPY);
+        if (price === null) return best;
+        if (!best || price < asNumber(best.priceJPY)) return sample;
+        return best;
+      }, null);
+    }
+
+    function nullLast(a, b) {
+      if (a === null && b === null) return 0;
+      if (a === null) return 1;
+      if (b === null) return -1;
+      return a - b;
+    }
+
+    function yen(value) {
+      return value === null ? '-' : `${Math.round(value).toLocaleString('ja-JP')}円`;
+    }
+
+    function rangeText(min, max) {
+      if (min === null && max === null) return '-';
+      return `${yen(min)} - ${yen(max)}`;
+    }
+
+    function confidencePill(value) {
+      const safe = escapeHtml(value || '-');
+      const cls = ['high', 'medium', 'low'].includes(value) ? value : '';
+      return `<span class="pill ${cls}">${safe}</span>`;
+    }
+
+    function lowestPriceCell(row) {
+      if (row.lowest === null) return '<span class="muted">-</span>';
+      const sample = row.lowestSample && asNumber(row.lowestSample.priceJPY) === row.lowest ? row.lowestSample : null;
+      const meta = sample ? [sample.marketplace, sample.status].filter(Boolean).join(' / ') : '';
+      return `<div class="lowest-price"><strong>${yen(row.lowest)}</strong>${meta ? `<span class="muted">${escapeHtml(meta)}</span>` : ''}</div>`;
+    }
+
+    function sampleLines(samples) {
+      if (!samples || !samples.length) return '<span class="muted">-</span>';
+      return `<div class="samples">${samples.slice(0, 3).map(sample => `
+        <div class="sample-line">
+          <span>${escapeHtml(sample.marketplace || '-')} / ${escapeHtml(sample.status || '-')}</span>
+          <strong>${yen(asNumber(sample.priceJPY))}</strong>
+        </div>
+      `).join('')}</div>`;
+    }
+
+    function links(row) {
+      const sample = (row.samples || []).find(item => item.sourceUrl);
+      const parts = [];
+      if (row.officialUrl) parts.push(`<a href="${escapeAttr(row.officialUrl)}" target="_blank" rel="noreferrer">公式</a>`);
+      if (sample && sample.sourceUrl) parts.push(`<a href="${escapeAttr(sample.sourceUrl)}" target="_blank" rel="noreferrer">価格</a>`);
+      return parts.length ? parts.join(' / ') : '<span class="muted">-</span>';
+    }
+
+    function formatDateTime(value) {
+      if (!value) return '-';
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value;
+      return date.toLocaleString('ja-JP');
+    }
+
+    function escapeHtml(value) {
+      return String(value || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value).replaceAll('`', '&#096;');
+    }
+
+    async function loadDashboardData() {
+      try {
+        const response = await fetch('reports.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const loadedReports = await response.json();
+        reports = Array.isArray(loadedReports) ? loadedReports : [];
+        dashboard = {
+          generatedAt: reports[0]?.generatedAt || new Date().toISOString(),
+          reports,
+        };
+      } catch (error) {
+        console.error('Failed to load reports.json', error);
+        reports = [];
+        dashboard = { generatedAt: null, reports };
+      }
+      document.getElementById('generatedAt').textContent = formatDateTime(dashboard.generatedAt);
+      refreshReportOptions();
+      render();
+    }
+
+    loadDashboardData();
+  </script>
+</body>
+</html>
