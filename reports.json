@@ -27,6 +27,2671 @@
       ],
       "modelLookbackYears": 5
     },
+    "summary": "2026年5月19日時点では、Apple M3/M4/M5、ThinkPad X1 Carbon Gen10以降、HP/Dell/VAIOの第12〜13世代CoreおよびCore Ultra搭載機、Let's note SR/FV、dynabook RZ/XZ、LAVIE N15がフリマ上で比較的確認しやすい。メルカリは検索結果・Shopsを含めて掲載量が多く、Yahoo!フリマは個別ページで購入日時・状態・構成まで確認できる例があった。ラクマはLet's note、dynabookなどで成約・SOLD OUT価格が確認できた。一方、現行法人機や2025〜2026年モデルは流通が少なく、公式で確認できても価格サンプルが空またはlisted中心になりやすい。価格統計はCPU、メモリ、SSDが同一または明記差分が小さいものだけで計算し、検索結果のみのものや構成差が残るものはconfidenceを下げた。",
+    "manufacturers": [
+      {
+        "name": "Apple",
+        "officialSources": [
+          {
+            "title": "MacBook Airのモデルを識別する - Apple サポート",
+            "url": "https://support.apple.com/ja-jp/102869",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "Mac マニュアルとダウンロード - Apple サポート",
+            "url": "https://support.apple.com/ja-jp/docs/mac",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "MacBook Air",
+            "modelName": "MacBook Air 13インチ M5 2026 Apple M5 16GB/512GB",
+            "modelNumber": "Mac17,3",
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://support.apple.com/ja-jp/102869",
+            "keySpecs": {
+              "cpu": "Apple M5",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=MacBook+air+16GB%2F512GB",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 160000,
+                "matchType": "exact",
+                "notes": "検索結果にMacBook Air M5 13インチ 16GB 512GBとして掲載"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=MacBook+air+16GB%2F512GB",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 168000,
+                "matchType": "exact",
+                "notes": "ほぼ未使用表記"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=MacBook+air+16GB%2F512GB",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 172000,
+                "matchType": "approximate",
+                "notes": "M5ミッドナイト表記、SSD容量は検索文脈で確認"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 3,
+              "minJPY": 160000,
+              "medianJPY": 168000,
+              "maxJPY": 172000
+            },
+            "confidence": "medium",
+            "notes": [
+              "2026年モデルとしてAppleサポートで確認",
+              "市場サンプルはメルカリ検索結果中心"
+            ]
+          },
+          {
+            "brandSeries": "MacBook Air",
+            "modelName": "MacBook Air 13インチ M4 2025 Apple M4 16GB/512GB",
+            "modelNumber": "Mac16,12",
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://support.apple.com/ja-jp/102869",
+            "keySpecs": {
+              "cpu": "Apple M4",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=MacBook+air+16GB%2F512GB",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 159900,
+                "matchType": "exact",
+                "notes": "MacBook Air M4 13インチ16GB 512GB、バッテリー100%表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 159900,
+              "medianJPY": 159900,
+              "maxJPY": 159900
+            },
+            "confidence": "medium",
+            "notes": [
+              "サンプル不足"
+            ]
+          },
+          {
+            "brandSeries": "MacBook Air",
+            "modelName": "MacBook Air 13インチ M3 2024 Apple M3 16GB/512GB",
+            "modelNumber": "Mac15,12",
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://support.apple.com/ja-jp/102869",
+            "keySpecs": {
+              "cpu": "Apple M3",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13.6インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/item/m99645787968",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "used-good",
+                "priceJPY": 130000,
+                "matchType": "exact",
+                "notes": "スターライト、US配列、本体と箱のみ"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Macbook+air+m3+16gb+512gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 138000,
+                "matchType": "exact",
+                "notes": "検索結果上の13インチM3 16GB/512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Macbook+air+m3+16gb+512gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 135000,
+                "matchType": "exact",
+                "notes": "ミッドナイト、US配列表記"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Macbook+air+m3+16gb+512gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 146000,
+                "matchType": "exact",
+                "notes": "M3 16GB/512GB表記"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Macbook+air+m3+16gb+512gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 124900,
+                "matchType": "exact",
+                "notes": "13インチ、16GB/512GB、US配列表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 5,
+              "minJPY": 124900,
+              "medianJPY": 135000,
+              "maxJPY": 146000
+            },
+            "confidence": "high",
+            "notes": []
+          },
+          {
+            "brandSeries": "MacBook Air",
+            "modelName": "MacBook Air 15インチ M3 2024 Apple M3 16GB/512GB",
+            "modelNumber": "Mac15,13",
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://support.apple.com/ja-jp/102869",
+            "keySpecs": {
+              "cpu": "Apple M3",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "15.3インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Macbook+air+m3+16gb+512gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 145000,
+                "matchType": "exact",
+                "notes": "15インチM3 16GB/512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Macbook+air+m3+16gb+512gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 155000,
+                "matchType": "exact",
+                "notes": "15インチM3 16GB/512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Macbook+air+m3+16gb+512gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "unused",
+                "priceJPY": 190000,
+                "matchType": "exact",
+                "notes": "新品未開封表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 3,
+              "minJPY": 145000,
+              "medianJPY": 155000,
+              "maxJPY": 190000
+            },
+            "confidence": "medium",
+            "notes": [
+              "未使用品を含む"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lenovo",
+        "officialSources": [
+          {
+            "title": "ThinkPad X1 Carbon Gen 13 Aura Edition",
+            "url": "https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-13-aura-edition-14-inch-intel/len101t0114",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "ThinkPad X1 Carbon Gen 12",
+            "url": "https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-12-14-inch-intel/21kdcto1wwjp6",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "ThinkPad X1 Carbon ビジネスノートPCのフラッグシップモデル",
+            "url": "https://www.lenovo.com/jp/ja/d/thinkpad-x1-carbon/",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "ThinkPad X1 Carbon",
+            "modelName": "ThinkPad X1 Carbon Gen 13 Aura Edition Core Ultra 7 16GB/512GB",
+            "modelNumber": null,
+            "category": "business notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-13-aura-edition-14-inch-intel/len101t0114",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Lenovo+x1+carbon+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 210000,
+                "matchType": "approximate",
+                "notes": "ThinkPad X1 Carbon Gen 13 IAL表記、SSD容量未分離"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=THINKPad+x1+carbon",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 225000,
+                "matchType": "approximate",
+                "notes": "Gen 13 Aura Edition表記、構成未分離"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 210000,
+              "medianJPY": 217500,
+              "maxJPY": 225000
+            },
+            "confidence": "low",
+            "notes": [
+              "構成別価格未分離"
+            ]
+          },
+          {
+            "brandSeries": "ThinkPad X1 Carbon",
+            "modelName": "ThinkPad X1 Carbon Gen 12 Core Ultra 7 16GB/512GB",
+            "modelNumber": null,
+            "category": "business notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-12-14-inch-intel/21kdcto1wwjp6",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Lenovo+x1+carbon+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "new",
+                "priceJPY": 292400,
+                "matchType": "approximate",
+                "notes": "ThinkPad X1 Carbon Gen 12 21KC000BJP、構成の完全一致未確認"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 292400,
+              "medianJPY": 292400,
+              "maxJPY": 292400
+            },
+            "confidence": "low",
+            "notes": [
+              "サンプル不足"
+            ]
+          },
+          {
+            "brandSeries": "ThinkPad X1 Carbon",
+            "modelName": "ThinkPad X1 Carbon Gen 11 Core i5-1335U 16GB/512GB",
+            "modelNumber": null,
+            "category": "business notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://www.lenovo.com/jp/ja/d/thinkpad-x1-carbon/",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1335U",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ WUXGA"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "Yahoo!フリマ",
+                "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z573613712",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 105000,
+                "matchType": "exact",
+                "notes": "Core i5-1335U、16GB、SSD512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=X1+carbon+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 128000,
+                "matchType": "approximate",
+                "notes": "Gen11 1335U 16G表記、SSD容量の再確認が必要"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 105000,
+              "medianJPY": 116500,
+              "maxJPY": 128000
+            },
+            "confidence": "medium",
+            "notes": []
+          },
+          {
+            "brandSeries": "ThinkPad X1 Carbon",
+            "modelName": "ThinkPad X1 Carbon Gen 10 Core i5-1235U 16GB/512GB",
+            "modelNumber": null,
+            "category": "business notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://www.lenovo.com/jp/ja/d/thinkpad-x1-carbon/",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1235U",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "Yahoo!フリマ",
+                "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z517801052",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "used-good",
+                "priceJPY": 63000,
+                "matchType": "exact",
+                "notes": "購入日時2025-11-24"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=ThinkPad+X1+Carbon+16gb&page_token=v1%3A1",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 70800,
+                "matchType": "exact",
+                "notes": "第12世代 Core i5-1235U、16GB、SSD512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Lenovo+X1+carbon+gen10",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 70000,
+                "matchType": "exact",
+                "notes": "i5 12世代、16GB、500G表記"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Lenovo+X1+carbon+gen10",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 77800,
+                "matchType": "exact",
+                "notes": "512GB表記"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Lenovo+X1+carbon+gen10",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 82700,
+                "matchType": "exact",
+                "notes": "512GB表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 5,
+              "minJPY": 63000,
+              "medianJPY": 70800,
+              "maxJPY": 82700
+            },
+            "confidence": "high",
+            "notes": []
+          },
+          {
+            "brandSeries": "ThinkPad X1 Carbon",
+            "modelName": "ThinkPad X1 Carbon Gen 9 Core i7-1185G7 16GB/512GB",
+            "modelNumber": null,
+            "category": "business notebook",
+            "releaseStatus": "discontinued",
+            "officialUrl": "https://www.lenovo.com/jp/ja/d/thinkpad-x1-carbon/",
+            "keySpecs": {
+              "cpu": "Intel Core i7-1185G7",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Lenovo+x1+carbon+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 70000,
+                "matchType": "exact",
+                "notes": "Gen9 i7 16GB 512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Lenovo+x1+carbon+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 73000,
+                "matchType": "exact",
+                "notes": "Gen9 i7-1185G7/16GB/512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=ThinkPad+X1+carbon+gen10",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 77000,
+                "matchType": "exact",
+                "notes": "Gen9 i7 16GB 512GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 3,
+              "minJPY": 70000,
+              "medianJPY": 73000,
+              "maxJPY": 77000
+            },
+            "confidence": "medium",
+            "notes": [
+              "検索結果中心"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HP",
+        "officialSources": [
+          {
+            "title": "HP EliteBook 840 G11 | 日本HP",
+            "url": "https://jp.ext.hp.com/prod/notebooks/business/elitebook_840_g11/",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "HP EliteBook 840 G11 Notebook PCシリーズ 仕様",
+            "url": "https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/lib/products/portables/specs/elitebook_840_g11_cto.pdf",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "EliteBook",
+            "modelName": "HP EliteBook 840 G11 Core Ultra 5/7 16GB/512GB",
+            "modelNumber": null,
+            "category": "business notebook",
+            "releaseStatus": "discontinued",
+            "officialUrl": "https://jp.ext.hp.com/prod/notebooks/business/elitebook_840_g11/",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "公式で販売終了確認、構成一致サンプル未確認",
+              "検索URL: https://jp.mercari.com/search?keyword=HP+EliteBook+840+G11+16GB+512GB"
+            ]
+          },
+          {
+            "brandSeries": "EliteBook",
+            "modelName": "HP EliteBook 840 G10 Core i5-1345U 16GB/256GB",
+            "modelNumber": null,
+            "category": "business notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://jp.ext.hp.com/prod/notebooks/business/",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1345U",
+              "memory": "16GB",
+              "storage": "256GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/item/m88858661416",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-fair",
+                "priceJPY": 64800,
+                "matchType": "exact",
+                "notes": "本体のみ、ACなし"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Elitebook+g10",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 77800,
+                "matchType": "approximate",
+                "notes": "EliteBook 840 G10 第13世代i5 16GB 256GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 64800,
+              "medianJPY": 71300,
+              "maxJPY": 77800
+            },
+            "confidence": "medium",
+            "notes": []
+          },
+          {
+            "brandSeries": "EliteBook",
+            "modelName": "HP EliteBook 630 G10 Core i5-1335U 16GB/512GB",
+            "modelNumber": null,
+            "category": "business notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://jp.ext.hp.com/prod/notebooks/business/",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1335U",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13.3インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=hP+elitebook+g10",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 51800,
+                "matchType": "exact",
+                "notes": "EliteBook 630 G10 i5-1335U 16GB 512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=hP+elitebook+g10",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 61500,
+                "matchType": "exact",
+                "notes": "EliteBook 630 G10 i5-1335U 16GB 512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=hP+elitebook+g10",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 57500,
+                "matchType": "exact",
+                "notes": "EliteBook 630 G10 i5-1335U 16GB 512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Elitebook+g10",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 59300,
+                "matchType": "exact",
+                "notes": "EliteBook 630 G10 Core i5 16GB SSD512GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 4,
+              "minJPY": 51800,
+              "medianJPY": 58400,
+              "maxJPY": 61500
+            },
+            "confidence": "medium",
+            "notes": [
+              "検索結果中心"
+            ]
+          },
+          {
+            "brandSeries": "Pavilion Aero",
+            "modelName": "HP Pavilion Aero 13-bg Ryzen 5 8640U 16GB/512GB",
+            "modelNumber": null,
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://jp.ext.hp.com/prod/notebooks/personal/",
+            "keySpecs": {
+              "cpu": "AMD Ryzen 5 8640U",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13.3インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/item/m63331821287",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "used-good",
+                "priceJPY": 106000,
+                "matchType": "exact",
+                "notes": "2024-09-03メーカー直接購入表記"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/v6r6ujWpqPNBFKVytbVMSQ",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 69999,
+                "matchType": "exact",
+                "notes": "13-bg0009AU Ryzen 5 8640U 16GB 512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/2JPr7ceyB57qT9kAYHJg6m",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "new",
+                "priceJPY": 181740,
+                "matchType": "exact",
+                "notes": "新品系ショップ価格、相場上限として扱う"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 3,
+              "minJPY": 69999,
+              "medianJPY": 106000,
+              "maxJPY": 181740
+            },
+            "confidence": "medium",
+            "notes": [
+              "新品/中古混在"
+            ]
+          },
+          {
+            "brandSeries": "Pavilion Aero",
+            "modelName": "HP Pavilion Aero 13-be2xxx Ryzen 5 7535U 16GB/512GB",
+            "modelNumber": null,
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://jp.ext.hp.com/prod/notebooks/personal/",
+            "keySpecs": {
+              "cpu": "AMD Ryzen 5 7535U",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13.3インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/item/m58550768999",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 79999,
+                "matchType": "exact",
+                "notes": "Ryzen 5 7535U、16GB、512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/2JG2Y4tg5DsebEMhb8H7kg",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 59555,
+                "matchType": "exact",
+                "notes": "Pavilion Aero 13-be2xxx Ryzen5/16GB/512GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 59555,
+              "medianJPY": 69777,
+              "maxJPY": 79999
+            },
+            "confidence": "medium",
+            "notes": [
+              "サンプル不足"
+            ]
+          },
+          {
+            "brandSeries": "Spectre",
+            "modelName": "HP Spectre x360 14-eu Core Ultra 7 155H 32GB/1TB",
+            "modelNumber": null,
+            "category": "2-in-1",
+            "releaseStatus": "recent",
+            "officialUrl": "https://jp.ext.hp.com/prod/notebooks/personal/",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7 155H",
+              "memory": "32GB",
+              "storage": "1TB",
+              "display": "14インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Core+ultra+32gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 139100,
+                "matchType": "approximate",
+                "notes": "HP Spectre x360 14-eu Core Ultra 7 155H表記、SSD容量未確認"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 139100,
+              "medianJPY": 139100,
+              "maxJPY": 139100
+            },
+            "confidence": "low",
+            "notes": [
+              "構成別価格未分離"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dell",
+        "officialSources": [
+          {
+            "title": "ノートパソコン | Dell 日本",
+            "url": "https://www.dell.com/ja-jp/shop/dell-laptops/scr/laptops",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "XPS 13 9350 オーナーズ マニュアル",
+            "url": "https://www.dell.com/support/manuals/ja-jp/xps-13-9350-intel-laptop/xps-13-9350-owners-manual/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC?guid=guid-e25f3992-595c-44fd-83a2-3be669a094c1&lang=ja-jp",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "Latitude 5440 ノートパソコン | Dell 日本",
+            "url": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/new-latitude-5450-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/latitude-14-5440-laptop/sml00205440f16bn2tjp_vp?view=configurations",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "XPS",
+            "modelName": "Dell XPS 13 9350 Core Ultra 7 256V/258V 16GB/512GB",
+            "modelNumber": "9350",
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.dell.com/support/manuals/ja-jp/xps-13-9350-intel-laptop/xps-13-9350-owners-manual/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC?guid=guid-e25f3992-595c-44fd-83a2-3be669a094c1&lang=ja-jp",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7 256V/258V",
+              "memory": "16GB LPDDR5x",
+              "storage": "512GB",
+              "display": "13.4インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Core+ultra+32gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 198000,
+                "matchType": "approximate",
+                "notes": "Dell XPS 13 9350 Ultra 7 Touch表記、メモリ/SSD未分離"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 198000,
+              "medianJPY": 198000,
+              "maxJPY": 198000
+            },
+            "confidence": "low",
+            "notes": [
+              "価格は構成完全一致未確認"
+            ]
+          },
+          {
+            "brandSeries": "XPS",
+            "modelName": "Dell XPS 13 9340 Core Ultra 7 155H 16GB/512GB",
+            "modelNumber": "9340",
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://www.dell.com/support/manuals/ja-jp/xps-13-9340-laptop/xps-13-9340_owners_manual/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC?guid=guid-b426df85-6237-4365-b1fc-c3bb6e190257&lang=ja-jp",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7 155H",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13.4インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/LMbhesMTUaju9i7HXyPKUh",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "display-model",
+                "priceJPY": 173229,
+                "matchType": "exact",
+                "notes": "ソフマップ展示品"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/zmEFUimrze7HtkXw8LvJYZ",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "display-model",
+                "priceJPY": 188979,
+                "matchType": "exact",
+                "notes": "ソフマップ展示品"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=dell+xps+9340",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 157479,
+                "matchType": "exact",
+                "notes": "XPS 13 9340 MX73-ENL"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=dell+xps+9340",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 162729,
+                "matchType": "exact",
+                "notes": "XPS 13 9340"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 4,
+              "minJPY": 157479,
+              "medianJPY": 167979,
+              "maxJPY": 188979
+            },
+            "confidence": "high",
+            "notes": []
+          },
+          {
+            "brandSeries": "Latitude",
+            "modelName": "Dell Latitude 5440 Core i5-1345U vPro 16GB/256GB",
+            "modelNumber": "5440",
+            "category": "business notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://www.dell.com/ja-jp/shop/dell%E3%81%AE%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/new-latitude-5450-%E3%83%8E%E3%83%BC%E3%83%88%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3/spd/latitude-14-5440-laptop/sml00205440f16bn2tjp_vp?view=configurations",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1345U",
+              "memory": "16GB DDR4",
+              "storage": "256GB SSD",
+              "display": "14インチ FHD"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認",
+              "検索URL: https://jp.mercari.com/search?keyword=Dell+Latitude+5440+i5-1345U+16GB+256GB"
+            ]
+          },
+          {
+            "brandSeries": "Latitude",
+            "modelName": "Dell Latitude 5330 Core i5-1245U 16GB/256GB",
+            "modelNumber": "5330",
+            "category": "business notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://www.dell.com/ja-jp/shop/dell-laptops/scr/laptops",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1245U",
+              "memory": "16GB",
+              "storage": "256GB",
+              "display": "13.3インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=1245u+%E3%83%8E%E3%83%BC%E3%83%88",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 49800,
+                "matchType": "exact",
+                "notes": "Latitude 5330 Core i5-1245U 16GB SSD256GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=DELL+latitude&page_token=v1%3A4",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 49800,
+                "matchType": "exact",
+                "notes": "13インチ 12世代 i5 1245U 256GB/16GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 49800,
+              "medianJPY": 49800,
+              "maxJPY": 49800
+            },
+            "confidence": "medium",
+            "notes": [
+              "公式URLはDell製品一覧を再訪用に設定"
+            ]
+          },
+          {
+            "brandSeries": "Inspiron",
+            "modelName": "Dell Inspiron 14 5440 Core 5 120U 16GB/512GB",
+            "modelNumber": "5440",
+            "category": "notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://www.dell.com/ja-jp/shop/dell-laptops/scr/laptops",
+            "keySpecs": {
+              "cpu": "Intel Core 5 120U",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認",
+              "検索URL: https://jp.mercari.com/search?keyword=Dell+Inspiron+14+5440+Core+5+16GB+512GB"
+            ]
+          },
+          {
+            "brandSeries": "Dell Pro",
+            "modelName": "Dell Pro 13 Premium Core Ultra 7 32GB/512GB",
+            "modelNumber": null,
+            "category": "business notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.dell.com/ja-jp/shop/dell-laptops/scr/laptops",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7",
+              "memory": "32GB",
+              "storage": "512GB",
+              "display": "13インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Core+ultra+32gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 185000,
+                "matchType": "exact",
+                "notes": "Dell Pro 13 Premium Ultra 7 32GB 512GB表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 185000,
+              "medianJPY": 185000,
+              "maxJPY": 185000
+            },
+            "confidence": "medium",
+            "notes": [
+              "サンプル不足"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ASUS",
+        "officialSources": [
+          {
+            "title": "ROG Zephyrus G16 (2025) GU605 - スペック",
+            "url": "https://rog.asus.com/jp/laptops/rog-zephyrus/rog-zephyrus-g16-2025-gu605/spec/",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "ASUS Zenbook | ASUS 日本",
+            "url": "https://www.asus.com/jp/laptops/for-home/zenbook/filter?SubSeries=Zenbook-A",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "ROG Zephyrus",
+            "modelName": "ROG Zephyrus G16 2025 GU605 Core Ultra 7 255H RTX 5060 32GB/1TB",
+            "modelNumber": "GU605CM-U7R5060W",
+            "category": "gaming notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://rog.asus.com/jp/laptops/rog-zephyrus/rog-zephyrus-g16-2025-gu605/spec/",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7 255H",
+              "memory": "32GB LPDDR5X",
+              "storage": "1TB SSD",
+              "display": "16インチ OLED"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "ASUS公式ストア価格は359800円表示、フリマ価格は構成一致未確認",
+              "検索URL: https://jp.mercari.com/search?keyword=ROG+Zephyrus+G16+GU605+RTX+5060"
+            ]
+          },
+          {
+            "brandSeries": "ROG Zephyrus",
+            "modelName": "ROG Zephyrus G16 2025 GU605 Core Ultra 9 285H RTX 5070 Ti 64GB/1TB",
+            "modelNumber": "GU605CR-U9R5070TG",
+            "category": "gaming notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://rog.asus.com/jp/laptops/rog-zephyrus/rog-zephyrus-g16-2025-gu605/spec/",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 9 285H",
+              "memory": "64GB LPDDR5X",
+              "storage": "1TB SSD",
+              "display": "16インチ OLED"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認"
+            ]
+          },
+          {
+            "brandSeries": "Vivobook",
+            "modelName": "ASUS Vivobook S 14 Core Ultra 7 32GB/512GB",
+            "modelNumber": null,
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://www.asus.com/jp/laptops/for-home/vivobook/",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7",
+              "memory": "32GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Core+ultra+32gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 150000,
+                "matchType": "approximate",
+                "notes": "ASUS Vivobook S14 32GB 512GB表記、CPU詳細未分離"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 150000,
+              "medianJPY": 150000,
+              "maxJPY": 150000
+            },
+            "confidence": "low",
+            "notes": [
+              "サンプル不足"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Acer",
+        "officialSources": [
+          {
+            "title": "Acer ノートパソコン、デスクトップ、Chromebook、モニター＆プロジェクター | Acer 日本",
+            "url": "https://www.acer.com/jp-ja",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "Acer Swift Go 14 | Acer 日本",
+            "url": "https://www.acer.com/jp-ja/laptops/swift/swift-go",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "Swift Go",
+            "modelName": "Acer Swift Go 14 2025 Core Ultra 9 32GB/1TB",
+            "modelNumber": null,
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.acer.com/jp-ja/laptops/swift/swift-go",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 9 シリーズ2",
+              "memory": "32GB",
+              "storage": "1TB",
+              "display": "14インチ OLED"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "公式ページでシリーズ確認、構成一致価格未確認",
+              "検索URL: https://jp.mercari.com/search?keyword=Acer+Swift+Go+14+Core+Ultra+32GB+1TB"
+            ]
+          },
+          {
+            "brandSeries": "Nitro",
+            "modelName": "Acer Nitro 16 AN16-51 RTX 4050 16GB/512GB",
+            "modelNumber": "AN16-51",
+            "category": "gaming notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://www.acer.com/jp-ja/predator/laptops/predator-and-nitro-gaming-laptop-gpu-specs",
+            "keySpecs": {
+              "cpu": null,
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "16インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "GPU表は公式確認、CPU/構成は未分離"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Microsoft Surface",
+        "officialSources": [
+          {
+            "title": "Surface Pro 第11世代 法人向け",
+            "url": "https://www.microsoft.com/ja-jp/surface/business/surface-pro-11th-edition",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "Microsoft Surface カタログ 2024.12",
+            "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/ja-jp/microsoft-brand/documents/mcaps-atlife-2025MicrosoftSurfacelatestCatalog.pdf",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "Surface Laptop",
+            "modelName": "Surface Laptop 第7世代 13.8インチ Snapdragon X Plus 16GB/512GB",
+            "modelNumber": "ZGM-00020",
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/ja-jp/microsoft-brand/documents/mcaps-atlife-2025MicrosoftSurfacelatestCatalog.pdf",
+            "keySpecs": {
+              "cpu": "Snapdragon X Plus X1P-64-100",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13.8インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/V5ZKX4XxvmfhVNsLFQaWTH",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "used-good",
+                "priceJPY": 131229,
+                "matchType": "exact",
+                "notes": "ソフマップ中古品"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=SURFACE+laptop+7+snapdragon",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 194128,
+                "matchType": "exact",
+                "notes": "13.8インチ Snapdragon X Plus 16GB 512GB デューン"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 131229,
+              "medianJPY": 162679,
+              "maxJPY": 194128
+            },
+            "confidence": "medium",
+            "notes": []
+          },
+          {
+            "brandSeries": "Surface Pro",
+            "modelName": "Surface Pro 第11世代 Snapdragon X Plus 16GB/512GB",
+            "modelNumber": null,
+            "category": "2-in-1",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.microsoft.com/ja-jp/surface/business/surface-pro-11th-edition",
+            "keySpecs": {
+              "cpu": "Snapdragon X Plus",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認",
+              "検索URL: https://jp.mercari.com/search?keyword=Surface+Pro+11+Snapdragon+16GB+512GB"
+            ]
+          },
+          {
+            "brandSeries": "Surface Laptop Studio",
+            "modelName": "Surface Laptop Studio 2 Core i7 16GB/512GB",
+            "modelNumber": null,
+            "category": "creator notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/ja-jp/microsoft-brand/documents/mcaps-atlife-2025MicrosoftSurfacelatestCatalog.pdf",
+            "keySpecs": {
+              "cpu": "Intel Core i7 第13世代",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14.4インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NEC LAVIE",
+        "officialSources": [
+          {
+            "title": "2025年夏モデル LAVIE Direct N15 15.6型ワイド",
+            "url": "https://www.nec-lavie.jp/products/notebook/n15/",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "LAVIE N15 仕様一覧",
+            "url": "https://support.nec-lavie.jp/support/product/shop/catalogue/pdf/222q_hsw_n15_n.pdf",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "LAVIE N15",
+            "modelName": "LAVIE N15 PC-N1575CAL-YC Core i7-1165G7 16GB/512GB",
+            "modelNumber": "PC-N1575CAL-YC",
+            "category": "notebook",
+            "releaseStatus": "discontinued",
+            "officialUrl": "https://support.nec-lavie.jp/support/product/shop/catalogue/pdf/222q_hsw_n15_n.pdf",
+            "keySpecs": {
+              "cpu": "Intel Core i7-1165G7",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "15.6インチ FHD"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/2JPMp9vK7v3UUAdz8WrTuN",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-fair",
+                "priceJPY": 78800,
+                "matchType": "exact",
+                "notes": "Cランク"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=LAVIE+N15",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 69600,
+                "matchType": "approximate",
+                "notes": "2022年製 第11世代Core i7、16GB、512GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=LAVIE+N15",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 66400,
+                "matchType": "approximate",
+                "notes": "第11世代Core i7、16GB、512GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 3,
+              "minJPY": 66400,
+              "medianJPY": 69600,
+              "maxJPY": 78800
+            },
+            "confidence": "medium",
+            "notes": [
+              "一部サンプルは型番未分離"
+            ]
+          },
+          {
+            "brandSeries": "LAVIE N15",
+            "modelName": "LAVIE N15 N1585/EAL Core i7-1260P 16GB/512GB",
+            "modelNumber": "PC-N1585EAL",
+            "category": "notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://support.nec-lavie.jp/support/product/shop/catalogue/pdf/222q_hsw_n15_n.pdf",
+            "keySpecs": {
+              "cpu": "Intel Core i7-1260P",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "15.6インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/Bova3B2emVpKw4PDZ5y9NP",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 94500,
+                "matchType": "exact",
+                "notes": "Office付表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 94500,
+              "medianJPY": 94500,
+              "maxJPY": 94500
+            },
+            "confidence": "medium",
+            "notes": [
+              "サンプル不足"
+            ]
+          },
+          {
+            "brandSeries": "LAVIE N15",
+            "modelName": "LAVIE N15 PC-N1570FKB Core i7-1255U 16GB/512GB",
+            "modelNumber": "PC-N1570FKB",
+            "category": "notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://support.nec-lavie.jp/support/product/shop/catalogue/pdf/222q_hsw_n15_n.pdf",
+            "keySpecs": {
+              "cpu": "Intel Core i7-1255U",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "15.6インチ FHD"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/2JNMeipYc5vgvzpVnhrFog",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "used-good",
+                "priceJPY": 113589,
+                "matchType": "exact",
+                "notes": "ソフマップ中古品"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Nec+lavie+n15",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 79800,
+                "matchType": "approximate",
+                "notes": "Core i7-1255U表記"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=lavie+n15",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 80000,
+                "matchType": "approximate",
+                "notes": "Core i7-1255U表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 3,
+              "minJPY": 79800,
+              "medianJPY": 80000,
+              "maxJPY": 113589
+            },
+            "confidence": "medium",
+            "notes": []
+          },
+          {
+            "brandSeries": "LAVIE N15",
+            "modelName": "LAVIE N15 Ryzen 7 7730U 16GB/512GB",
+            "modelNumber": "N156C/G",
+            "category": "notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://www.nec-lavie.jp/products/notebook/n15/",
+            "keySpecs": {
+              "cpu": "AMD Ryzen 7 7730U",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "15.6インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Nec+lavie+n15",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 81900,
+                "matchType": "exact",
+                "notes": "Ryzen7 SSD512 16GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=LAVIE+N15",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 82600,
+                "matchType": "exact",
+                "notes": "2024年製 Ryzen7 SSD512 メモリ16"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 81900,
+              "medianJPY": 82250,
+              "maxJPY": 82600
+            },
+            "confidence": "medium",
+            "notes": [
+              "サンプル不足"
+            ]
+          },
+          {
+            "brandSeries": "LAVIE Direct N15 Slim",
+            "modelName": "LAVIE Direct N15 Slim 2025 Core i7 16GB/512GB",
+            "modelNumber": null,
+            "category": "notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.nec-lavie.jp/products/notebook/n15/",
+            "keySpecs": {
+              "cpu": "Intel Core i7",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "15.6インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=LaVie+direct+n15+core",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 77999,
+                "matchType": "approximate",
+                "notes": "LAVIE Direct N15 Slim 16GB 512GB、CPU未確認"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=lavie+n15",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 92500,
+                "matchType": "approximate",
+                "notes": "LAVIE Direct N15 Slim ノートPC 美品、構成未分離"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 77999,
+              "medianJPY": 85250,
+              "maxJPY": 92500
+            },
+            "confidence": "low",
+            "notes": [
+              "CPU型番未分離"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "富士通 FMV",
+        "officialSources": [
+          {
+            "title": "LIFEBOOK UHシリーズ（UH-X/J3, UH90/J3, WU2/J3）",
+            "url": "https://www.fmworld.net/fmv/uh/index.html",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "LIFEBOOK UHシリーズ 仕様",
+            "url": "https://www.fmworld.net/fmv/uh/2410/spec/?custommade_battery=1&wu2=1",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "FMV LIFEBOOK UH",
+            "modelName": "FMV LIFEBOOK UH-X/J3 2024 Core Ultra 7 16GB/512GB",
+            "modelNumber": "FMVUXJ3B",
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.fmworld.net/fmv/uh/index.html",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認",
+              "検索URL: https://jp.mercari.com/search?keyword=FMV+UH-X%2FJ3+Core+Ultra+7+16GB+512GB"
+            ]
+          },
+          {
+            "brandSeries": "FMV LIFEBOOK UH",
+            "modelName": "FMV LIFEBOOK WU2/J3 2024 Core Ultra 5/7 16GB/512GB",
+            "modelNumber": "WU2/J3",
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.fmworld.net/fmv/uh/2410/spec/?custommade_battery=1&wu2=1",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 5/7",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認"
+            ]
+          },
+          {
+            "brandSeries": "FMV LIFEBOOK UH",
+            "modelName": "FMV LIFEBOOK UH90/J3 2024 Core Ultra 7 16GB/512GB",
+            "modelNumber": "FMVU90J3B",
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://www.fmworld.net/fmv/uh/index.html",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dynabook / 東芝",
+        "officialSources": [
+          {
+            "title": "dynabook RZ/HX ハードウェア仕様",
+            "url": "https://dynabook.com/direct/pc/catalog/2024-spring/rzhx/spec.html",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "dynabook RZ/MY ハードウェア仕様",
+            "url": "https://dynabook.com/direct/pc/catalog/2025-summer/rzmy/spec.html",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "dynabook MZ/MY ハードウェア仕様",
+            "url": "https://dynabook.com/direct/pc/catalog/2025-summer/mzmy/spec.html",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "dynabook XZ/HW ハードウェア仕様",
+            "url": "https://dynabook.com/direct/pc/catalog/2023-fall-winter/xzhw/spec.html",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "dynabook RZ",
+            "modelName": "dynabook RZ/HX Core Ultra 7 155H 32GB/1TB",
+            "modelNumber": "W6RZHX7CAL",
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://dynabook.com/direct/pc/catalog/2024-spring/rzhx/spec.html",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7 155H",
+              "memory": "32GB",
+              "storage": "1TB SSD",
+              "display": "14.0インチ WUXGA"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "Yahoo!フリマ",
+                "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/1167492079",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 160000,
+                "matchType": "exact",
+                "notes": "2024年7月Dynabook Direct購入表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 160000,
+              "medianJPY": 160000,
+              "maxJPY": 160000
+            },
+            "confidence": "high",
+            "notes": [
+              "サンプル不足"
+            ]
+          },
+          {
+            "brandSeries": "dynabook RZ",
+            "modelName": "dynabook RZ/MY Core Ultra 7 155H 32GB/1TB",
+            "modelNumber": "W6RZMY7CAL",
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://dynabook.com/direct/pc/catalog/2025-summer/rzmy/spec.html",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7 155H",
+              "memory": "32GB",
+              "storage": "1TB SSD",
+              "display": "14.0インチ WUXGA"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "発売直後・流通少、構成一致価格未確認"
+            ]
+          },
+          {
+            "brandSeries": "dynabook GZ",
+            "modelName": "dynabook GZ/HW Core i7-1360P 16GB/512GB",
+            "modelNumber": "W6GZHW7BBL",
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://dynabook.com/direct/",
+            "keySpecs": {
+              "cpu": "Intel Core i7-1360P",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "13.3インチ FHD"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "ラクマ",
+                "sourceUrl": "https://item.fril.jp/5bbd07f6368532fce9d63c4a51383634",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "used-good",
+                "priceJPY": 56000,
+                "matchType": "exact",
+                "notes": "SOLD OUT"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=dynaBook+i7+16gb+ssd",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 60000,
+                "matchType": "exact",
+                "notes": "i7-1360P 16GB SSD512GB表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 56000,
+              "medianJPY": 58000,
+              "maxJPY": 60000
+            },
+            "confidence": "medium",
+            "notes": []
+          },
+          {
+            "brandSeries": "dynabook XZ",
+            "modelName": "dynabook XZ/HW Core i7-1360P 16GB/512GB",
+            "modelNumber": "W6XZHW7CBL",
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://dynabook.com/direct/pc/catalog/2023-fall-winter/xzhw/spec.html",
+            "keySpecs": {
+              "cpu": "Intel Core i7-1360P",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "13.3インチ 1920x1200"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "Yahoo!フリマ",
+                "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z532252196",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "used-good",
+                "priceJPY": 96500,
+                "matchType": "exact",
+                "notes": "購入日時2026-01-08"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 96500,
+              "medianJPY": 96500,
+              "maxJPY": 96500
+            },
+            "confidence": "high",
+            "notes": [
+              "サンプル不足"
+            ]
+          },
+          {
+            "brandSeries": "dynabook MZ",
+            "modelName": "dynabook MZ/MY Core i7-1360P 16GB/512GB",
+            "modelNumber": "W6MZMY7FBL",
+            "category": "notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://dynabook.com/direct/pc/catalog/2025-summer/mzmy/spec.html",
+            "keySpecs": {
+              "cpu": "Intel Core i7-1360P",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "14インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Panasonic Let's note",
+        "officialSources": [
+          {
+            "title": "レッツノートSR（CF-SR4）仕様",
+            "url": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "レッツノートFV（CF-FV5）仕様",
+            "url": "https://panasonic.jp/cns/pc/products/fv5g/spec.html",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "生産終了品一覧 | Panasonic",
+            "url": "https://panasonic.jp/cns/pc/support/products/",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "Let's note SR",
+            "modelName": "Let's note SR4 CF-SR4ADTCR Core i5-1335U 16GB/512GB",
+            "modelNumber": "CF-SR4ADTCR",
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1335U",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "12.4インチ FHD+"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "Yahoo!フリマ",
+                "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z307655078",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "unused",
+                "priceJPY": 230000,
+                "matchType": "exact",
+                "notes": "未使用品、購入日時2025-02-19"
+              },
+              {
+                "marketplace": "Yahoo!フリマ",
+                "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/e1207915133",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "new",
+                "priceJPY": 179800,
+                "matchType": "exact",
+                "notes": "新品、CF-SR4AD6AS、同等i5/16GB/512GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 179800,
+              "medianJPY": 204900,
+              "maxJPY": 230000
+            },
+            "confidence": "medium",
+            "notes": [
+              "新品・未使用中心"
+            ]
+          },
+          {
+            "brandSeries": "Let's note FV",
+            "modelName": "Let's note FV4 CF-FV4CDTCR Core i5-1335U 16GB/512GB",
+            "modelNumber": "CF-FV4CDTCR",
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1335U",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "14.0インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "Yahoo!フリマ",
+                "sourceUrl": "https://paypayfleamarket.yahoo.co.jp/item/z296099464",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "unused",
+                "priceJPY": 210000,
+                "matchType": "exact",
+                "notes": "購入日時2024-03-12"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 210000,
+              "medianJPY": 210000,
+              "maxJPY": 210000
+            },
+            "confidence": "high",
+            "notes": [
+              "サンプル不足"
+            ]
+          },
+          {
+            "brandSeries": "Let's note FV",
+            "modelName": "Let's note FV3 CF-FV3YDLKS Core i5-1245U 16GB/512GB",
+            "modelNumber": "CF-FV3YDLKS",
+            "category": "mobile notebook",
+            "releaseStatus": "discontinued",
+            "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1245U",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "14インチ 2160x1440"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "ラクマ",
+                "sourceUrl": "https://item.fril.jp/38c51a7006fa7d23343c4a08a1d1378f",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-fair",
+                "priceJPY": 84800,
+                "matchType": "exact",
+                "notes": "Office Professional Plus 2021導入表記"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 84800,
+              "medianJPY": 84800,
+              "maxJPY": 84800
+            },
+            "confidence": "high",
+            "notes": [
+              "サンプル不足"
+            ]
+          },
+          {
+            "brandSeries": "Let's note SR",
+            "modelName": "Let's note SR3 Core i5-1245U 16GB/256GB",
+            "modelNumber": "CF-SR3",
+            "category": "mobile notebook",
+            "releaseStatus": "discontinued",
+            "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1245U",
+              "memory": "16GB",
+              "storage": "256GB SSD",
+              "display": "12.4インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 107800,
+                "matchType": "exact",
+                "notes": "CF-SR3 Core i5-1245U メモリ16GB SSD256GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=cf+bluetooth",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 99800,
+                "matchType": "exact",
+                "notes": "CF-SR3 Core i5-1245U メモリ16GB SSD256GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 99800,
+              "medianJPY": 103800,
+              "maxJPY": 107800
+            },
+            "confidence": "medium",
+            "notes": []
+          },
+          {
+            "brandSeries": "Let's note SV",
+            "modelName": "Let's note SV2 Core i5 16GB/512GB",
+            "modelNumber": "CF-SV2",
+            "category": "mobile notebook",
+            "releaseStatus": "discontinued",
+            "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
+            "keySpecs": {
+              "cpu": "Intel Core i5",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "12.1インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=cf+bluetooth",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 64800,
+                "matchType": "approximate",
+                "notes": "CF-SV2 2022年度モデル Core i5 RAM16GB SSD512GB、CPU型番未確認"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=ANA%E3%83%8E%E3%83%BC%E3%83%88&page_token=v1%3A2",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 79800,
+                "matchType": "approximate",
+                "notes": "CF-SV2 Core i5 RAM16GB SSD512GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 2,
+              "minJPY": 64800,
+              "medianJPY": 72300,
+              "maxJPY": 79800
+            },
+            "confidence": "low",
+            "notes": [
+              "CPU型番未分離"
+            ]
+          },
+          {
+            "brandSeries": "Let's note SV",
+            "modelName": "Let's note SV1 CF-SV1RDLVS Core i5-1145G7 16GB/256GB",
+            "modelNumber": "CF-SV1RDLVS",
+            "category": "mobile notebook",
+            "releaseStatus": "discontinued",
+            "officialUrl": "https://panasonic.jp/cns/pc/support/products/",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1145G7",
+              "memory": "16GB",
+              "storage": "256GB SSD",
+              "display": "12.1インチ WUXGA"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 26800,
+                "matchType": "exact",
+                "notes": "CF-SV1RDLVS Core i5 16GB SSD256GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 32000,
+                "matchType": "exact",
+                "notes": "CF-SV1 16GB 256GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 34700,
+                "matchType": "exact",
+                "notes": "第11世代 i5 CF-SV1"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 35700,
+                "matchType": "exact",
+                "notes": "CF-SV1 第11世代 i5 16GB 256GB"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=cf%E3%82%AB%E3%83%BC%E3%83%89+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 39800,
+                "matchType": "exact",
+                "notes": "CF-SV1 16GB 256GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 5,
+              "minJPY": 26800,
+              "medianJPY": 34700,
+              "maxJPY": 39800
+            },
+            "confidence": "medium",
+            "notes": [
+              "メルカリ検索結果中心"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "VAIO",
+        "officialSources": [
+          {
+            "title": "VAIO SX14-R | VAIO STORE",
+            "url": "https://store.vaio.com/shop/pages/sx14r2.aspx",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "VAIO SX14-R カスタマイズモデル 仕様",
+            "url": "https://vaio.com/products/sx14r1/14-0/specification/",
+            "accessedDate": "2026-05-19"
+          },
+          {
+            "title": "VAIO 個人向け標準仕様モデルカタログ 2025.07",
+            "url": "https://vaio.com/wp-content/uploads/2025/07/VAIO_PMC_202507.pdf",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "VAIO SX14-R",
+            "modelName": "VAIO SX14-R Core Ultra 7 155H 32GB/1TB",
+            "modelNumber": "VJS4R1/VJS4R2",
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://store.vaio.com/shop/pages/sx14r2.aspx",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7 155H",
+              "memory": "32GB",
+              "storage": "1TB SSD",
+              "display": "14.0インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=Core+ultra+32gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 220000,
+                "matchType": "approximate",
+                "notes": "VAIO SX14-R VAIO Core Ultra7、メモリ/SSDは検索文脈で確認"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=vaio+sx14+16g",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 178479,
+                "matchType": "approximate",
+                "notes": "ソフマップ VAIO SX14-R VJS4R18、構成未分離"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=vaio+sx14+16g",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 283479,
+                "matchType": "approximate",
+                "notes": "VAIO SX14-R VJS4R190111B、構成未分離"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 3,
+              "minJPY": 178479,
+              "medianJPY": 220000,
+              "maxJPY": 283479
+            },
+            "confidence": "low",
+            "notes": [
+              "構成別価格未分離"
+            ]
+          },
+          {
+            "brandSeries": "VAIO SX14",
+            "modelName": "VAIO SX14 VJS1468 Core i7-1360P 16GB/512GB",
+            "modelNumber": "VJS1468",
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://vaio.com/wp-content/uploads/2025/07/VAIO_PMC_202507.pdf",
+            "keySpecs": {
+              "cpu": "Intel Core i7-1360P",
+              "memory": "16GB",
+              "storage": "512GB SSD",
+              "display": "14.0インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/item/m44319606547",
+                "sourceDate": "2026-05-19",
+                "status": "sold",
+                "condition": "used-good",
+                "priceJPY": 130000,
+                "matchType": "exact",
+                "notes": "タッチ液晶、元箱等あり"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=vaio+sx14+i7",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 126800,
+                "matchType": "exact",
+                "notes": "i7-1360P 16GB タッチ液晶 LTE"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=vaio+i7+16gb",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 139800,
+                "matchType": "exact",
+                "notes": "SX14 ALL BLACK EDITION i7-1360P"
+              },
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=vaio+sx14+i7",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 155000,
+                "matchType": "exact",
+                "notes": "SX14 13th i7 1360 16GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 4,
+              "minJPY": 126800,
+              "medianJPY": 134900,
+              "maxJPY": 155000
+            },
+            "confidence": "medium",
+            "notes": [
+              "一部SSD容量未分離のためmedium"
+            ]
+          },
+          {
+            "brandSeries": "VAIO SX12",
+            "modelName": "VAIO SX12 Core i7-1360P 16GB/512GB",
+            "modelNumber": null,
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://vaio.com/wp-content/uploads/2025/07/VAIO_PMC_202507.pdf",
+            "keySpecs": {
+              "cpu": "Intel Core i7-1360P",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "12.5インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認"
+            ]
+          },
+          {
+            "brandSeries": "VAIO S13",
+            "modelName": "VAIO S13 Core 7 150U 16GB/512GB",
+            "modelNumber": null,
+            "category": "mobile notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://vaio.com/wp-content/uploads/2025/07/VAIO_PMC_202507.pdf",
+            "keySpecs": {
+              "cpu": "Intel Core 7 150U",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "13.3インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認"
+            ]
+          },
+          {
+            "brandSeries": "VAIO Pro PK",
+            "modelName": "VAIO Pro PK VJPK23 Core i5-1340P 16GB/256GB",
+            "modelNumber": "VJPK23",
+            "category": "business notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://vaio.com/wp-content/uploads/2025/07/VAIO_PMC_202507.pdf",
+            "keySpecs": {
+              "cpu": "Intel Core i5-1340P",
+              "memory": "16GB",
+              "storage": "256GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/search?keyword=VAIO+p+16g",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "used-good",
+                "priceJPY": 158500,
+                "matchType": "exact",
+                "notes": "VAIO Pro PK VJPK23 Core i5-1340P 16GB 256GB"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 158500,
+              "medianJPY": 158500,
+              "maxJPY": 158500
+            },
+            "confidence": "medium",
+            "notes": [
+              "サンプル不足"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MSI",
+        "officialSources": [
+          {
+            "title": "MSI ノートPC | MSI 日本",
+            "url": "https://jp.msi.com/Laptops",
+            "accessedDate": "2026-05-19"
+          }
+        ],
+        "models": [
+          {
+            "brandSeries": "Katana",
+            "modelName": "MSI Katana 17 HX B14W RTX 5060 16GB/1TB",
+            "modelNumber": "Katana-17-HX-B14WFK-5060JP",
+            "category": "gaming notebook",
+            "releaseStatus": "current",
+            "officialUrl": "https://jp.msi.com/Laptops",
+            "keySpecs": {
+              "cpu": "Intel Core HX",
+              "memory": "16GB",
+              "storage": "1TB",
+              "display": "17インチ"
+            },
+            "marketPrices": [
+              {
+                "marketplace": "メルカリ",
+                "sourceUrl": "https://jp.mercari.com/shops/product/V5ZKX4XxvmfhVNsLFQaWTH",
+                "sourceDate": "2026-05-19",
+                "status": "listed",
+                "condition": "display-model",
+                "priceJPY": 251979,
+                "matchType": "approximate",
+                "notes": "関連商品欄にKatana 17 HX B14W Katana-17-HX-B14WFK-5060JPとして表示"
+              }
+            ],
+            "priceStats": {
+              "sampleCount": 1,
+              "minJPY": 251979,
+              "medianJPY": 251979,
+              "maxJPY": 251979
+            },
+            "confidence": "low",
+            "notes": [
+              "個別ページ未確認、補助サンプル"
+            ]
+          },
+          {
+            "brandSeries": "Modern",
+            "modelName": "MSI Modern 14 2024 Core i5 16GB/512GB",
+            "modelNumber": null,
+            "category": "notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://jp.msi.com/Laptops",
+            "keySpecs": {
+              "cpu": "Intel Core i5",
+              "memory": "16GB",
+              "storage": "512GB",
+              "display": "14インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認",
+              "検索URL: https://jp.mercari.com/search?keyword=MSI+Modern+14+16GB+512GB"
+            ]
+          },
+          {
+            "brandSeries": "Prestige",
+            "modelName": "MSI Prestige 13 AI Evo Core Ultra 7 32GB/1TB",
+            "modelNumber": null,
+            "category": "mobile notebook",
+            "releaseStatus": "recent",
+            "officialUrl": "https://jp.msi.com/Laptops",
+            "keySpecs": {
+              "cpu": "Intel Core Ultra 7",
+              "memory": "32GB",
+              "storage": "1TB",
+              "display": "13インチ"
+            },
+            "marketPrices": [],
+            "priceStats": {
+              "sampleCount": 0,
+              "minJPY": null,
+              "medianJPY": null,
+              "maxJPY": null
+            },
+            "confidence": "low",
+            "notes": [
+              "構成一致価格未確認"
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Apple MacBook Airのモデルを識別する",
+        "url": "https://support.apple.com/ja-jp/102869",
+        "publisher": "Apple",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "Dell XPS 13 9350 オーナーズ マニュアル",
+        "url": "https://www.dell.com/support/manuals/ja-jp/xps-13-9350-intel-laptop/xps-13-9350-owners-manual/%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5%E3%83%BC?guid=guid-e25f3992-595c-44fd-83a2-3be669a094c1&lang=ja-jp",
+        "publisher": "Dell",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "ThinkPad X1 Carbon Gen 13 Aura Edition",
+        "url": "https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-13-aura-edition-14-inch-intel/len101t0114",
+        "publisher": "Lenovo",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "HP EliteBook 840 G11",
+        "url": "https://jp.ext.hp.com/prod/notebooks/business/elitebook_840_g11/",
+        "publisher": "日本HP",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "Panasonic Let's note SR4 仕様",
+        "url": "https://panasonic.jp/cns/pc/products/sr4a/spec.html",
+        "publisher": "Panasonic",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "Panasonic 生産終了品一覧",
+        "url": "https://panasonic.jp/cns/pc/support/products/",
+        "publisher": "Panasonic",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "dynabook RZ/HX ハードウェア仕様",
+        "url": "https://dynabook.com/direct/pc/catalog/2024-spring/rzhx/spec.html",
+        "publisher": "Dynabook",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "NEC LAVIE Direct N15",
+        "url": "https://www.nec-lavie.jp/products/notebook/n15/",
+        "publisher": "NEC LAVIE",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "VAIO SX14-R",
+        "url": "https://store.vaio.com/shop/pages/sx14r2.aspx",
+        "publisher": "VAIO",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "富士通 FMV LIFEBOOK UHシリーズ",
+        "url": "https://www.fmworld.net/fmv/uh/index.html",
+        "publisher": "富士通",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "ASUS ROG Zephyrus G16 2025 仕様",
+        "url": "https://rog.asus.com/jp/laptops/rog-zephyrus/rog-zephyrus-g16-2025-gu605/spec/",
+        "publisher": "ASUS",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "Acer Swift Go 14",
+        "url": "https://www.acer.com/jp-ja/laptops/swift/swift-go",
+        "publisher": "Acer",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "Surface Pro 第11世代",
+        "url": "https://www.microsoft.com/ja-jp/surface/business/surface-pro-11th-edition",
+        "publisher": "Microsoft",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "メルカリ検索 MacBook Air M3 16GB 512GB",
+        "url": "https://jp.mercari.com/search?keyword=Macbook+air+m3+16gb+512gb",
+        "publisher": "メルカリ",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "Yahoo!フリマ ThinkPad X1 Carbon Gen10",
+        "url": "https://paypayfleamarket.yahoo.co.jp/item/z517801052",
+        "publisher": "Yahoo!フリマ",
+        "accessedDate": "2026-05-19"
+      },
+      {
+        "title": "ラクマ dynabook GZ/HW",
+        "url": "https://item.fril.jp/5bbd07f6368532fce9d63c4a51383634",
+        "publisher": "ラクマ",
+        "accessedDate": "2026-05-19"
+      }
+    ],
+    "notes": [
+      "フリマ価格は公開ページまたはWeb検索結果で確認できた表示価格をそのまま記録した。送料込み・税込の厳密な扱いは各サイト表示に依存する。",
+      "構成がCPU型番、メモリ、SSDまで完全一致したものを優先し、SSD容量やCPU型番が検索結果だけでは分離できないものはmatchTypeをapproximate、confidenceをmediumまたはlowにした。",
+      "重点メーカーでも現行・準現行モデルは中古流通が少ないため、公式で確認できたモデルはmarketPrices空配列で残した。",
+      "メルカリ検索結果ページは表示内容が変動するため、次回定点観測では同一検索語で再取得し、個別商品ページが残るものを優先して更新する。"
+    ],
+    "modelCount": 56,
+    "marketSampleCount": 85,
+    "generatedFile": "pc_market_research_20260519_171742.json",
+    "generatedAt": "2026-05-19T17:17:42"
+  },
+  {
+    "title": "主要PCメーカー フリマ価格調査 2026-05-19",
+    "reportDate": "2026-05-19",
+    "scope": {
+      "country": "日本",
+      "manufacturers": [
+        "Apple",
+        "Lenovo",
+        "HP",
+        "Dell",
+        "ASUS",
+        "Acer",
+        "Microsoft Surface",
+        "NEC LAVIE",
+        "富士通 FMV",
+        "Dynabook / 東芝",
+        "Panasonic Let's note",
+        "VAIO",
+        "MSI"
+      ],
+      "marketplaces": [
+        "メルカリ",
+        "ラクマ",
+        "Yahoo!フリマ",
+        "ヤフオク"
+      ],
+      "modelLookbackYears": 5
+    },
     "summary": "2026年5月時点の中古PC市場は、メルカリ上の流通が最も確認しやすく、ラクマ・Yahoo!フリマは個別モデル名での公開サンプルが限定的だった。法人系モバイルノートは第11〜13世代Core搭載機の出品が多く、Panasonic Let’s note、ThinkPad、HP ProBook、dynabook G83/GZ、VAIO SX14は型番・世代差で価格が大きく分かれる。2024〜2026年のAI PC、Copilot+ PC、Core Ultra、Snapdragon X、M4/M5 Macは中古サンプルが少なく、出品中価格中心で相場信頼度は低〜中。ゲーミングノートはGPU世代差が強く、RTX 4060/4070機は10万〜20万円台の幅が目立つ。",
     "manufacturers": [
       {
